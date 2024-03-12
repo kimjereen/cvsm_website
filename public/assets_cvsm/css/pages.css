@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,800');
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800,900');
+
+/*
+TABLE OF CONTENTS
+  DEFAULT
+    00. Color Palette
+    01. COVER
+    02. PAGE BAR
+    03. PAGE CONTENT
+    04. ABOUT
+    05. ACADEMIC
+    06. RESEARCH
+
+
+  ANIMATION 
+
+
+  RESPONSIVE
+    - 768px
+    - 1000px
+
+
+*/
+
+/*-----------------------------------*/
+/*             DEFAULT               */
+/*-----------------------------------*/
+
+/* 00. COLOR PALETTE */
+
+:root {
+    --primary: #038303;
+    --secondary: #003a10; 
+    --tertiary: #E8D203;
+    --yellow-green: #92d12c;
+
+    --gray: #757575;
+    --d-gray: #494949;
+    --dark-gray: #212121;
+    --bg: #f9f9f9;
+
+
+    --border-gray: #ccc;
+    
+    --primary-gradient: linear-gradient(to right, rgb(0,129,2), rgb(149,210,45));
+    --gray-gradient: linear-gradient(to top, rgba(3, 3, 3, 0.7), transparent);
+    --tall-opacity: rgba(78, 171, 24, 0.7);
+  
+
+    --primary-opacity: rgba(78, 171, 24, 0.9);
+    --secondary-opacity: rgba(0, 58, 16, 0.9);
+    --secondary-hero: rgba(0, 58, 16, 0.7);
+    --gray-opacity: rgba(21, 21, 21, 0.777);
+    --light-gray: rgb(228, 235, 230);
+    --footer-opacity: rgba(33, 33, 33, 0.828);
+
+    --black: #2f2f2f;
+    --white: #ffffff; 
+    --p-black: #36363d;
+    /*
+    --primary: #2D0097;
+    --secondary: #100036; 
+    --tertiary: #E8D203; 
+    --fade-blue: #260B66;
+    --gray: #757575;
+    --d-gray: #494949;
+    --dark-gray: #212121;
+    --bg: #f9f9f9;
+    --primary-opacity: rgba(45, 0, 151, 0.9);
+    --secondary-hero: rgba(34, 0, 113, 0.7);
+    --gray-opacity: rgba(33, 33, 33, 0.9);
+    --light-gray: rgb(192, 186, 186);
+
+    --black: #2f2f2f;
+    --white: #ffffff; 
+    --p-black: #36363d;*/
+}  
+
+
+/* 01. COVER: Style for PAGE COVERS */
+.page-cover {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    overflow: hidden;
+}
+.page-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, var(--secondary-hero), transparent);
+    /*background: linear-gradient(to bottom, var(--secondary), transparent);*/
+}
+.cover-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1;
+    /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);*/
+}
+
+/* 02. PAGE BAR */
+.nav-tabs {
+    margin: 0;
+    border: none;
+    text-decoration: none;
+}
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link.active:hover  {
+    background-color: var(--yellow-green);
+    color: var(--white);
+}
+.nav-tabs .nav-link.active {
+    background-color: var(--bg);
+}
+.nav-tabs .nav-link {
+    border: none;
+    margin-bottom: -8px;
+}
+.page-bar {
+    background-color: var(--secondary);
+    font-size: 17px;
+    padding: 0px 50px;
+}
+.active-bar-tab {
+    background-color: var(--bg);
+    color: black;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.page-bar a {
+    text-decoration: none;
+    color: var(--white);
+}
+.page-bar a:hover {
+    color: var(--tertiary);
+}
+.active-bar-tab a {
+    color: black;
+    font-weight: 500;
+}
+.active-bar-tab a:hover {
+    color: var(--primary);
+}
+.tab-content .active {
+    background-color: transparent;
+}
+
+/* 03. PAGE CONTENT */
+.font-blue {
+    color: var(--primary);
+}
+.page-content-card {
+    background-color: var(--white);
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.page-content-title {
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 10px 0px 2px 0px;
+}
+.page-content-body {
+    padding: 20px 20px 20px 20px;
+}
+.page-content-body .section-subtitle {
+    color: var(--primary);
+    padding-top: 5px;
+}
+.page-content-text {
+    margin: 10px 10px 10px 10px;
+    font-size: 16px;
+}
+.page-image-container {
+    margin: 20px 0;
+}
+.page-content-image {
+    width: 100%;
+    height: 50%;
+}
+
+/*LINES*/
+.page-content-footer {
+    background-color: var(--primary);
+    position: absolute;
+    height: 10px;
+    bottom: 0;
+    width: 100%; 
+    margin-top: 5px;
+}
+.short-line {
+    border-top: 4px solid var(--tertiary);
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style the custom bullet */
+.bullet {
+    list-style: none;
+    padding-left: 20px; 
+}
+.bullet li::before {
+    content: "\2022";
+    color: var(--tertiary);
+    font-size: 2em; 
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.faculty-ul li::marker {
+    color: var(--tertiary);
+    font-size: 20px;
+}
+.faculty-ul  {
+    margin-left: 30px;
+}
+
+
+/* White background Texture */
+.white-texture {
+    background-image: url('../images/temporary/white2.png');
+    background-repeat: no-repeat; /* Prevent image repetition */
+    object-fit: fill;
+}
+
+
+
+
+
+
+/* 04. ABOUT */
+/* Mission Vision */
+
+
+/* History */
+.image-with-text {
+    overflow: hidden;
+}
+.timeline-container {
+    float: left;
+    width: 40%;
+    margin-right: 20px; 
+}
+.text-around {
+    text-align: justify;
+    font-size: 16px;
+}
+
+/* Ojectives */
+.objective-list {
+    background-color: var(--bg);
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin: 10px 0px;
+}
+
+.number {
+    font-size: 35px;
+    font-weight: 800px;
+    color: var(--white);
+    background-color: var(--gray);
+    border-radius: 3px;
+    height: 100%;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+/* Accreditation */
+.accreditation-logo-container {
+    max-width: 300px;
+    max-height: 300px;
+    padding: 20px;
+    margin: auto;
+    overflow: hidden;
+}
+.accreditation-logo {
+    width: 100%;
+    height: 100%;
+}
+.accreditation-title {
+    margin-top: 5px;
+}
+
+
+/* Faculty */
+.faculty-container {
+    width: 230px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.faculty-image-container {
+    text-align: center;
+    padding: 10px 0;
+}
+.faculty-image-container img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.faculty-container .text-center {
+    padding: 10px;
+}
+.faculty-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.faculty-position {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 5px;
+}
+.faculty-title {
+    font-size: 14px;
+    font-style: italic;
+    color: #555;
+}
+.faculty-title-bar {
+    background-color: var(--primary);
+}
+
+
+/* 06. RESEARCH */
+.research-table thead {
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 20px;
+}
+.research-table tbody {
+    color: var(--black);
+}
+.research-title-bar {
+    color: var(--white);
+    background-color: var(--primary);
+    padding: 10px 70px;
+    text-transform: capitalize;
+}
+.project {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.row-count {
+    font-weight: bold;
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+    
+}
+.project-title {
+    font-weight: bold;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.project-info {
+    margin-bottom: 5px;
+    color: #555;
+}
+.project-info strong {
+    color: #333;
+}
+
+
+
+/* 07. NEWS */
+/* Styles for the news card container */
+.news-container {
+    margin-top: 20px;
+}
+.justified-text {
+    text-align: justify;
+}
+
+/* Styles for the individual news card */
+.news-card {
+    background-color: var(--white);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+/* Styles for the news image container */
+.news-image-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.all-news-image-container {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+}
+.news-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Styles for the news content body */
+.news-content-body {
+    padding: 10px;
+}
+.news-headline {
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+    white-space: normal;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+.news-headlines {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.news-headline-body {
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
+}
+
+.news-caption {
+    color: var(--gray);
+}
+.news-author,
+.news-date {
+    font-size: 14px;
+    color: var(--gray);
+}
+.news-content {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.news-content-footer {
+    width: 100%;
+    bottom: 0;
+    border-top: 1px solid var(--light-gray);
+    float: right;
+    text-align: right;
+    padding-top: 10px;
+}
+
+
+.event-date-container {
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary);
+}
+.news-date {
+    font-size: 100px;
+    color: var(--white);
+}
+.news-month, .news-year {
+    color: var(--yellow-green);
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+/*-----------------------------------*/
+/*            ANIMATION              */
+/*-----------------------------------*/
+.page-wrapper {
+    transform: translateY(-10px); /* Initial translation */
+    animation: fade-down 0.75s forwards; 
+}
+
+.active-bar-tab {
+    animation: fade-up 0.75s;
+}
+
+@keyframes  fade-down {
+    from {
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes  fade-up {
+    from {
+        opacity: 1;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/*-----------------------------------*/
+/*            RESPONSIVE             */
+/*-----------------------------------*/
+/*
+col-* - 0 (xs)
+col-sm-* - 576px
+col-md-* - 768px
+col-lg-* - 992px
+col-xl-* - 1200px
+col-xxl-* - 1400px */
+@media (max-width: 768px) {
+    .page-bar {
+        margin: 0;
+        padding: 0;
+    }
+    .active-bar-tab {
+        background-color: var(--primary);
+    }
+    .active-bar-tab a {
+        color: var(--white);
+        font-weight: 500;
+    }
+    .nav-tabs .nav-link.active {
+        background-color: var(--primary);
+        color: var(--white);
+        margin-bottom: 1px;
+    }
+
+    .nav-tabs .nav-link {
+        border-radius: 0;
+        border: none;
+    }
+}
