@@ -21,15 +21,15 @@
                         <div class="news-content-body ">
                             <h3 class="news-headline">US assoc prof delivers diagnostics, infectious disease modeling lecture</h3>
                             <div class="d-flex flex-row my-2">
-                                <p class="card-text "><small class="text-muted"><i class="bi bi-person-fill"></i> Admin</small></p>
-                                <p class="card-text mx-3"><small class="text-muted"><i class="bi bi-pencil-fill"></i> 0 mins ago</small></p>
+                                <p class="card-text "><small class="text-muted"><i class="bi bi-person-fill btn-icon"></i> Admin</small></p>
+                                <p class="card-text mx-3"><small class="text-muted"><i class="bi bi-calendar-fill btn-icon"></i> March 05, 2024</small></p>
                             </div>
                             <p class="card-text justified-text news-caption">
                             Iowa State University's (ISU) Dr. Luis Gimenez-Lirola, associate professor from the College of Veterinary Medicine, presented a lecture entitled “Innovations in Diagnostics and Infectious Diseases Modeling: Unveiling Novel Platforms for Emerging Animal Pathogens” at the Center for Transboundary Animal Diseases (CenTrAD) Mini Theater last February 27, 2024.
                             </p>
                         </div>
                         <div class="news-content-footer px-1">
-                            <a href="#" class="btn btn-primary cont-reading">Continue Reading <i class="bi bi-arrow-right"></i></a>
+                            <a href="#" class="btn btn-primary cont-reading">Continue Reading <i class="bi bi-arrow-right btn-icon"></i></a>
                         </div>
                     </div>
                 </div>
@@ -109,15 +109,15 @@
                             <div class="news-content-body ">
                                 <h3 class="news-headlines">5 CVSM faculty members are new, official PRC Continuing Professional Development monitors</h3>
                                 <div class="d-flex flex-row">
-                                    <p class="card-text"><small class="text-muted"><i class="bi bi-person-fill"></i> Admin</small></p>
-                                    <p class="card-text mx-3"><small class="text-muted"><i class="bi bi-pencil-fill"></i> 2 weeks ago</small></p>
+                                    <p class="card-text"><small class="text-muted"><i class="bi bi-person-fill btn-icon"></i> Admin</small></p>
+                                    <p class="card-text mx-3"><small class="text-muted"><i class="bi bi-pencil-fill btn-icon"></i> March 04, 2024</small></p>
                                 </div>
                                 <p class="card-text justified-text news-caption">
                                 The presence of CLSU faculty in various conferences and other scientific fora for veterinarians will be inevitable as five...
                                 </p>
                             </div>
                             <div class="news-content-footer px-1">
-                                <a href="#" class="btn btn-primary cont-reading">Read More <i class="bi bi-arrow-right"></i></a>
+                                <a href="#" class="btn btn-primary cont-reading">Read More <i class="bi bi-arrow-right btn-icon"></i></a>
                             </div>
                         </div>
                     </div>
@@ -133,16 +133,16 @@
                         <div class="col-lg p-4 d-flex flex-column justify-content-between ">
                             <div class="news-content-body ">
                                 <h3 class="news-headlines">PVMA recognizes CenTrAD director's PRC Outstanding Professional of the Year</h3>
-                                <div class="d-flex flex-row">
-                                    <p class="card-text"><small class="text-muted"><i class="bi bi-person-fill"></i> Admin</small></p>
-                                    <p class="card-text mx-3"><small class="text-muted"><i class="bi bi-pencil-fill"></i> 2 weeks ago</small></p>
+                                <div class="d-flex flex-row"> 
+                                    <p class="card-text"><small class="text-muted"><i class="bi bi-person-fill btn-icon"></i> Admin</small></p>
+                                    <p class="card-text mx-3"><small class="text-muted"><i class="bi bi-pencil-fill btn-icon"></i> March 01, 2024</small></p>
                                 </div>
                                 <p class="card-text justified-text news-caption">
                                 The award received by Dr. Virginia M. Venturina as the Professional Regulation Commission (PRC) Outstanding Professional...
                                 </p>
                             </div>
                             <div class="news-content-footer px-1">
-                                <a href="#" class="btn btn-primary cont-reading">Read More <i class="bi bi-arrow-right"></i></a>
+                                <a href="#" class="btn btn-primary cont-reading">Read More <i class="bi bi-arrow-right btn-icon"></i></a>
                             </div>
                         </div>
                     </div>
@@ -159,15 +159,15 @@
                             <div class="news-content-body ">
                                 <h3 class="news-headlines">CVSM faculty members share research outputs at the 91st PVMA Convention</h3>
                                 <div class="d-flex flex-row">
-                                    <p class="card-text"><small class="text-muted"><i class="bi bi-person-fill"></i> Admin</small></p>
-                                    <p class="card-text mx-3"><small class="text-muted"><i class="bi bi-pencil-fill"></i> 2 weeks ago</small></p>
+                                    <p class="card-text"><small class="text-muted"><i class="bi bi-person-fill btn-icon"></i> Admin</small></p>
+                                    <p class="card-text mx-3"><small class="text-muted"><i class="bi bi-pencil-fill btn-icon"></i> February 29, 2024</small></p>
                                 </div>
                                 <p class="card-text justified-text news-caption">
                                 Three faculty members from the CLSU College of Veterinary Science and Medicine presented the results of their respective research...
                                 </p>
                             </div>
                             <div class="news-content-footer px-1">
-                                <a href="#" class="btn btn-primary cont-reading">Read More <i class="bi bi-arrow-right"></i></a>
+                                <a href="#" class="btn btn-primary cont-reading">Read More <i class="bi bi-arrow-right btn-icon"></i></a>
                             </div>
                         </div>
                     </div>
@@ -198,12 +198,12 @@
                                 <h3 class="news-headlines">CLSU Vets Attended the 91st PVMA in Bacolod</h3>
                                 
                             </div>
-                            <div class="row news-content-footer px-1 justify-content-around">
+                            <div class="row news-content-footer mx-1 justify-content-around">
                                 <div class="col-md-8 d-flex flex-row">
-                                    <p class="card-text "><small class="text-muted"><i class="bi bi-person-fill"></i> Admin</small></p>
-                                    <p class="card-text mx-3"><small class="text-muted"><i class="bi bi-pencil-fill"></i> 3 weeks ago</small></p>
+                                    <p class="card-text "><small class="text-muted"><i class="bi bi-person-fill btn-icon"></i> Admin</small></p>
+                                    <p class="card-text mx-3"><small class="text-muted"><i class="bi bi-pencil-fill btn-icon"></i> February 22, 2024</small></p>
                                 </div>
-                                <a href="#" class="btn btn-primary cont-reading">Read More <i class="bi bi-arrow-right"></i></a>
+                                <a href="#" class="btn btn-primary cont-reading mx-1">Read More <i class="bi bi-arrow-right btn-icon"></i></a>
                             </div>
                         </div>
                     </div>
@@ -217,12 +217,12 @@
                                 <h3 class="news-headlines">CLSU-VTH holds awareness campaign on stray...</h3>
                                 
                             </div>
-                            <div class="row news-content-footer px-1 justify-content-around">
+                            <div class="row news-content-footer mx-1 justify-content-around">
                                 <div class="col-md-8 d-flex flex-row">
-                                    <p class="card-text "><small class="text-muted"><i class="bi bi-person-fill"></i> Admin</small></p>
-                                    <p class="card-text mx-3"><small class="text-muted"><i class="bi bi-pencil-fill"></i> 3 weeks ago</small></p>
+                                    <p class="card-text "><small class="text-muted"><i class="bi bi-person-fill btn-icon"></i> Admin</small></p>
+                                    <p class="card-text mx-3"><small class="text-muted"><i class="bi bi-pencil-fill btn-icon"></i> February 20, 2024</small></p>
                                 </div>
-                                <a href="#" class="btn btn-primary cont-reading">Read More <i class="bi bi-arrow-right"></i></a>
+                                <a href="#" class="btn btn-primary cont-reading mx-1">Read More <i class="bi bi-arrow-right btn-icon"></i></a>
                             </div>
                         </div>
                     </div>

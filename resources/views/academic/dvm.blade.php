@@ -44,28 +44,28 @@
                     <div class="d-flex flex-row  objective-list">
                         <span class="number text-center">01</span>
                         <p class="page-content-text ">
-                        DVM graduates are globally competent in the prevention, diagnosis, treatment, and control of diseases of different animal species
+                        DVM graduates are globally competent in the prevention, diagnosis, treatment, and control of diseases of different animal species,
                         </p>
                     </div>
                     
                     <div class="d-flex flex-row objective-list">
                         <span class="number text-center">02</span>
                         <p class="page-content-text ">
-                        DVM graduates are globally competent to formulate, communicate, and implement programs in animal health, animal production and health management, food safety, public health, animal welfare, and environmental protection and preservation; 
+                        DVM graduates are globally competent to formulate, communicate, and implement programs in animal health, animal production and health management, food safety, public health, animal welfare, and environmental protection and preservation,
                         </p>
                     </div>
                     
                     <div class="d-flex flex-row  objective-list">
                         <span class="number text-center">03</span>
                         <p class="page-content-text ">
-                        DVM graduates are achievers, team players, and leaders in the profession or related fields of practice;
+                        DVM graduates are achievers, team players, and leaders in the profession or related fields of practice,
                         </p>
                     </div>
                     
                     <div class="d-flex flex-row  objective-list">
                         <span class="number text-center">04</span>
                         <p class="page-content-text ">
-                        DVM graduates are capable of handling and conducting research in pharmaceutical, biotechnological, and other industrial fields; and
+                        DVM graduates are capable of handling and conducting research in pharmaceutical, biotechnological, and other industrial fields, and
                         </p>
                     </div>
                     
@@ -96,9 +96,9 @@
                         Visit CLSU Office of Admission Website for Admission Requirements:
                     </h6>
                     <div class="d-flex d-flex justify-content-between  objective-list">
-                        <img src="{{ asset('assets_cvsm/images/OAD banner.png') }}" alt="OAD Banner" width="300px">
+                        <img src="{{ asset('assets_cvsm/images/OAD banner.png') }}" alt="OAD Banner" width="200px">
                         
-                        <a href="https://oad.clsu2.edu.ph/" class="btn btn-primary" height="20px" target="_blank">Visit <i class="bi bi-arrow-right"></i></a>
+                        <a href="https://oad.clsu2.edu.ph/" class="btn btn-primary" height="20px" target="_blank">Learn More <i class="bi bi-arrow-right btn-icon"></i></a>
                     
                     </div>
 
@@ -116,30 +116,6 @@
         <h3 class="section-subtitle font-blue">Program of the Study</h3>
         </div>
 
-    </div>
-
-    <!-- Prerequisite -->
-    <div class="container my-4"  id="dvm-prerequisite">
-        <!-- Section Title -->
-        <div class="container-fluid mt-5">
-        <h3 class="section-subtitle font-blue">Prerequisite Map</h3>
-        </div>
-
-        <div class="justify-content-center my-4">
-            <div class="image-content-container rounded">
-                <img src="{{ asset('assets_cvsm/images/temporary/New Prerequisite Map.png') }}" alt="Curriculum Subj Coded" class="page-content-image">
-            </div>
-        </div>
-
-    </div>
-
-    <!-- Prospectus -->
-    <div class="container my-4" id="dvm-prospectus">
-        <!-- Section Title -->
-        <div class="container-fluid mt-5">
-        <h3 class="section-subtitle font-blue">Prospectus</h3>
-        </div>
-
         <div class="justify-content-center">
             <div class="m-3 page-content-card rounded">
                 <div class="container page-content-body">
@@ -151,13 +127,41 @@
                             <i class="bi bi-file-earmark-pdf"></i>DVM Prospectus.pdf
                         </div>
                         <div>
-                            <a href="https://drive.google.com/file/d/19235RMjh0l0a9AEy_8M_32iGS_bk9RIT/view?usp=sharing" class="btn btn-primary" height="20px" target="_blank">Download <i class="bi bi-download"></i></a>
+                            <a href="https://drive.google.com/file/d/19235RMjh0l0a9AEy_8M_32iGS_bk9RIT/view?usp=sharing" class="btn btn-primary" height="20px" target="_blank">Download <i class="bi bi-download btn-icon"></i></a>
                         </div>
                         
                     </div>
 
                 </div>
         
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Course and Description -->
+    <div class="container my-4" id="dvm-courses-and-description">
+        <!-- Section Title -->
+        <div class="container-fluid mt-5">
+        <h3 class="section-subtitle font-blue">Course and Description</h3>
+        </div>
+
+        <div class="justify-content-center">
+            
+        </div>
+
+    </div>
+
+    <!-- Prerequisite Map -->
+    <div class="container my-4"  id="dvm-prerequisite">
+        <!-- Section Title -->
+        <div class="container-fluid mt-5">
+        <h3 class="section-subtitle font-blue">Prerequisite Map</h3>
+        </div>
+
+        <div class="justify-content-center my-4">
+            <div class="image-content-container rounded">
+                <img src="{{ asset('assets_cvsm/images/temporary/New Prerequisite Map.png') }}" alt="Curriculum Subj Coded" class="page-content-image">
             </div>
         </div>
 

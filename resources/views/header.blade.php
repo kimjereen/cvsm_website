@@ -82,7 +82,7 @@
         </button>
     
         <!-- Offcanvas Sidebar -->
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel" data-bs-backdrop="false">
             <div class="offcanvas-header">
                 <button id="offcanvas-close" type="button" class="custom-close" data-bs-dismiss="offcanvas" aria-label="Close">
                     <span class="custom-close-icon"><i class="bi bi-x fs-1"></i></span>
@@ -127,16 +127,17 @@
                             <li><a class="dropdown-item" href="{{ route('academic') }}#dvm-program-objectives">Program Educational Objective</a></li>
                             <li><a class="dropdown-item" href="{{ route('academic') }}#dvm-admission">Admission</a></li>
                             <li><a class="dropdown-item" href="{{ route('academic') }}#dvm-program-of-study">Program of Study</a></li>
-                            <li><a class="dropdown-item" href="{{ route('academic') }}#dvm-prerequisite">Prerequisite Map</a></li>
-                            <li><a class="dropdown-item" href="{{ route('academic') }}#dvm-prospectus">Prospectus</a></li>
+                            <li><a class="dropdown-item" href="{{ route('academic') }}#dvm-courses-and-description">Course and Description</a></li>
+                            <li><a class="dropdown-item" href="{{ route('academic') }}#dvm-prerequisite-map">Prerequisite Map</a></li>
                         </ul>
                         </li>
                         <li class="dropdown">
                         <a class="dropdown-item dropdown-toggle" href="{{ route('academic') }}#tab-mvst">Master of Veterinary Studies</a>
                         <ul class="dropdown-menu dropdown-submenu">
+                            <li><a class="dropdown-item" href="{{ route('academic') }}#mvst-program-objectives">Program Educational Objective</a></li>
                             <li><a class="dropdown-item" href="{{ route('academic') }}#mvst-admission">Admission</a></li>
                             <li><a class="dropdown-item" href="{{ route('academic') }}#mvst-program-of-study">Program of Study</a></li>
-                            <li><a class="dropdown-item" href="{{ route('academic') }}#mvst-prospectus">Prospectus</a></li>
+                            <li><a class="dropdown-item" href="{{ route('academic') }}#mvst-courses-and-description">Courses and Description</a></li>
                         </ul>
                         </li>
                     </ul>
@@ -162,10 +163,10 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="{{ route('facilities') }}" role="button" data-bs-toggle="dropdown">Resource & Facilities</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Lecture Halls</a></li>
-                        <li><a class="dropdown-item" href="#">Laboratories</a></li>
-                        <li><a class="dropdown-item" href="#">CenTrAD</a></li>
-                        <li><a class="dropdown-item" href="#">e-Histology</a></li>
+                        <li><a class="dropdown-item" href="{{ route('facilities') }}">Lecture Halls</a></li>
+                        <li><a class="dropdown-item" href="{{ route('facilities') }}">Laboratories</a></li>
+                        <li><a class="dropdown-item" href="{{ route('facilities') }}">CenTrAD</a></li>
+                        <li><a class="dropdown-item" href="{{ route('facilities') }}">e-Histology</a></li>
                     </ul>
                 </li>
 
