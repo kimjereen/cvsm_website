@@ -2,7 +2,7 @@
 <!-- PAGE CONTENT STARTS HERE -->
     
     <!-- Ongoing Projects -->
-    <div class="container my-4 g-0">
+    <div class="container my-4">
         <!-- Section Title
         <div class="container-fluid mt-5">
             <h3 class="section-subtitle font-blue">Ongoing Projects</h3>
@@ -55,39 +55,6 @@
                 </div>
             </div>
             <div class="container-fluid page-content-footer"></div>
-        </div>
-
-
-        <div class="m-3 text-center page-content-card rounded">
-            <div class="table-responsive">
-            <table class="table-dark research-table">
-                <thead> 
-                    <tr class="mt-3">
-                        <th scope="col" class="p-2 pt-3" width="50px"><h5>#</h5></th>
-                        <th scope="col" class="p-2 pt-3" width="500px"><h5>RESEARCH PROJECT</h5></th>
-                        <th scope="col" class="p-2 pt-3" width="500px"><h5>PROJECT TEAM</h5></th>
-                        <th scope="col" class="p-2 pt-3" width="300px"><h5>FUNDING AGENCY</h5></th>
-                        <th scope="col" class="p-2 pt-3" width="300px"><h5>DURATION</h5></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td class="p-3 text-wrap" style="vertical-align: top;">Surveillance and management strategies for African Swine Fever (ASF), Classical Swine Fever (CSF) and Japanese Encephalitis (JE) in Swine Farms in Central Luzon, Philippines</td>
-                        <td class="p-3" style="vertical-align: top;">Dr. Virginia M. Venturina, Dr. Romeo S. Gundran, Dr. Noraine P. Medina, Dr. Ronalie B. Rafael, Dr. Gemerlyn G. Garcia, Dr. Roderick T. Salvador, Dr. Alvin P. Soriano, Dr. Errol Jay Y. Balagan, Dr. Marvin Bryan S. Salinas and Dr. Phebe M. Valdez</td>
-                        <td class="p-3" style="vertical-align: top;">USDA and LifeStock International </td>
-                        <td class="p-3" style="vertical-align: top;">November 2022 - June 2024</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td class="p-3 research-title" style="vertical-align: top;">Validation of ASF Biosensor in archived blood samples collected from domesticated pig</td>
-                        <td class="p-3" style="vertical-align: top;">Dr. Errol Jay Y. Balagan, Dr. Virginia M. Venturina, Dr. Noraine P. Valdez</td>
-                        <td class="p-3" style="vertical-align: top;">Michigan State University</td>
-                        <td class="p-3" style="vertical-align: top;">November 2023 - October 2024</td>
-                    </tr>
-                </tbody>
-            </table>
-            </div>
         </div>
 
 

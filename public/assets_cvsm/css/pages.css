@@ -234,10 +234,10 @@ TABLE OF CONTENTS
 
 
 /* White background Texture */
-.white-texture {
+.white-texture  {
     background-image: url('../images/temporary/white2.png');
     background-repeat: no-repeat; /* Prevent image repetition */
-    object-fit: fill;
+    object-fit: cover;
 }
 
 .btn-icon {

@@ -37,7 +37,7 @@
                 
 
             <!-- Faculty Information -->
-            <div class="col-sm-9">
+            <div class="col-lg-9">
                     
                     <div class="mb-3">
                         <!-- Section Title -->

@@ -2,13 +2,13 @@
 <!-- PAGE CONTENT STARTS HERE -->
 
     <!-- Departments -->
-    <div class="container my-4 g-0">
+    <div class="container my-4">
         <!-- Section Title -->
-        <div class="container-fluid mt-5">
+        <div class="container-fluid mt-5 g-0">
         <h3 class="section-subtitle font-blue">DEPARTMENTS</h3>
         </div>
 
-        <div class="row row-cols-1 row-cols-md-2 container">
+        <div class="row row-cols-1 row-cols-md-2">
         <div class="col mt-4">
             <a href="{{ route('departments') }}#tab-morpho" class="pop">
                 <div class="card rounded-shadow img-zoom-container">

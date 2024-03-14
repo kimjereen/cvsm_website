@@ -2,16 +2,16 @@
 <!-- PAGE CONTENT STARTS HERE -->
 
     <!-- About Department -->
-    <div class="container my-4 g-0">
+    <div class="container my-4">
         
         <!-- Section Title -->
-        <div class="container-fluid mt-5">
+        <div class="container-fluid mt-5 g-0">
             <h3 class="section-subtitle font-blue">ABOUT</h3>
         </div>
 
 
-        <div class="row mt-4 mx-2">
-            <div class="col-md-6 mt-3 page-content-card rounded white-texture">
+        <div class="row">
+            <div class="col-md  mt-3 page-content-card rounded white-texture">
                 <div class="container page-content-body">
                     <h4 class="p-2">DEPARTMENT OF MORPHOPHYSIOLOGY AND PHARMACOLOGY</h4>
                     <p class="page-content-text">
@@ -21,7 +21,7 @@
             <div class="container-fluid page-content-footer"></div>
             </div>
 
-            <div class="col-md-6 mt-3">
+            <div class="col-md mt-3">
                 <div class="card img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/temporary/bones.jpg') }}" class="img-fluid" alt="Academic Program 1">
                 </div>

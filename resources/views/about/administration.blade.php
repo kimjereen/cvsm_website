@@ -4,7 +4,7 @@
     <!-- Administration -->
     <div class="container my-4">
         <!-- Section Title -->
-        <div class="container-fluid mt-5">
+        <div class="container-fluid mt-5 g-0">
         <h3 class="section-subtitle font-blue">ORGANIZATIONAL CHART</h3>
         </div>
 

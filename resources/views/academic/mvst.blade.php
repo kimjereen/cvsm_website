@@ -97,7 +97,7 @@
                         Visit CLSU Office of Admission Website for Admission Requirements:
                     </h6>
                     <div class="d-flex d-flex justify-content-between  objective-list">
-                        <img src="{{ asset('assets_cvsm/images/OAD banner.png') }}" alt="OAD Banner" width="200px">
+                        <img src="{{ asset('assets_cvsm/images/OAD banner.png') }}" alt="OAD Banner" width="200px" height="100%">
                         
                         <a href="https://oad.clsu2.edu.ph/" class="btn btn-primary " height="20px" target="_blank">Learn More <i class="bi bi-arrow-right btn-icon"></i></a>
                     </div>
@@ -153,7 +153,7 @@
                             Here are the courses that you will take in your MVST program:
                         </h6>
                             
-                        <div class="accordion accordion-flush my-3" id="accordionFlush">
+                        <div class="accordion accordion-flush my-3" id="accordionFlushMVSt">
 
 
                             <div class="accordion-item">
@@ -162,7 +162,7 @@
                                     CORE SUBJECT
                                 </button>
                                 </h2>
-                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlush">
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushMVSt">
                                     <div class="accordion-body">
                                         @include('academic.courses.mvst-child1')
                                     </div>
@@ -176,7 +176,7 @@
                                     MAJOR - PREVENTIVE VETERINARY MEDICINE
                                 </button>
                                 </h2>
-                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlush">
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushMVSt">
                                     <div class="accordion-body">
                                         @include('academic.courses.mvst-child2')
                                     </div>
@@ -191,7 +191,7 @@
                                     MAJOR - PUBLIC HEALTH
                                 </button>
                                 </h2>
-                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlush">
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushMVSt">
                                     <div class="accordion-body">
                                         @include('academic.courses.mvst-child3')
                                     </div>
@@ -206,7 +206,7 @@
                                     COGNATE
                                 </button>
                                 </h2>
-                                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlush">
+                                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushMVSt">
                                     <div class="accordion-body">
                                         @include('academic.courses.mvst-child4')
                                     </div>

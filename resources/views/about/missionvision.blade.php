@@ -4,12 +4,12 @@
     <!-- Mission and Vision -->
     <div class="container my-4">
         <!-- Section Title -->
-        <div class="container-fluid mt-5">
+        <div class="container-fluid mt-5 g-0">
         <h3 class="section-subtitle font-blue">CLSU MISSION AND VISION</h3>
         </div>
 
         <div class="row justify-content-center">
-            <div class="col-lg m-3 page-content-card rounded">
+            <div class="col-lg m-2 page-content-card rounded">
                 
                 <div class="container page-content-body text-center">
                     <img src="assets_cvsm/images/about-mission.png" alt="Mission Icon" width="120px" class="p-2">
@@ -21,7 +21,7 @@
                 <div class="container-fluid page-content-footer"></div>
             </div>
 
-            <div class="col-lg m-3 page-content-card rounded">
+            <div class="col-lg m-2 page-content-card rounded">
 
                 <div class="container page-content-body text-center">
                     <img src="assets_cvsm/images/about-vision.png" alt="Mission Icon" width="120px" class="p-2">
@@ -59,12 +59,12 @@
     <!-- Quality Policy Statement -->
     <div class="container my-4">
         <!-- Section Title -->
-        <div class="container-fluid mt-5">
+        <div class="container-fluid mt-5 g-0">
         <h3 class="section-subtitle font-blue">CLSU QUALITY POLICY STATEMENT</h3>
         </div>
 
         <div class="row justify-content-center">
-            <div class="col-lg m-3 page-content-card rounded">
+            <div class="col-lg m-2 page-content-card rounded">
                 <div class="container page-content-body text-center">
                     <img src="assets_cvsm/images/about-service.png" alt="Service Icon" width="120px" class="p-2">
                     <br><div class="container short-line"></div>
@@ -75,7 +75,7 @@
                 <div class="container-fluid page-content-footer"></div>
             </div>
 
-            <div class="col-lg m-3 page-content-card rounded">
+            <div class="col-lg m-2 page-content-card rounded">
                 <div class="container page-content-body text-center">
                     <img src="assets_cvsm/images/about-humanity.png" alt="Mission Icon" width="120px" class="p-2">
                     <br><div class="container short-line"></div>
@@ -85,7 +85,7 @@
                 </div>
                 <div class="container-fluid page-content-footer"></div>
             </div>
-            <div class="col-lg m-3 page-content-card rounded">
+            <div class="col-lg m-2 page-content-card rounded">
                 <div class="container page-content-body text-center">
                     <img src="assets_cvsm/images/about-scale.png" alt="Mission Icon" width="120px" class="p-2">
                     <br><div class="container short-line"></div>
@@ -96,7 +96,7 @@
                 <div class="container-fluid page-content-footer"></div>
             </div>
 
-            <div class="col-lg m-3 page-content-card rounded">
+            <div class="col-lg m-2 page-content-card rounded">
 
                 <div class="container page-content-body text-center">
                     <img src="assets_cvsm/images/about-tinig.png" alt="Mission Icon" width="120px" class="p-2">

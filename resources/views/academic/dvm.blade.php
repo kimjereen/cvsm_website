@@ -96,7 +96,7 @@
                         Visit CLSU Office of Admission Website for Admission Requirements:
                     </h6>
                     <div class="d-flex d-flex justify-content-between  objective-list">
-                        <img src="{{ asset('assets_cvsm/images/OAD banner.png') }}" alt="OAD Banner" width="200px">
+                        <img src="{{ asset('assets_cvsm/images/OAD banner.png') }}" alt="OAD Banner" width="200px" height="100%">
                         
                         <a href="https://oad.clsu2.edu.ph/" class="btn btn-primary" height="20px" target="_blank">Learn More <i class="bi bi-arrow-right btn-icon"></i></a>
                     
@@ -139,15 +139,87 @@
 
     </div>
 
-    <!-- Course and Description -->
+    <!-- Courses and Description -->
     <div class="container my-4" id="dvm-courses-and-description">
         <!-- Section Title -->
         <div class="container-fluid mt-5">
-        <h3 class="section-subtitle font-blue">Course and Description</h3>
+        <h3 class="section-subtitle font-blue">Courses and Description</h3>
         </div>
 
         <div class="justify-content-center">
-            
+            <div class="m-3 page-content-card rounded">
+                    <div class="container page-content-body">
+                        <h6 class="col m-3 fs-5">
+                            Here are the courses that you will take in your DVM program:
+                        </h6>
+                            
+                        <div class="accordion accordion-flush my-3" id="accordionFlushDVM">
+
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed parent-accord" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    FIRST YEAR
+                                </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushDVM">
+                                    <div class="accordion-body">
+                                        @include('academic.courses.dvm-child1')
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed parent-accord" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    SECOND YEAR
+                                </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushDVM">
+                                    <div class="accordion-body">
+                                        @include('academic.courses.dvm-child2')
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed parent-accord" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    THIRD YEAR
+                                </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushDVM">
+                                    <div class="accordion-body">
+                                        @include('academic.courses.dvm-child3')
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed parent-accord" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                    FOURTH YEAR
+                                </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushDVM">
+                                    <div class="accordion-body">
+                                        @include('academic.courses.dvm-child4')
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                
+                <div class="container-fluid page-content-footer"></div>
+            </div>
         </div>
 
     </div>

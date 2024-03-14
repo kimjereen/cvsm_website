@@ -4,7 +4,7 @@
     <!-- History -->
     <div class="container my-4">
         <!-- Section Title -->
-        <div class="container-fluid mt-5">
+        <div class="container-fluid mt-5 g-0">
             <h3 class="section-subtitle font-blue">BRIEF HISTORY OF THE COLLEGE OF VETERINARY SCIENCE AND MEDICINE</h3>
         </div>
         <div class="page-image-container rounded">

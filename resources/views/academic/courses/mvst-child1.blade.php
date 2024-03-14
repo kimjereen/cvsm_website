@@ -9,7 +9,7 @@
         </h2>
         <div id="child-collapse1" class="accordion-collapse collapse" aria-labelledby="child-heading1" data-bs-parent="#accordionChild1">
             <div class="accordion-body accord-child-body">
-            <strong>Description: <br></strong>Advanced knowledge and enhanced understanding in cellular and molecular immunological concepts and techniques with emphasis on immune regulation of the immune system and immunological reactions in infectious disease pathogenesis. 
+            <strong>Course Description: <br></strong>Advanced knowledge and enhanced understanding in cellular and molecular immunological concepts and techniques with emphasis on immune regulation of the immune system and immunological reactions in infectious disease pathogenesis. 
             </div>
         </div>
     </div>
@@ -23,7 +23,7 @@
         </h2>
         <div id="child-collapse2" class="accordion-collapse collapse" aria-labelledby="child-heading2" data-bs-parent="#accordionChild1">
             <div class="accordion-body accord-child-body">
-            <strong>Description: <br></strong>Research proposals, experimental designs, and methods used in veterinary medicine. 
+            <strong>Course Description: <br></strong>Research proposals, experimental designs, and methods used in veterinary medicine. 
             </div>
         </div>
     </div>
@@ -38,7 +38,7 @@
         </h2>
         <div id="child-collapse3" class="accordion-collapse collapse" aria-labelledby="child-heading3" data-bs-parent="#accordionChild1">
             <div class="accordion-body accord-child-body">
-            <strong>Description: <br></strong>Advanced principles and methods of epidemiology including critical evaluation of published epidemiological research, designing, and implementing epidemiologic investigations, and their fundamental importance in the identification, prevention, and control of disease in populations of animals.
+            <strong>Course Description: <br></strong>Advanced principles and methods of epidemiology including critical evaluation of published epidemiological research, designing, and implementing epidemiologic investigations, and their fundamental importance in the identification, prevention, and control of disease in populations of animals.
             </div>
         </div>
     </div>
@@ -53,7 +53,7 @@
         </h2>
         <div id="child-collapse4" class="accordion-collapse collapse" aria-labelledby="child-heading4" data-bs-parent="#accordionChild1">
             <div class="accordion-body accord-child-body">
-            <strong>Description: <br></strong>Current trends in collaborative, multisectoral, transdisciplinary, and integrated approaches to attain optimal health for humans, animals, and the environment with emphasis on zoonotic diseases.
+            <strong>Course Description: <br></strong>Current trends in collaborative, multisectoral, transdisciplinary, and integrated approaches to attain optimal health for humans, animals, and the environment with emphasis on zoonotic diseases.
             </div>
         </div>
     </div>

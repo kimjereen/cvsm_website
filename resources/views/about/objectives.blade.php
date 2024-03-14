@@ -2,17 +2,16 @@
 <!-- PAGE CONTENT STARTS HERE -->
 
     <!-- General Objectives -->
-    <div class="container my-4 g-0">
+    <div class="container my-4">
         
         <!-- Section Title -->
-        <div class="container-fluid mt-5">
+        <div class="container-fluid mt-5 g-0">
             <h3 class="section-subtitle font-blue">GENERAL OBJECTIVES</h3>
         </div>
-        
 
-        <div class="row mt-4 mx-2">
-            <div class="col-md-6 mt-3 page-content-card rounded white-texture">
-                <div class="container page-content-body">
+        <div class="row justify-content-center row row-cols-1 row-cols-md-2">
+            <div class="mt-3 col page-content-card rounded white-texture">
+                <div class="page-content-body">
                         <p class="page-content-text">
                         Generally, to provide a veterinary program that produces well-balanced veterinarians, knowledgeable in animal production, welfare and One Health.
                         </p>
@@ -20,7 +19,7 @@
             <div class="container-fluid page-content-footer"></div>
             </div>
 
-            <div class="col-md-6 mt-3">
+            <div class="col mt-3">
                 <div class="card img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/seiver.webp') }}" class="img-fluid" alt="Academic Program 1">
                 </div>
@@ -30,14 +29,14 @@
 
     
     <!-- Specific Objectives -->
-    <div class="container my-4 g-0">
+    <div class="container my-4">
         <!-- Section Title -->
-        <div class="container-fluid mt-5">
+        <div class="container-fluid mt-5  g-0">
             <h3 class="section-subtitle font-blue">SPECIFIC OBJECTIVES</h3>
         </div>
 
-        <div class="justify-content-center">
-            <div class="m-3 page-content-card rounded">
+        <div class="justify-content-center g-0">
+            <div class="page-content-card rounded">
                 <div class="container page-content-body">
                     <div class="d-flex flex-row  objective-list align-items-center">
                         <span class="number text-center">01</span>

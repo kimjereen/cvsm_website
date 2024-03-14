@@ -9,7 +9,7 @@
         </h2>
         <div id="child2-collapse1" class="accordion-collapse collapse" aria-labelledby="child2-heading1" data-bs-parent="#accordionChild2">
             <div class="accordion-body accord-child-body">
-            <strong>Description: <br></strong>
+            <strong>Course Description: <br></strong>
             Discussion on the transmission dynamics of important transboundary animal diseases and how this influence spreads to naïve territories including the evaluation of the likelihood of disease introduction in a given area.
             </div>
         </div>
@@ -24,7 +24,7 @@
         </h2>
         <div id="child2-collapse2" class="accordion-collapse collapse" aria-labelledby="child2-heading2" data-bs-parent="#accordionChild2">
             <div class="accordion-body accord-child-body">
-            <strong>Description: <br></strong>
+            <strong>Course Description: <br></strong>
             Epidemiologic concepts and methods for surveillance which include continuous, systematic collection, analysis and interpretation of health-related data important in minimizing disease introduction and spread. Application of geographic information system (GIS) in disease surveillance and outbreak investigation including the use of disease mapping in spatio-temporal analysis.
             </div>
         </div>
@@ -40,7 +40,7 @@
         </h2>
         <div id="child2-collapse3" class="accordion-collapse collapse" aria-labelledby="child2-heading3" data-bs-parent="#accordionChild2">
             <div class="accordion-body accord-child-body">
-            <strong>Description: <br></strong>
+            <strong>Course Description: <br></strong>
             Epidemiologic approach to the investigation and management of disease outbreaks.
             </div>
         </div>
@@ -56,7 +56,7 @@
         </h2>
         <div id="child2-collapse4" class="accordion-collapse collapse" aria-labelledby="child2-heading4" data-bs-parent="#accordionChild2">
             <div class="accordion-body accord-child-body">
-            <strong>Description: <br></strong>
+            <strong>Course Description: <br></strong>
             Integration of state-of-the-art diagnosis, therapy, management strategies, and preventive health programs on communicable animal diseases, zoonotic diseases and pathogens involved in local and transboundary pandemics.
             </div>
         </div>
@@ -72,7 +72,7 @@
         </h2>
         <div id="child2-collapse5" class="accordion-collapse collapse" aria-labelledby="child2-heading5" data-bs-parent="#accordionChild2">
             <div class="accordion-body accord-child-body">
-            <strong>Description: <br></strong>
+            <strong>Course Description: <br></strong>
             Pathogenesis, epidemiology, and current information on non-infectious diseases and public health and economic significance.
             </div>
         </div>
@@ -88,7 +88,7 @@
         </h2>
         <div id="child2-collapse6" class="accordion-collapse collapse" aria-labelledby="child2-heading6" data-bs-parent="#accordionChild6">
             <div class="accordion-body accord-child-body">
-            <strong>Description: <br></strong>
+            <strong>Course Description: <br></strong>
             Current trends in animal health, management, and production
             </div>
         </div>
@@ -104,7 +104,7 @@
         </h2>
         <div id="child2-collapse7" class="accordion-collapse collapse" aria-labelledby="child2-heading7" data-bs-parent="#accordionChild7">
             <div class="accordion-body accord-child-body">
-            <strong>Description: <br></strong>
+            <strong>Course Description: <br></strong>
             Exploration and critical review of current the scientific literature on assigned topics and presentation of research papers on preventive veterinary medicine
             </div>
         </div>

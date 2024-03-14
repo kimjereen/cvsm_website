@@ -2,7 +2,7 @@
 <!-- PAGE CONTENT STARTS HERE -->
     
     <!-- Published -->
-    <div class="container my-4 g-0">
+    <div class="container my-4 ">
 
         <div class="project-list mt-5 page-content-card rounded">
             <div class="row research-title-bar">
