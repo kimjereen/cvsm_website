@@ -41,19 +41,7 @@
                 </div>
             </div>
 
-            <div class="project m-4 px-5">
-                <div class="row">
-                    <div class="col-1">
-                        <p class="row-count">2</p>
-                    </div>
-                    <div class="col-11">
-                        <h4 class="project-title">Project Title 2</h4>
-                        <p class="project-info"><strong>Researchers:</strong> John Smith, Jane Smith</p>
-                        <p class="project-info"><strong>Funding Agency:</strong> ABC Corporation</p>
-                        <p class="project-info"><strong>Duration:</strong> March 2022 - February 2024</p>
-                    </div>
-                </div>
-            </div>
+            
             <div class="container-fluid page-content-footer"></div>
         </div>
 

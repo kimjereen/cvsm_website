@@ -86,7 +86,7 @@
         VPH 8000 / VPM 8000 -  Project (8 units)
         </button>
         </h2>
-        <div id="child3-collapse6" class="accordion-collapse collapse" aria-labelledby="child3-heading6" data-bs-parent="#accordionChild6">
+        <div id="child3-collapse6" class="accordion-collapse collapse" aria-labelledby="child3-heading6" data-bs-parent="#accordionChild3">
             <div class="accordion-body accord-child-body">
             <strong>Course Description: <br></strong>
             </div>

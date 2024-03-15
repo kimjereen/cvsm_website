@@ -51,20 +51,6 @@
                 </div>
             </div>
 
-            <div class="project m-4 px-5">
-                <div class="row">
-                    <div class="col-1">
-                        <p class="row-count p-2">3</p>
-                    </div>
-                    <div class="col-11">
-                        <h4 class="project-title">Title</h4>
-                        <p class="project-info"><strong>Year:</strong> 2024</p>
-                        <p class="project-info"><strong>Researchers:</strong> </p>
-                        <p class="project-info"><strong>Funding Agency:</strong> </p>
-                        <p class="project-info"><strong>Duration:</strong> </p>
-                    </div>
-                </div>
-            </div>
             <div class="container-fluid page-content-footer"></div>
         </div>
 

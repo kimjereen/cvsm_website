@@ -86,7 +86,7 @@
         VPM 7600 - Advanced Animal Health and Production (2 units)
         </button>
         </h2>
-        <div id="child2-collapse6" class="accordion-collapse collapse" aria-labelledby="child2-heading6" data-bs-parent="#accordionChild6">
+        <div id="child2-collapse6" class="accordion-collapse collapse" aria-labelledby="child2-heading6" data-bs-parent="#accordionChild2">
             <div class="accordion-body accord-child-body">
             <strong>Course Description: <br></strong>
             Current trends in animal health, management, and production
@@ -102,7 +102,7 @@
         VPM 7700 - Seminar in Preventive Veterinary Medicine (1 unit)
         </button>
         </h2>
-        <div id="child2-collapse7" class="accordion-collapse collapse" aria-labelledby="child2-heading7" data-bs-parent="#accordionChild7">
+        <div id="child2-collapse7" class="accordion-collapse collapse" aria-labelledby="child2-heading7" data-bs-parent="#accordionChild2">
             <div class="accordion-body accord-child-body">
             <strong>Course Description: <br></strong>
             Exploration and critical review of current the scientific literature on assigned topics and presentation of research papers on preventive veterinary medicine

@@ -173,15 +173,10 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="{{ route('extension') }}" role="button" data-bs-toggle="dropdown">Extension</a>
                     <ul class="dropdown-menu dropdown-menu-lg-end">
-                        <li><a class="dropdown-item" href="#">Vet Mission</a></li>
-                        <li><a class="dropdown-item" href="#">Cattle Dispersal</a></li>
-                        <li><a class="dropdown-item" href="#">Veterinary Teaching Hospital</a></li>
-                        <li class="dropdown">
-                            <a class="dropdown-item dropdown-toggle" href="#">Student Organizations</a>
-                            <ul class="dropdown-menu dropdown-submenu">
-                                <li><a class="dropdown-item" href="#"></a></li>
-                            </ul>
-                            </li>
+                        <li><a class="dropdown-item" href="{{ route('extension') }}">Vet Mission</a></li>
+                        <li><a class="dropdown-item" href="{{ route('extension') }}">Cattle Dispersal</a></li>
+                        <li><a class="dropdown-item" href="{{ route('extension') }}">Veterinary Teaching Hospital</a></li>
+                        <li><a class="dropdown-item" href="{{ route('extension') }}">Student Organizations</a></li>
                     </ul>
                 </li>
 

@@ -347,7 +347,26 @@ a .btn-icon {
     background-color: var(--primary);
 }
 
-
+/* Student Org */
+.org-header {
+    display: flex; 
+    align-items: center;
+}
+.org-image-container {
+    margin-right: 10px; 
+}
+.org-image-container  {
+    width: auto; 
+    height: 150px; 
+    margin-bottom: 10px;
+}
+.org-image-container img {
+    width: 100%; 
+    height: 100%; 
+}
+.org-name {
+    margin: 0;
+}
 
 
 
