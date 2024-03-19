@@ -38,6 +38,7 @@ TABLE OF CONTENTS
     --secondary: #003a10; 
     --tertiary: #E8D203;
     --yellow-green: #92d12c;
+    --primary2: #4eab18;
 
     --gray: #757575;
     --d-gray: #494949;
@@ -149,6 +150,20 @@ h1 {
   background-color: var(--yellow-green);
   border: none;
 }
+
+.btn-success {
+  background-color: var(--primary);
+  color: var(--white);
+  border-color: var(--primary); 
+  padding: 9px 20px;
+  width:  auto;
+  font-family: 'Roboto', sans-serif;
+}
+.btn-success:hover, .btn-success:active {
+  background-color: var(--yellow-green);
+  border: none;
+}
+
 .card-btn{
   background-color: var(--primary);
   color: var(--white);
@@ -306,14 +321,14 @@ span {
   z-index: 9999;
 }
 .custom-close {
-  width: 40px;
-  height: 40px;
   color: var(--white);
   background-color: var(--yellow-green);
   border: none;
-  padding-top: 5px;
-  border-radius: 50%;
   transition: transform 1s ease-in-out;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 50%;
 }
 
 /* Dropdown */
@@ -497,6 +512,25 @@ span {
   background: var(--tall-opacity);
   height: 200%;
 }
+
+/* card-overlay2 to side*/
+.card-overlay2 {
+  padding: 0;
+  background: var(--tall-opacity); 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0; /* Initial width set to 0 */
+  height: 100%;
+  transition: width 0.5s ease; /* Transition width instead of height */
+}
+
+.card:hover .card-overlay2 {
+  background: var(--tall-opacity);
+  width: 100%; /* Fill the width on hover */
+}
+
+
 .card-body {
   position: absolute;
   bottom: 0;
@@ -761,12 +795,15 @@ col-xxl-* - 1400px */
     padding: 0;
   }
   .navbar .nav-link {
-    border-radius: 3px;
     padding: 10px;
-    border: 1px solid var(--yellow-green);
+    border-bottom: 1.5px solid var(--primary2);
   }
   .navbar .nav-item {
     padding: 2px;
+  }
+
+  .navbar .nav-link.active:hover {
+    background-color: var(--primary2);
   }
 }
 
@@ -808,10 +845,6 @@ col-xxl-* - 1400px */
 .pop:hover .calendar, .pop:hover .card {
   transform: translateY(-5px); 
   transition: transform 0.3s ease; 
-}
-.pop:hover .carousel-item, .pop:hover .carousel.carousel-inner{
-  transform: translateY(-5px);  /* Adjust the elevation */
-  transition: transform 0.3s ease; /* Add a smooth transition */
 }
 .pop:hover .faculty-container {
   transform: translateY(-5px); 

@@ -34,7 +34,15 @@
                             </div>
                             
                             <div class="news-content-footer px-1">
-                                <a href="https://web.facebook.com/clsurodeoclub" target="_blank" class="btn btn-primary cont-reading">Facebook<i class="bi bi-facebook btn-icon"></i></a>
+                                <div class="d-flex justify-content-between">
+                                    <div class="">
+                                        <a href="mailto:clsurodeoclub@gmail.com" class="card-text"><small class="text-muted"><i class="bi bi-envelope-fill mx-3"></i>clsurodeoclub@gmail.com</a></small>
+                                    </div>
+
+                                    <div class="">
+                                        <a href="https://web.facebook.com/clsurodeoclub" target="_blank" class="btn btn-primary cont-reading">Facebook<i class="bi bi-facebook btn-icon"></i></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -62,7 +70,15 @@
                             </div>
                             
                             <div class="news-content-footer px-1">
-                                <a href="https://facebook.com/clsusaver" target="_blank" class="btn btn-primary cont-reading">Facebook<i class="bi bi-facebook btn-icon"></i></a>
+                                <div class="d-flex justify-content-between">
+                                    <div class="">
+                                        <a href="mailto:clsusaver@gmail.com" class="card-text"><small class="text-muted"><i class="bi bi-envelope-fill mx-3"></i>clsusaver@gmail.com</a></small>
+                                    </div>
+
+                                    <div class="">
+                                        <a href="https://facebook.com/clsusaver" target="_blank" class="btn btn-primary cont-reading">Facebook<i class="bi bi-facebook btn-icon"></i></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -90,7 +106,15 @@
                             </div>
                             
                             <div class="news-content-footer px-1">
-                                <a href="https://www.facebook.com/VeterinaryCirclefor10" target="_blank" class="btn btn-primary cont-reading">Facebook<i class="bi bi-facebook btn-icon"></i></a>
+                                <div class="d-flex justify-content-between">
+                                    <div class="">
+                                        <a href="mailto:veterinarycirclefor10@gmail.com" class="card-text"><small class="text-muted"><i class="bi bi-envelope-fill mx-3"></i>veterinarycirclefor10@gmail.com</a></small>
+                                    </div>
+
+                                    <div class="">
+                                        <a href="https://www.facebook.com/VeterinaryCirclefor10" target="_blank" class="btn btn-primary cont-reading">Facebook<i class="bi bi-facebook btn-icon"></i></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -118,7 +142,15 @@
                             </div>
                             
                             <div class="news-content-footer px-1">
-                                <a href="https://www.facebook.com/VKVCLSUVLV" target="_blank" class="btn btn-primary cont-reading">Facebook<i class="bi bi-facebook btn-icon"></i></a>
+                                <div class="d-flex justify-content-between">
+                                    <div class="">
+                                        <a href="mailto:clsuvkv.vlv@gmail.com" class="card-text"><small class="text-muted"><i class="bi bi-envelope-fill mx-3"></i>clsuvkv.vlv@gmail.com</a></small>
+                                    </div>
+
+                                    <div class="">
+                                        <a href="https://www.facebook.com/VKVCLSUVLV" target="_blank" class="btn btn-primary cont-reading">Facebook<i class="bi bi-facebook btn-icon"></i></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -146,7 +178,15 @@
                             </div>
                             
                             <div class="news-content-footer px-1">
-                                <a href="https://web.facebook.com/VSASclsu" target="_blank" class="btn btn-primary cont-reading">Facebook<i class="bi bi-facebook btn-icon"></i></a>
+                                <div class="d-flex justify-content-between">
+                                    <div class="">
+                                        <a href="mailto:vsas.clsu@gmail.com" class="card-text"><small class="text-muted"><i class="bi bi-envelope-fill mx-3"></i>vsas.clsu@gmail.com</a></small>
+                                    </div>
+
+                                    <div class="">
+                                        <a href="https://web.facebook.com/VSASclsu" target="_blank" class="btn btn-primary cont-reading">Facebook<i class="bi bi-facebook btn-icon"></i></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -174,7 +214,15 @@
                             </div>
                             
                             <div class="news-content-footer px-1">
-                                <a href="https://www.facebook.com/VSG.CLSU" target="_blank" class="btn btn-primary cont-reading">Facebook<i class="bi bi-facebook btn-icon"></i></a>
+                                <div class="d-flex justify-content-between">
+                                    <div class="">
+                                        <a href="mailto:vsgofficial.governor@gmail.com" class="card-text"><small class="text-muted"><i class="bi bi-envelope-fill mx-3"></i>vsgofficial.governor@gmail.com</a></small>
+                                    </div>
+
+                                    <div class="">
+                                        <a href="https://www.facebook.com/VSG.CLSU" target="_blank" class="btn btn-primary cont-reading">Facebook<i class="bi bi-facebook btn-icon"></i></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -184,7 +232,7 @@
                     <div class="row page-content-card rounded">
                         <div class="col-sm g-0">
                             <div class="news-image-container g-0">
-                                <img src="{{ asset('assets_cvsm/images/student org/IVSA.jpg') }}" class="img-fluid" alt="Student Org Image">
+                                <img src="{{ asset('assets_cvsm/images/student org/IVSA.png') }}" class="img-fluid" alt="Student Org Image">
                             </div>
                         </div>  
                         <div class="col-sm p-4 d-flex flex-column justify-content-between">
@@ -192,16 +240,25 @@
                             <div class="news-content-body">
                             <div class="org-header justify-content-center">
                                 <div class="org-image-container">
-                                    <img src="{{ asset('assets_cvsm/images/cvsm-logo.png') }}" alt="Student Org Image">
+                                    <img src="{{ asset('assets_cvsm/images/student org/IVSA logo.png') }}" alt="Student Org Image">
                                 </div>
                             </div>
                                 <h3 class="news-headline">International Veterinary Student Association (IVSA)</h3>
                                 <p class="card-text justified-text news-caption">
+                                IVSA Philippines Central Luzon State University Chapter aims to benefit the animals and people of the world by harnessing the potential and dedication of veterinary students to promote the international application of veterinary skills, education and knowledge. The organization stands by its three core principles Liyag, Layag, and Lipad which symbolizes the embrace within the National Member Organization, each distinct to their own yet woven together in solidarity amidst diversity, steering through uncharted waters, welcoming waves with a resolute intent to explore the vast horizon of opportunities and potentials, and sustaining our flight with the unwavering momentum we have while keen to land on any point of the archipelago and soar again for unpredictable experiences.
                                 </p>
                             </div>
                             
                             <div class="news-content-footer px-1">
-                                <a href="https://www.facebook.com/IVSAPH.CLSU" target="_blank" class="btn btn-primary cont-reading">Facebook<i class="bi bi-facebook btn-icon"></i></a>
+                                <div class="d-flex justify-content-between">
+                                    <div class="">
+                                        <a href="mailto:ivsaphilippines.clsu@ivsamo.org" class="card-text"><small class="text-muted"><i class="bi bi-envelope-fill mx-3"></i>ivsaphilippines.clsu@ivsamo.org</a></small>
+                                    </div>
+
+                                    <div class="">
+                                        <a href="https://www.facebook.com/IVSAPH.CLSU" target="_blank" class="btn btn-primary cont-reading">Facebook<i class="bi bi-facebook btn-icon"></i></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -229,7 +286,15 @@
                             </div>
                             
                             <div class="news-content-footer px-1">
-                                <a href="https://www.facebook.com/thespeculumcvsm" target="_blank" class="btn btn-primary cont-reading">Facebook<i class="bi bi-facebook btn-icon"></i></a>
+                                <div class="d-flex justify-content-between">
+                                    <div class="">
+                                        <a href="mailto:" class="card-text "><small class="text-muted"><i class="bi bi-envelope-fill mx-3"></i></a></small>
+                                    </div>
+
+                                    <div class="">
+                                        <a href="https://www.facebook.com/thespeculumcvsm" target="_blank" class="btn btn-primary cont-reading">Facebook<i class="bi bi-facebook btn-icon"></i></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

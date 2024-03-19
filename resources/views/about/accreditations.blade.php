@@ -2,13 +2,13 @@
 <!-- PAGE CONTENT STARTS HERE -->
 
     <!-- Accreditations -->
-    <div class="container my-4">
+    <div class="container my-4 g-0">
         <!-- Section Title -->
-        <div class="container-fluid mt-5 g-0">
+        <div class="container-fluid mt-5">
         <h3 class="section-subtitle font-blue">ACCREDITATIONS</h3>
         </div>
 
-        <div class="page-content-card rounded">
+        <div class="page-content-card rounded m-2">
             <div class="row row-cols-1 row-cols-md-3 my-3">
 
                 <div class="col mt-3">
@@ -70,14 +70,14 @@
 
 
     <!-- Menbership -->
-    <div class="container my-4">
+    <div class="container my-4 g-0">
         <!-- Section Title -->
         <div class="container-fluid mt-5">
         <h3 class="section-subtitle font-blue">MEMBERSHIP</h3>
         </div>
 
 
-        <div class="page-content-card">
+        <div class="page-content-card rounded m-2">
             <div class="row row-cols-1 row-cols-md-3 my-3">
 
                 <div class="col mt-3">

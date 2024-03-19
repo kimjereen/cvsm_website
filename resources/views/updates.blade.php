@@ -16,10 +16,10 @@
 
     <ul class="nav nav-tabs page-bar text-center justify-content-center" role="tablist">
         <li class="nav-item col-md container-fluid p-2">
-            <a class="nav-link active" data-bs-toggle="tab" href="#tab-news">News</a>
+            <a class="nav-link active" data-bs-toggle="tab" href="#tab-news" onclick="updateURL('#tab-news')">News</a>
         </li>
         <li class="nav-item col-md container-fluid p-2">
-            <a class="nav-link" data-bs-toggle="tab" href="#tab-events">Events & Announcements</a>
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-events" onclick="updateURL('#tab-events')">Events & Announcements</a>
         </li>
     </ul>
 

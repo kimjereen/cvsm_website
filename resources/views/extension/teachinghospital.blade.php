@@ -1,11 +1,31 @@
 <section>
 <!-- PAGE CONTENT STARTS HERE -->
 
-    <!-- Departments -->
+    <!-- Teaching Hospital Text -->
     <div class="container my-4 g-0">
         <!-- Section Title -->
         <div class="container-fluid mt-5">
-        <h3 class="section-subtitle font-blue">Laboratories</h3>
+        <h3 class="section-subtitle font-blue">VETERINARY TEACHING HOSPITAL</h3>
+        </div>
+
+        <div class="container mt-4">
+            <div class="white-texture page-content-card rounded d-flex justify-content-center align-items-center">
+                <div class="page-content-body ">
+                    <p class="about-content-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div> 
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    <!-- Teaching Hospital Images -->
+    <div class="container my-4 g-0">
+        <!-- Section Title -->
+        <div class="container-fluid mt-5">
+        <h3 class="section-subtitle font-blue">IMAGES</h3>
         </div>
 
         <div class="container">

@@ -2,7 +2,7 @@
 <!-- PAGE CONTENT STARTS HERE -->
 
     <!-- Top News -->
-    <div class="container my-4">
+    <div class="container my-4 g-0">
         <!-- Section Title -->
         <div class="container-fluid mt-5">
             <h3 class="section-subtitle font-blue">TOP HEADLINE</h3>
@@ -88,7 +88,7 @@
     </div>
 
     <!-- Latest Headlines -->
-    <div class="container my-4">
+    <div class="container my-4 g-0">
         <!-- Section Title -->
         <div class="container-fluid mt-5">
             <h3 class="section-subtitle font-blue">RECENT NEWS</h3>
@@ -180,7 +180,7 @@
     </div>
 
     <!-- All News -->
-    <div class="container my-4">
+    <div class="container my-4 g-0">
         <!-- Section Title -->
         <div class="container-fluid mt-5">
             <h3 class="section-subtitle font-blue">NEWS</h3>

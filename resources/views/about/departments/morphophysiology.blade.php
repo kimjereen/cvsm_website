@@ -11,17 +11,16 @@
 
 
         <div class="row">
-            <div class="col-md  mt-3 page-content-card rounded white-texture">
-                <div class="container page-content-body">
-                    <h4 class="p-2">DEPARTMENT OF MORPHOPHYSIOLOGY AND PHARMACOLOGY</h4>
-                    <p class="page-content-text">
+            <div class="col-lg m-2 white-texture page-content-card rounded d-flex justify-content-center align-items-center">
+                <div class="container page-content-body text-center">
+                    <p class="about-content-text">
                         Explore anatomy, physiology, and pharmacology in animals, unraveling the intricacies of living organisms.
                     </p>
                 </div>
             <div class="container-fluid page-content-footer"></div>
             </div>
 
-            <div class="col-md mt-3">
+            <div class="col-lg m-2 rounded g-0">
                 <div class="card img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/temporary/bones.jpg') }}" class="img-fluid" alt="Academic Program 1">
                 </div>
@@ -37,8 +36,8 @@
             <h3 class="section-subtitle font-blue">OBJECTIVES</h3>
         </div>
 
-        <div class="justify-content-center">
-            <div class="m-3 page-content-card rounded">
+        <div class="justify-content-center m-2">
+            <div class="page-content-card rounded">
                 <div class="container page-content-body">
                     <h6 class="col m-3 fs-5">
                         Objectives of Department of Morphophysiology and Pharmacology

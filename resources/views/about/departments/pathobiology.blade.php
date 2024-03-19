@@ -2,26 +2,25 @@
 <!-- PAGE CONTENT STARTS HERE -->
 
     <!-- About Department -->
-    <div class="container my-4 g-0">
+    <div class="container my-4">
         
         <!-- Section Title -->
-        <div class="container-fluid mt-5">
+        <div class="container-fluid mt-5 g-0">
             <h3 class="section-subtitle font-blue">ABOUT</h3>
         </div>
 
 
-        <div class="row mt-4 mx-2">
-            <div class="col-md-6 mt-3 page-content-card rounded white-texture">
-                <div class="container page-content-body">
-                    <h4 class="p-2">DEPARTMENT OF PATHOBIOLOGY</h4>
-                    <p class="page-content-text">
+        <div class="row">
+            <div class="col-lg m-2 white-texture page-content-card rounded d-flex justify-content-center align-items-center">
+                <div class="container page-content-body text-center">
+                    <p class="about-content-text">
                         Investigate disease processes in animals, preparing students to diagnose, treat, and prevent diseases for enhanced animal health.
                     </p>
                 </div>
             <div class="container-fluid page-content-footer"></div>
             </div>
 
-            <div class="col-md-6 mt-3">
+            <div class="col-lg m-2 rounded g-0">
                 <div class="card img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/temporary/Student - fish.jpeg') }}" class="img-fluid" alt="Academic Program 1">
                 </div>
@@ -37,8 +36,8 @@
             <h3 class="section-subtitle font-blue">OBJECTIVES</h3>
         </div>
 
-        <div class="justify-content-center">
-            <div class="m-3 page-content-card rounded">
+        <div class="justify-content-center m-2">
+            <div class="page-content-card rounded">
                 <div class="container page-content-body">
                     <h6 class="col m-3 fs-5">
                         Objectives of Department of Pathobiology
@@ -158,7 +157,7 @@
 
                 <div class="m-3 faculty-container rounded-shadow" style="width:230px">
                     <div class="faculty-image-container">
-                        <img src="{{ asset('assets_cvsm/images/faculty/faculty-placeholder.JPG') }}" alt="Faculty Member" class="img-fluid">
+                        <img src="{{ asset('assets_cvsm/images/faculty/Dr. Sison.png') }}" alt="Faculty Member" class="img-fluid">
                     </div>
 
                     <div class="text-center p-2">

@@ -16,10 +16,10 @@
 
     <ul class="nav nav-tabs page-bar text-center justify-content-center" role="tablist">
         <li class="nav-item col-md container-fluid p-2">
-            <a class="nav-link active" data-bs-toggle="tab" href="#tab-dvm">Doctor of Veterinary Medicine</a>
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-dvm" onclick="updateURL('#tab-dvm')">Doctor of Veterinary Medicine</a>
         </li>
         <li class="nav-item col-md container-fluid p-2">
-            <a class="nav-link" data-bs-toggle="tab" href="#tab-mvst">Master of Veterinary Studies</a>
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-mvst" onclick="updateURL('#tab-mvst')">Master of Veterinary Studies</a>
         </li>
     </ul>
 
@@ -28,7 +28,7 @@
         <div id="tab-dvm" class="container tab-pane active">
             @include('academic.dvm')
         </div>
-        <div id="tab-mvst" class="container tab-pane fade">
+        <div id="tab-mvst" class="container tab-pane active">
             @include('academic.mvst')
         </div>
     </div>

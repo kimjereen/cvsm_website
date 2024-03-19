@@ -8,9 +8,8 @@
         </button>
         </h2>
         <div id="child4-collapse1" class="accordion-collapse collapse" aria-labelledby="child4-heading1" data-bs-parent="#accordionChild4">
-            <div class="accordion-body accord-child-body">
-            <strong>Course Description: <br></strong>Application of economic theories and concepts in veterinary medicine
-            </div>
+            <div class="accordion-body accord-child-body" style="padding: 0;">
+            @include('academic.courses.dvm-grandchilds.dvm-grandchild10')</div>
         </div>
     </div>
 
@@ -22,9 +21,8 @@
         </button>
         </h2>
         <div id="child4-collapse2" class="accordion-collapse collapse" aria-labelledby="child4-heading2" data-bs-parent="#accordionChild4">
-            <div class="accordion-body accord-child-body">
-            <strong>Course Description: <br></strong>Advanced laboratory procedures in the diagnosis of TADs and other important diseases.
-            </div>
+            <div class="accordion-body accord-child-body" style="padding: 0;">
+            @include('academic.courses.dvm-grandchilds.dvm-grandchild11')</div>
         </div>
     </div>
 
@@ -37,9 +35,8 @@
         </button>
         </h2>
         <div id="child4-collapse3" class="accordion-collapse collapse" aria-labelledby="child4-heading3" data-bs-parent="#accordionChild4">
-            <div class="accordion-body accord-child-body">
-            <strong>Course Description: <br></strong>Approaches in the development of diagnostic test kits and animal care products, concepts in market release, and technology transfer
-        </div>
+            <div class="accordion-body accord-child-body" style="padding: 0;">
+            @include('academic.courses.dvm-grandchilds.dvm-grandchild12')</div>
         </div>
     </div>
 

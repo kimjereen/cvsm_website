@@ -33,6 +33,41 @@
                 <div class="container-fluid page-content-footer"></div>
             </div>
         </div>
+
+
+
+
+        <!-- Academic Programs Container -->
+        <div class="row">
+            <!-- Academic Program 1 -->
+            <div class="col-md-6 mt-3">
+                <div class="card rounded-shadow">
+                    <img src="{{ asset('assets_cvsm/images/temporary/Mission.png') }}" class="img-fluid img-zoom" alt="MISSION">
+                    <div class="card-overlay2"></div>
+                    <div class="card-body1  text-center" style="margin-bottom: 30px;">
+                        <h4 class="text-white mt-2">MISSION</h4>
+                        <p class="page-content-text">
+                            <i>CLSU shall develop globally competitive, work-ready, socially-responsible and empowered human resources who value life-long learning; and to generate, disseminate, and apply knowledge and technologies for poverty alleviation, environmental protection, and sustainable development</i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Academic Program 2 -->
+            <div class="col-md-6 mt-3">
+                <div class="card rounded-shadow">
+                    <img src="{{ asset('assets_cvsm/images/temporary/Vision.png') }}" class="img-fluid img-zoom" alt="VISION">
+                    <div class="card-overlay2"></div>
+                    <div class="card-body1 text-center" style="margin-bottom: 90px;">
+                        <h4 class="text-white mt-2">VISION</h4>
+                        <p class="page-content-text">
+                            <i>Central Luzon State University (CLSU) as a world-class National University for science and technology in agriculture and allied fields</i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <!-- Mission and Vision 
@@ -66,7 +101,7 @@
         <div class="row justify-content-center">
             <div class="col-lg m-2 page-content-card rounded">
                 <div class="container page-content-body text-center">
-                    <img src="assets_cvsm/images/about-service.png" alt="Service Icon" width="120px" class="p-2">
+                    <img src="assets_cvsm/images/policy-3.png" alt="Service Icon" width="120px" class="p-2">
                     <br><div class="container short-line"></div>
                     <p class="page-content-text">
                     Excellent service to humanity is our commitment.
@@ -77,7 +112,7 @@
 
             <div class="col-lg m-2 page-content-card rounded">
                 <div class="container page-content-body text-center">
-                    <img src="assets_cvsm/images/about-humanity.png" alt="Mission Icon" width="120px" class="p-2">
+                    <img src="assets_cvsm/images/policy-2.png" alt="Mission Icon" width="120px" class="p-2">
                     <br><div class="container short-line"></div>
                     <p class="page-content-text">
                     We are committed to develop globally-competent and empowered human resources, and to generate knowledge and technologies for inclusive societal development.
@@ -87,7 +122,7 @@
             </div>
             <div class="col-lg m-2 page-content-card rounded">
                 <div class="container page-content-body text-center">
-                    <img src="assets_cvsm/images/about-scale.png" alt="Mission Icon" width="120px" class="p-2">
+                    <img src="assets_cvsm/images/policy-1.png" alt="Mission Icon" width="120px" class="p-2">
                     <br><div class="container short-line"></div>
                     <p class="page-content-text">
                     We are dedicated to uphold CLSU's core values and principles, comply with statutory and regulatory standards and continuously improve the effectiveness of our quality management systems.
@@ -99,7 +134,7 @@
             <div class="col-lg m-2 page-content-card rounded">
 
                 <div class="container page-content-body text-center">
-                    <img src="assets_cvsm/images/about-tinig.png" alt="Mission Icon" width="120px" class="p-2">
+                    <img src="assets_cvsm/images/policy-4.png" alt="Mission Icon" width="120px" class="p-2">
                     <br><div class="container short-line"></div>
                     <p class="page-content-text">
                     Mahalaga ang inyong tinig upang higit na mapahusay ang kalidad ng aming paglilingkod.

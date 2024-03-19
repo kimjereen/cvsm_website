@@ -6,20 +6,20 @@
         
         <!-- Section Title -->
         <div class="container-fluid mt-5 g-0">
-            <h3 class="section-subtitle font-blue">GENERAL OBJECTIVES</h3>
+            <h3 class="section-subtitle font-blue space-down1">GENERAL OBJECTIVES</h3>
         </div>
 
-        <div class="row justify-content-center row row-cols-1 row-cols-md-2">
-            <div class="mt-3 col page-content-card rounded white-texture">
-                <div class="page-content-body">
-                        <p class="page-content-text">
-                        Generally, to provide a veterinary program that produces well-balanced veterinarians, knowledgeable in animal production, welfare and One Health.
+        <div class="row justify-content-center">
+            <div class="col-lg m-2 white-texture page-content-card rounded d-flex justify-content-center align-items-center">
+                <div class="page-content-body text-center">
+                        <p class="about-content-text">
+                        To provide a veterinary program that produces well-balanced veterinarians, knowledgeable in animal production, welfare and One Health.
                         </p>
                 </div>
-            <div class="container-fluid page-content-footer"></div>
+                <div class="container-fluid page-content-footer"></div>   
             </div>
 
-            <div class="col mt-3">
+            <div class="col-lg m-2 rounded g-0">
                 <div class="card img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/seiver.webp') }}" class="img-fluid" alt="Academic Program 1">
                 </div>
@@ -29,13 +29,13 @@
 
     
     <!-- Specific Objectives -->
-    <div class="container my-4">
+    <div class="container my-4 g-0">
         <!-- Section Title -->
-        <div class="container-fluid mt-5  g-0">
-            <h3 class="section-subtitle font-blue">SPECIFIC OBJECTIVES</h3>
+        <div class="container-fluid mt-5">
+            <h3 class="section-subtitle font-blue space-down2">SPECIFIC OBJECTIVES</h3>
         </div>
 
-        <div class="justify-content-center g-0">
+        <div class="justify-content-center m-2">
             <div class="page-content-card rounded">
                 <div class="container page-content-body">
                     <div class="d-flex flex-row  objective-list align-items-center">

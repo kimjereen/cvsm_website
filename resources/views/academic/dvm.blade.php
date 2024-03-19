@@ -2,24 +2,25 @@
 <!-- PAGE CONTENT STARTS HERE -->
 
     <!-- About DVM -->
-    <div class="container my-4 g-0">
+    <div class="container my-4">
         
         <!-- Section Title -->
-        <div class="container-fluid mt-5">
+        <div class="container-fluid mt-5 g-0">
             <h3 class="section-subtitle font-blue">ABOUT</h3>
         </div>
 
-        <div class="row mt-2 mx-2">
-            <div class="col-md-6 mt-3">
+        <div class="row mt-2 ">
+            <div class="col-lg m-2 rounded g-0">
                 <div class="card img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/temporary/Student - Dog checking.jpeg') }}" class="img-fluid" alt="Academic Program 1">
                 </div>
             </div>
 
-            <div class="col-md-6 mt-3 page-content-card rounded white-texture">
+            <div class="col-lg m-2 white-texture page-content-card rounded">
                 <div class="container page-content-body">
-                    <p class="page-content-text">
-                        DVM is a 6-year curricular program designed to  produce well-balanced veterinarians, knowledgeable in animal production, welfare and One Health.
+                    <p class="about-content-text">
+                        <strong>DOCTOR OF VETERINARY SCIENCE (DVM) </strong>
+                        is a 6-year curricular program designed to  produce well-balanced veterinarians, knowledgeable in animal production, welfare and One Health.
                     </p>
                 </div>
             <div class="container-fluid page-content-footer"></div>
@@ -32,11 +33,11 @@
         
         <!-- Section Title -->
         <div class="container-fluid mt-5">
-            <h3 class="section-subtitle font-blue">PROGRAM EDUCATIONAL OBJECTIVE (PEO)</h3>
+            <h3 class="section-subtitle font-blue space-down2">PROGRAM EDUCATIONAL OBJECTIVE (PEO)</h3>
         </div>
 
-        <div class="justify-content-center">
-            <div class="m-3 page-content-card rounded">
+        
+         <div class="page-content-card rounded m-2">
                 <div class="container page-content-body">
                     <h6 class="col m-3 fs-5">
                         The following PEOs are applied to graduates under the DVM Curriculum based on CHED Memo No. 1 s 2018:
@@ -86,38 +87,33 @@
     <div class="container my-4 g-0" id="dvm-admission">
         <!-- Section Title -->
         <div class="container-fluid mt-5">
-        <h3 class="section-subtitle font-blue">Admission</h3>
+        <h3 class="section-subtitle font-blue space-down2">Admission</h3>
         </div>
 
-        <div class="justify-content-center">
-            <div class="m-3 page-content-card rounded">
+        <div class="justify-content-center g-0 m-2">
+            <div class="page-content-card rounded">
                 <div class="container page-content-body">
                     <h6 class="col m-3 fs-5">
-                        Visit CLSU Office of Admission Website for Admission Requirements:
-                    </h6>
-                    <div class="d-flex d-flex justify-content-between  objective-list">
-                        <img src="{{ asset('assets_cvsm/images/OAD banner.png') }}" alt="OAD Banner" width="200px" height="100%">
-                        
-                        <a href="https://oad.clsu2.edu.ph/" class="btn btn-primary" height="20px" target="_blank">Learn More <i class="bi bi-arrow-right btn-icon"></i></a>
-                    
-                    </div>
-
+                        Aspiring DVM students must qualify in the University Admission Test (CLSU- CAT). 
+                    </h6> 
+                    <p class="page-content-text res-text-1 p-2"> 
+                        Visit <a href="https://oad.clsu2.edu.ph/services/students/admission-requirements/" class="font-blue" height="20px" target="_blank">https://oad.clsu2.edu.ph/services/students/admission-requirements/</a> for details.
+                    </p>
                 </div>
-        
             </div>
         </div>
 
     </div>
 
     <!-- Program of the Study -->
-    <div class="container my-4"  id="dvm-program-of-study">
+    <div class="container my-4 g-0"  id="dvm-program-of-study">
         <!-- Section Title -->
         <div class="container-fluid mt-5">
-        <h3 class="section-subtitle font-blue">Program of the Study</h3>
+        <h3 class="section-subtitle font-blue space-down2">Program of the Study</h3>
         </div>
 
-        <div class="justify-content-center">
-            <div class="m-3 page-content-card rounded">
+        <div class="justify-content-center g-0 m-2">
+            <div class="page-content-card rounded">
                 <div class="container page-content-body">
                     <h6 class="col m-3 fs-5">
                         Doctor of Veterinary Medicine Curriculum Checklist
@@ -140,14 +136,14 @@
     </div>
 
     <!-- Courses and Description -->
-    <div class="container my-4" id="dvm-courses-and-description">
+    <div class="container my-4 g-0" id="dvm-courses-and-description">
         <!-- Section Title -->
         <div class="container-fluid mt-5">
-        <h3 class="section-subtitle font-blue">Courses and Description</h3>
+        <h3 class="section-subtitle font-blue space-down2">Courses and Description</h3>
         </div>
 
-        <div class="justify-content-center">
-            <div class="m-3 page-content-card rounded">
+        <div class="justify-content-center g-0 m-2">
+            <div class="page-content-card rounded">
                     <div class="container page-content-body">
                         <h6 class="col m-3 fs-5">
                             Here are the courses that you will take in your DVM program:
@@ -157,12 +153,12 @@
 
 
                             <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed parent-accord" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                <h2 class="accordion-header" id="dvm-headingOne">
+                                <button class="accordion-button collapsed parent-accord" type="button" data-bs-toggle="collapse" data-bs-target="#dvm-collapseOne" aria-expanded="false" aria-controls="dvm-collapseOne">
                                     FIRST YEAR
                                 </button>
                                 </h2>
-                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushDVM">
+                                <div id="dvm-collapseOne" class="accordion-collapse collapse" aria-labelledby="dvm-headingOne" data-bs-parent="#accordionFlushDVM">
                                     <div class="accordion-body">
                                         @include('academic.courses.dvm-child1')
                                     </div>
@@ -171,12 +167,12 @@
 
 
                             <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-headingTwo">
-                                <button class="accordion-button collapsed parent-accord" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                <h2 class="accordion-header" id="dvm-headingTwo">
+                                <button class="accordion-button collapsed parent-accord" type="button" data-bs-toggle="collapse" data-bs-target="#dvm-collapseTwo" aria-expanded="false" aria-controls="dvm-collapseTwo">
                                     SECOND YEAR
                                 </button>
                                 </h2>
-                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushDVM">
+                                <div id="dvm-collapseTwo" class="accordion-collapse collapse" aria-labelledby="dvm-headingTwo" data-bs-parent="#accordionFlushDVM">
                                     <div class="accordion-body">
                                         @include('academic.courses.dvm-child2')
                                     </div>
@@ -186,12 +182,12 @@
 
 
                             <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-headingThree">
-                                <button class="accordion-button collapsed parent-accord" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                <h2 class="accordion-header" id="dvm-headingThree">
+                                <button class="accordion-button collapsed parent-accord" type="button" data-bs-toggle="collapse" data-bs-target="#dvm-collapseThree" aria-expanded="false" aria-controls="dvm-collapseThree">
                                     THIRD YEAR
                                 </button>
                                 </h2>
-                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushDVM">
+                                <div id="dvm-collapseThree" class="accordion-collapse collapse" aria-labelledby="dvm-headingThree" data-bs-parent="#accordionFlushDVM">
                                     <div class="accordion-body">
                                         @include('academic.courses.dvm-child3')
                                     </div>
@@ -201,12 +197,12 @@
 
 
                             <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-headingFour">
-                                <button class="accordion-button collapsed parent-accord" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                <h2 class="accordion-header" id="dvm-headingFour">
+                                <button class="accordion-button collapsed parent-accord" type="button" data-bs-toggle="collapse" data-bs-target="#dvm-collapseFour" aria-expanded="false" aria-controls="dvm-collapseFour">
                                     FOURTH YEAR
                                 </button>
                                 </h2>
-                                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushDVM">
+                                <div id="dvm-collapseFour" class="accordion-collapse collapse" aria-labelledby="dvm-headingFour" data-bs-parent="#accordionFlushDVM">
                                     <div class="accordion-body">
                                         @include('academic.courses.dvm-child4')
                                     </div>
@@ -225,13 +221,13 @@
     </div>
 
     <!-- Prerequisite Map -->
-    <div class="container my-4"  id="dvm-prerequisite">
+    <div class="container my-4 g-0"  id="dvm-prerequisite">
         <!-- Section Title -->
         <div class="container-fluid mt-5">
-        <h3 class="section-subtitle font-blue">Prerequisite Map</h3>
+        <h3 class="section-subtitle font-blue space-down2">Prerequisite Map</h3>
         </div>
 
-        <div class="justify-content-center my-4">
+        <div class="justify-content-center g-0 m-2">
             <div class="image-content-container rounded">
                 <img src="{{ asset('assets_cvsm/images/temporary/New Prerequisite Map.png') }}" alt="Curriculum Subj Coded" class="page-content-image">
             </div>

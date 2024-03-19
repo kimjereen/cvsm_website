@@ -27,7 +27,7 @@
           <br>
             <p class="hero-quote fs-5"><i>Veterinarians for the Countryside</i></p>
           <br>
-          <p><a class="btn btn-primary" href="#">Learn More</a></p>
+          <p><a class="btn btn-success" href="{{ route('about') }}">Learn More</a></p>
         </div>
       </div>
 
@@ -117,7 +117,6 @@
                     <img src="{{ asset('assets_cvsm/images/temporary/news-1.png') }}" class="img-fluid d-block w-100 h-100 object-fit-cover" alt="Top News">
                     <div class="carousel-caption text-start">
                         <h4>US assoc prof delivers diagnostics, infectious disease modeling lecture</h4>
-                        <p class="card-caption">Iowa State University's (ISU) Dr. Luis Gimenez-Lirola, associate professor from the College of Veterinary Medicine, presented a lecture entitled “Innovatio...</p>
                     </div>
                 </div>
               </a>
@@ -127,7 +126,6 @@
                     <img src="{{ asset('assets_cvsm/images/temporary/news-2.png') }}" class="img-fluid d-block w-100 h-100 object-fit-cover" alt="Top News">
                     <div class="carousel-caption text-start">
                         <h4>5 CVSM faculty members are new, official PRC Continuing Professional Development monitors</h4>
-                        <p class="card-caption">The presence of CLSU faculty in various conferences and other scientific fora for veterinarians will be inevitable as five CVSM faculty members took their o...</p>
                     </div>
                 </div>
               </a>
@@ -137,7 +135,6 @@
                     <img src="{{ asset('assets_cvsm/images/temporary/news-3.png') }}" class="img-fluid d-block w-100 h-100 object-fit-cover" alt="Top News">
                     <div class="carousel-caption text-start">
                         <h4>CVSM faculty members elected as PVMA national officers</h4>
-                        <p class="card-caption">Aimed to serve more colleagues and stakeholders at the national level, Dr. Virginia M. Venturina and Dr. Ronalie B. Rafael were elected to important...</p>
                     </div>
                 </div>
               </a>
@@ -146,7 +143,6 @@
 
             </div>
 
-            <div class="container-fluid page-content-footer"></div>
 
             <!-- Left and right controls/icons -->
             <button class="carousel-control-prev" type="button" data-bs-target="#news-carousel" data-bs-slide="prev">
@@ -279,7 +275,7 @@
               <div class="card-body2  text-center">
                 <h5 class="card-title">Doctor of Veterinary Medicine</h5>
                 <p class="card-text">DVM is a 6-year curricular program designed to  produce well-balanced veterinarians, knowledgeable in animal production, welfare and One Health.</p>
-                <p><a class="btn card-btn" href="#">Learn More</a></p>
+                <p><a class="btn card-btn" href="{{ route('academic') }}#tab-dvm">Learn More</a></p>
               </div>
           </div>
           </div>
@@ -299,7 +295,7 @@
               <div class="card-body2  text-center">
                 <h5 class="card-title">Master of Veterinary Studies</h5>
                 <p class="card-text">MVSt is a 2-year post-graduate degree for veterinarians designed to specialize in either Veterinary Public Health or Veterinary Preventive Medicine.</p>
-                <p><a class="btn card-btn" href="#">Learn More</a></p>
+                <p><a class="btn card-btn" href="{{ route('academic') }}#tab-mvst">Learn More</a></p>
               </div>
           </div>
           </div>
@@ -330,7 +326,7 @@
           <div class="ov-content">
             <h3 class="ov-title">About Us</h3>
             <p class="ov-description">The College envisions to become a multi veterinary institution dedicated to countryside development by providing excellent veterinary education to produce graduates equipped with technical, entrepreneurial, managerial, and leadership skills necessary for optimum animal production. </p>
-            <a href="{{ route('about') }}" class="btn btn-primary">Learn More</a>
+            <a href="{{ route('about') }}" class="btn btn-success">Learn More</a>
           </div>
         </div>
       </div>
@@ -347,7 +343,7 @@
           <div class="ov-content">
             <h3 class="ov-title">Research & Publications</h3>
             <p class="ov-description">Our researches focus on transboundary and zoonotic animal disease, disease profiling, antimicrobial resistance and test kit development to address industry-need solutions.</p>
-            <a href="{{ route('research') }}" class="btn btn-primary">Learn More</a>
+            <a href="{{ route('research') }}" class="btn btn-success">Learn More</a>
           </div>
         </div>
       </div>
@@ -375,14 +371,14 @@
         <!-- The Resources and Facilities -->
         <div class="container my-4" style="width: 80%;">
           <div class="align-items-center text-center mx-3">
-              <p>CVSM is housed in two main facilities: the CVSM main building and the Veterinary Teaching Hospital. Both are equipped with lecture halls and laboratory facilities for conducive and collaborative learning of students.</p>   
-              <p><a class="btn card-btn btn-primary" href="#">Learn More</a></p>
+              <p class="text-muted">CVSM is housed in two main facilities: the CVSM main building and the Veterinary Teaching Hospital. Both are equipped with lecture halls and laboratory facilities for conducive and collaborative learning of students.</p>   
+              <p><a class="btn card-btn btn-success" href="{{ route('facilities') }}">Learn More</a></p>
           </div>
         </div>
     </div>
 
     <!-- Facilities -->
-    <div class="container-fluid my-5">
+    <div class="container-fluid mt-5">
       <!-- Facilities Subtitle -->
       <div class="d-flex justify-content-between align-items-center">
           <div></div>
@@ -391,7 +387,7 @@
 
 
         <!-- Facilities Card Lists -->
-        <div class="row row-cols-1 row-cols-md-3 my-3">
+        <div class="row row-cols-1 row-cols-md-3 mt-3">
             <!-- Example loop for generating items -->
             <!-- Replace the content of the div with your dynamic content -->
             <!-- This is just a placeholder example -->
@@ -586,7 +582,7 @@
                 <div class="ov-content">
                     <h3 class="ov-title">Department of Morphophysiology and Pharmacology</h3>
                     <p class="ov-description">Explore anatomy, physiology, and pharmacology in animals, unraveling the intricacies of living organisms.</p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
+                    <a href="#" class="btn btn-success">Learn More</a>
                 </div>
               </div>
           </div>
@@ -607,7 +603,7 @@
               <div class="ov-content">
                   <h3 class="ov-title">Department of Animal Management</h3>
                   <p class="ov-description">Delve into animal care, behavior, and welfare, equipping students to manage diverse animal populations with compassion and skill.</p>
-                  <a href="#" class="btn btn-primary">Learn More</a>
+                  <a href="#" class="btn btn-success">Learn More</a>
               </div>
             </div>
           </div>
@@ -628,7 +624,7 @@
               <div class="ov-content">
                   <h3 class="ov-title">Department of Pathobiology</h3>
                   <p class="ov-description">Investigate disease processes in animals, preparing students to diagnose, treat, and prevent diseases for enhanced animal health.</p>
-                  <a href="#" class="btn btn-primary">Learn More</a>
+                  <a href="#" class="btn btn-success">Learn More</a>
               </div>
             </div>
           </div>
@@ -648,7 +644,7 @@
             <div class="ov-content">
                 <h3 class="ov-title">Department of Clinical Science</h3>
                 <p class="ov-description">Gain hands-on experience in veterinary care, where students learn to diagnose and treat a variety of medical and surgical conditions in animals.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
+                <a href="#" class="btn btn-success">Learn More</a>
             </div>
           </div>
         </div>
@@ -677,7 +673,7 @@
               At CLSU College of Veterinary Science and Medicine, education goes beyond textbooks and lectures; it's about empowering students to become leaders in their fields and communities. Here, we foster a community where students not only excel in their academic pursuits but also engage in hands-on experiences and research that shape the future of veterinary medicine. From clinical rotations to community outreach programs, our students are equipped with the skills, knowledge, and compassion to make a real difference in the lives of animals and society. 
               </p>
               <p class="text-white">Check out the different CVSM Student Organizations</p>
-              <a href="#" class="btn btn-primary">Learn More</a>
+              <a href="#" class="btn btn-success">Learn More</a>
             </div>
         </div>
 

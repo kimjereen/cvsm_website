@@ -5,7 +5,7 @@
     <div class="container my-4 g-0">
         <!-- Section Title -->
         <div class="container-fluid mt-5">
-        <h3 class="section-subtitle font-blue">E-HISTOLOGY</h3>
+        <h3 class="section-subtitle font-blue">ONLINE RESOURCES</h3>
         </div>
 
         <div class="container">

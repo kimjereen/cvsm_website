@@ -2,7 +2,7 @@
 <!-- PAGE CONTENT STARTS HERE -->
 
     <!-- Upcoming -->
-    <div class="container my-4">
+    <div class="container my-4 g-0">
         <!-- Section Title -->
         <div class="container-fluid mt-5">
             <h3 class="section-subtitle font-blue">LATEST ANNOUNCEMENT</h3>
@@ -43,13 +43,13 @@
     </div>
 
     <!-- Events and Announcement  -->
-    <div class="container my-4">
+    <div class="container my-4 g-0">
         <!-- Section Title -->
         <div class="container-fluid mt-5">
             <h3 class="section-subtitle font-blue">EVENTS</h3>
         </div>
         
-        <div class="row row-cols-1 row-cols-md-2 mx-1">
+        <div class="row row-cols-1 row-cols-md-2 m-1">
 
             <div class="col mt-3">
                 <div class="row page-content-card rounded">

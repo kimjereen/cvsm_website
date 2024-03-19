@@ -16,25 +16,25 @@
 
     <ul class="nav nav-tabs page-bar text-center justify-content-center" role="tablist">
         <li class="nav-item col-md container-fluid p-2">
-            <a class="nav-link active" data-bs-toggle="tab" href="#tab-ongoing">Ongoing Projects</a>
+            <a class="nav-link active" data-bs-toggle="tab" href="#tab-ongoing-projects" onclick="updateURL('#tab-ongoing-projects')">Ongoing Projects</a>
         </li>
         <li class="nav-item col-md container-fluid p-2">
-            <a class="nav-link" data-bs-toggle="tab" href="#tab-publications">Publications</a>
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-publications" onclick="updateURL('#tab-publications')">Publications</a>
         </li>
         <li class="nav-item col-md container-fluid p-2">
-            <a class="nav-link" data-bs-toggle="tab" href="#tab-researchpartners">Research Partners</a>
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-research-partners" onclick="updateURL('#tab-research-partners')">Research Partners</a>
         </li>
     </ul>
 
     <!-- Tab panes -->
     <div class="tab-content">
-        <div id="tab-ongoing" class="container tab-pane active">
+        <div id="tab-ongoing-projects" class="container tab-pane active">
             @include('research.ongoing')
         </div>
         <div id="tab-publications" class="container tab-pane fade">
             @include('research.publication')
         </div>
-        <div id="tab-researchpartners" class="container tab-pane fade">
+        <div id="tab-research-partners" class="container tab-pane fade">
             @include('research.researchpartners')
         </div>
     </div>

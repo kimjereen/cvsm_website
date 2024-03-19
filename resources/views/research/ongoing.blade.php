@@ -42,6 +42,21 @@
             </div>
 
             
+            <div class="project m-4 px-5">
+                <div class="row">
+                    <div class="col-1">
+                        <p class="row-count">3</p>
+                    </div>
+                    <div class="col-11">
+                        <h4 class="project-title">Pre-commercialization of Probiotics and Prebiotics from Onion Wastes for Tilapia Culture</h4>
+                        <p class="project-info"><strong>Researchers:</strong>Dr. Ronalie B. Rafael </p>
+                        <p class="project-info"><strong>Funding Agency:</strong> DOST-PCARRD</p>
+                        <p class="project-info"><strong>Duration:</strong> May 2022 - October 31, 2023</p>
+                    </div>
+                </div>
+            </div>
+
+
             <div class="container-fluid page-content-footer"></div>
         </div>
 

@@ -29,6 +29,23 @@
     <!-- Custom CSS -->
     <link href="{{ asset('/assets_cvsm/css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('/assets_cvsm/css/pages.css') }}" rel="stylesheet">
+
+
+    <!-- Google Analytics (viewers of website) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HWL863DX70"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-HWL863DX70');
+    </script>
+
+    <!-- EmailJs for Contact Form -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        emailjs.init("IlX-GhO-OpUQE3uUi");
+    </script>
 </head>
 <body>
     <div class="navbar-wrapper">
@@ -93,24 +110,24 @@
             <div class="offcanvas-body">
             <ul class="navbar-nav m-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" href="{{ route('home') }}">Home</a>
+                    <a class="nav-link active navigate" href="{{ route('home') }}">Home</a>
                 </li>
                 
                 <!-- About Dropdown -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="{{ route('about') }}" role="button" data-bs-toggle="dropdown">About Us</a>
+                    <a class="nav-link dropdown-toggle navigate" href="{{ route('about') }}" role="button" data-bs-toggle="dropdown">About Us</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="{{ route('about') }}#tab-missionvision">Mission and Vision</a></li>
+                        <li><a class="dropdown-item" href="{{ route('about') }}#tab-mission-vision">Mission and Vision</a></li>
                         <li><a class="dropdown-item" href="{{ route('about') }}#tab-history">History</a></li>
                         <li><a class="dropdown-item" href="{{ route('about') }}#tab-objectives">Objectives</a></li>
                         <li><a class="dropdown-item" href="{{ route('about') }}#tab-administration">Administration</a></li>
                         <li class="dropdown">
                         <a class="dropdown-item dropdown-toggle" href="{{ route('about') }}#tab-departments">Departments</a>
                         <ul class="dropdown-menu dropdown-submenu">
-                            <li><a class="dropdown-item" href="{{ route('departments') }}#tab-morpho">Morphophysiology</a></li>
-                            <li><a class="dropdown-item" href="{{ route('departments') }}#tab-animal">Animal Management</a></li>
-                            <li><a class="dropdown-item" href="{{ route('departments') }}#tab-patho">Pathobiology</a></li>
-                            <li><a class="dropdown-item" href="{{ route('departments') }}#tab-clinical">Clinical Sciences</a></li>
+                            <li><a class="dropdown-item" href="{{ route('departments') }}#tab-morphophysiology">Morphophysiology</a></li>
+                            <li><a class="dropdown-item" href="{{ route('departments') }}#tab-animal-management">Animal Management</a></li>
+                            <li><a class="dropdown-item" href="{{ route('departments') }}#tab-pathobiology">Pathobiology</a></li>
+                            <li><a class="dropdown-item" href="{{ route('departments') }}#tab-clinical-sciences">Clinical Sciences</a></li>
                         </ul>
                         </li>
                         <li><a class="dropdown-item" href="{{ route('about') }}#tab-accreditations">Accreditations</a></li>
@@ -119,7 +136,7 @@
 
                 <!-- Academic Programs Dropdown -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="{{ route('academic') }}" role="button" data-bs-toggle="dropdown">Academic Programs</a>
+                    <a class="nav-link dropdown-toggle navigate" href="{{ route('academic') }}" role="button" data-bs-toggle="dropdown">Academic Programs</a>
                     <ul class="dropdown-menu">
                         <li class="dropdown">
                         <a class="dropdown-item dropdown-toggle" href="{{ route('academic') }}#tab-dvm">Doctor of Veterinary Medicine</a>
@@ -132,7 +149,7 @@
                         </ul>
                         </li>
                         <li class="dropdown">
-                        <a class="dropdown-item dropdown-toggle" href="{{ route('academic') }}#tab-mvst">Master of Veterinary Studies</a>
+                        <a class="dropdown-item dropdown-toggle navigate" href="{{ route('academic') }}#tab-mvst" >Master of Veterinary Studies</a>
                         <ul class="dropdown-menu dropdown-submenu">
                             <li><a class="dropdown-item" href="{{ route('academic') }}#mvst-program-objectives">Program Educational Objective</a></li>
                             <li><a class="dropdown-item" href="{{ route('academic') }}#mvst-admission">Admission</a></li>
@@ -144,11 +161,11 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="{{ route('research') }}" role="button" data-bs-toggle="dropdown">Research</a>
+                    <a class="nav-link dropdown-toggle navigate" href="{{ route('research') }}" role="button" data-bs-toggle="dropdown">Research</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="{{ route('research') }}#tab-ongoing">On-going Project</a></li>
+                        <li><a class="dropdown-item" href="{{ route('research') }}#tab-ongoing-projects">On-going Project</a></li>
                         <li><a class="dropdown-item" href="{{ route('research') }}#tab-publications">Publication</a></li>
-                        <li><a class="dropdown-item" href="{{ route('research') }}#tab-researchpartners">Research Partners</a></li>
+                        <li><a class="dropdown-item" href="{{ route('research') }}#tab-research-partners">Research Partners</a></li>
                     </ul>
                 </li>
 
@@ -161,27 +178,27 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="{{ route('facilities') }}" role="button" data-bs-toggle="dropdown">Resource & Facilities</a>
+                    <a class="nav-link dropdown-toggle navigate" href="{{ route('facilities') }}" role="button" data-bs-toggle="dropdown">Resource & Facilities</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="{{ route('facilities') }}">Lecture Halls</a></li>
-                        <li><a class="dropdown-item" href="{{ route('facilities') }}">Laboratories</a></li>
-                        <li><a class="dropdown-item" href="{{ route('facilities') }}">CenTrAD</a></li>
-                        <li><a class="dropdown-item" href="{{ route('facilities') }}">e-Histology</a></li>
+                        <li><a class="dropdown-item" href="{{ route('facilities') }}#tab-lecture-halls">Lecture Halls</a></li>
+                        <li><a class="dropdown-item" href="{{ route('facilities') }}#tab-laboratories">Laboratories</a></li>
+                        <li><a class="dropdown-item" href="{{ route('facilities') }}#tab-centrad">CenTrAD</a></li>
+                        <li><a class="dropdown-item" href="{{ route('facilities') }}#tab-online-resources">Online Resources</a></li>
                     </ul>
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="{{ route('extension') }}" role="button" data-bs-toggle="dropdown">Extension</a>
+                    <a class="nav-link dropdown-toggle navigate" href="{{ route('extension') }}" role="button" data-bs-toggle="dropdown">Extension</a>
                     <ul class="dropdown-menu dropdown-menu-lg-end">
-                        <li><a class="dropdown-item" href="{{ route('extension') }}">Vet Mission</a></li>
-                        <li><a class="dropdown-item" href="{{ route('extension') }}">Cattle Dispersal</a></li>
-                        <li><a class="dropdown-item" href="{{ route('extension') }}">Veterinary Teaching Hospital</a></li>
-                        <li><a class="dropdown-item" href="{{ route('extension') }}">Student Organizations</a></li>
+                        <li><a class="dropdown-item" href="{{ route('extension') }}#tab-vet-mission">Vet Mission</a></li>
+                        <li><a class="dropdown-item" href="{{ route('extension') }}#tab-cattle-dispersal">Cattle Dispersal</a></li>
+                        <li><a class="dropdown-item" href="{{ route('extension') }}#tab-veterinary-teaching-hospital">Veterinary Teaching Hospital</a></li>
+                        <li><a class="dropdown-item" href="{{ route('extension') }}#tab-student-organizations">Student Organizations</a></li>
                     </ul>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link navigate" href="{{ route('contact') }}">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -259,21 +276,92 @@
         }
 
 
+        function updateURL(hash) {
+            history.pushState(null, null, hash);
+        }
+
+
         // Activate the correct tab when the page loads
         $(document).ready(function () {
             activateTab();
+            activateTabFromHash();
 
             // Update the tab when the hash changes (e.g., clicking on a dropdown link)
             $(window).on('hashchange', function () {
                 activateTab();
             });
+
+            // Get the current pathname
+             var currentPath = window.location.pathname;
+
+            // Loop through each nav link
+            $('.navbar-nav .nav-link.navigate').each(function() {
+                // Get the href attribute of the nav link
+                var href = $(this).attr('href');
+
+                // Log the current href and currentPath for debugging
+                console.log('Current href:', href);
+                console.log('Current path:', currentPath);
+
+                // Extract the last segment of the href (assuming it's the page name)
+                var pageName = href.split('/').pop();
+                 
+                console.log('pageName:', pageName);
+
+                // Check if the current path contains the href attribute
+                if (currentPath.includes(pageName)) {
+                    // Add the 'active' class to the parent li element
+                    $(this).addClass('active');
+
+                    // Log a message indicating that the class has been added
+                    console.log('Added active class to:',$(this));
+                }
+
+
+            });
+
+        });
+
+       
+
+    
+        // Function to activate tab and display its content based on URL hash
+        function activateTabFromHash() {
+            // Get the hash from the URL
+            var hash = window.location.hash;
+
+            // Check if hash exists and if it corresponds to a tab
+            if (hash && $(hash).length) {
+
+                // Get the ID of the tab containing the hash
+                var tabId = $(hash).closest('.tab-pane').attr('id');
+
+                // Check if the tab ID exists
+                if (tabId) {
+                    // Remove 'active' class from all tabs
+                    $('.nav-link').removeClass('active');
+
+                    // Add 'active' class to the tab corresponding to the hash
+                    $('a[href="#' + tabId + '"]').addClass('active');
+
+
+                    // Show the tab's content
+                    $('.tab-pane').removeClass('show active');
+                    $('#' + tabId).addClass('show active');
+                }
+            }
+        }
+
+        // Activate tab based on URL hash when hash changes
+        $(window).on('hashchange', function() {
+            activateTabFromHash();
         });
 
 
 
-       
-
         
+
+
     </script>
 
 @yield('content')

@@ -8,9 +8,8 @@
         </button>
         </h2>
         <div id="child3-collapse1" class="accordion-collapse collapse" aria-labelledby="child3-heading1" data-bs-parent="#accordionChild3">
-            <div class="accordion-body accord-child-body">
-            <strong>Course Description: <br></strong>
-            Integration of approaches in understanding the elements and nature of zoonotic infections with microbial etiologies, collaboration in all aspects of health care for humans, animals, and the environment, and research in handling microbial zoonotic infections
+            <div class="accordion-body accord-child-body" style="padding: 0;">
+            @include('academic.courses.dvm-grandchilds.dvm-grandchild7')
             </div>
         </div>
     </div>
@@ -23,10 +22,8 @@
         </button>
         </h2>
         <div id="child3-collapse2" class="accordion-collapse collapse" aria-labelledby="child3-heading2" data-bs-parent="#accordionChild3">
-            <div class="accordion-body accord-child-body">
-            <strong>Course Description: <br></strong>
-            Integration of approaches in understanding the elements and nature of zoonotic infections with microbial etiologies, collaboration in all aspects of health care for humans, animals, and the environment, and research in handling microbial zoonotic infections
-            </div>
+            <div class="accordion-body accord-child-body" style="padding: 0;">
+            @include('academic.courses.dvm-grandchilds.dvm-grandchild8')</div>
         </div>
     </div>
 
@@ -39,10 +36,8 @@
         </button>
         </h2>
         <div id="child3-collapse3" class="accordion-collapse collapse" aria-labelledby="child3-heading3" data-bs-parent="#accordionChild3">
-            <div class="accordion-body accord-child-body">
-            <strong>Course Description: <br></strong>
-            Application of integrative methods in bridging the research to policy divide, adopting evidence-based approaches to policy making and systematic planning including problem tree analysis, stakeholder analysis, influence mapping and policy entrepreneurship.
-            </div>
+            <div class="accordion-body accord-child-body" style="padding: 0;">
+            @include('academic.courses.dvm-grandchilds.dvm-grandchild9')</div>
         </div>
     </div>
 

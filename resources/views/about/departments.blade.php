@@ -9,7 +9,7 @@
         </div>
 
         <div class="row row-cols-1 row-cols-md-2">
-        <div class="col mt-4">
+        <div class="col p-2">
             <a href="{{ route('departments') }}#tab-morpho" class="pop">
                 <div class="card rounded-shadow img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/temporary/bones.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 1">
@@ -32,7 +32,7 @@
             </a>
         </div>
 
-        <div class="col mt-4">
+        <div class="col p-2">
             <a href="{{ route('departments') }}#tab-animal" class="pop">
                 <div class="card rounded-shadow img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/temporary/Student - milking.jpeg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 2">
@@ -54,7 +54,7 @@
             </a>
         </div>
 
-        <div class="col mt-4">
+        <div class="col p-2">
             <a href="{{ route('departments') }}#tab-patho" class="pop">
                 <div class="card rounded-shadow img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/temporary/Student - fish.jpeg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 3">
@@ -76,7 +76,7 @@
             </a>
         </div>
 
-        <div class="col mt-4">
+        <div class="col p-2">
             <a href="{{ route('departments') }}#tab-clinical" class="pop">
                 <div class="card rounded-shadow img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/temporary/Student- centrifuge.jpeg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 3">
