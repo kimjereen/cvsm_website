@@ -1,32 +1,48 @@
-<section>
-<!-- PAGE CONTENT STARTS HERE -->
+<!-- Include header.php -->
+@extends('header')
 
-    <!-- Departments -->
-    <div class="container my-4 g-0">
+@section('content')
+
+<section class="page-wrapper">
+
+    <!-- PAGE COVER STARTS HERE -->
+    <div class="page-cover">
+        <img src="{{ asset('assets_cvsm/images/about-cover.jpg') }}" alt="About Cover">
+        <div class="cover-overlay"></div>
+        <div class="cover-title">E-HISTOLOGY</div>
+    </div>
+    <!-- PAGE COVER ENDS HERE -->
+
+
+    <div class="container">
         <!-- Section Title -->
         <div class="container-fluid mt-5">
-        <h3 class="section-subtitle font-blue">VET MISSION</h3>
+        <h3 class="section-subtitle font-blue">IMAGES</h3>
         </div>
 
-        <div class="container">
-            <div class="row row-cols-1 row-cols-md-3">
-                
+
+
+        <div class="row row-cols-1 row-cols-md-3">
+            
             <div class="col mt-3 gallery-item">
                 <div class="card rounded-shadow img-zoom-container" data-bs-toggle="modal" data-bs-target="#imageModal">
                     <img src="{{ asset('assets_cvsm/images/temporary/bones.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom modalImage" alt="Facility 1">
                     <div class=""></div>
                     
                     <div class="card-body1">
-                        <h5 class="card-title">Vet Mission</h5>
+                        <h5 class="card-title">Laboratory</h5>
                     </div>
                     <div class="container-fluid page-content-footer"></div>
                 </div>
             </div>
 
-            </div> 
-        </div>
-        
+        </div> 
     </div>
 
-<!-- PAGE CONTENT ENDS HERE -->
 </section>
+
+
+<!-- Include footer.php -->
+@include('footer')
+
+@endsection

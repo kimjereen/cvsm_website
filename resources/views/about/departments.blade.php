@@ -12,7 +12,7 @@
         <div class="col p-2">
             <a href="{{ route('departments') }}#tab-morpho" class="pop">
                 <div class="card rounded-shadow img-zoom-container">
-                    <img src="{{ asset('assets_cvsm/images/temporary/bones.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 1">
+                    <img src="{{ asset('assets_cvsm/images/temporary/cover-morpho.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 1">
                     <div class="card-overlay"></div>
                     
                     <div class="card-logo-container d-flex">
@@ -97,7 +97,7 @@
                 </div>
             </a>
         </div>
-      </div> 
+        </div> 
     </div>
 
 <!-- PAGE CONTENT ENDS HERE -->

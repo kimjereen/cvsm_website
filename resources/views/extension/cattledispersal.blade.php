@@ -11,85 +11,13 @@
         <div class="container">
             <div class="row row-cols-1 row-cols-md-3">
                 
-            <div class="col mt-3">
-                <div class="card rounded-shadow img-zoom-container">
-                    <img src="{{ asset('assets_cvsm/images/temporary/bones.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 1">
-                    <div class="card-overlay"></div>
+            <div class="col mt-3 gallery-item">
+                <div class="card rounded-shadow img-zoom-container" data-bs-toggle="modal" data-bs-target="#imageModal">
+                    <img src="{{ asset('assets_cvsm/images/temporary/bones.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom modalImage" alt="Facility 1">
+                    <div class=""></div>
                     
-                    <div class="card-body">
+                    <div class="card-body1">
                         <h5 class="card-title">Cattle Dispersal</h5>
-                    </div>
-                    <div class="card-body2">
-                        <h5 class="card-title">Cattle Dispersal</h5>
-                        <p class="card-caption">this picture is </p>
-                    </div>
-                    <div class="container-fluid page-content-footer"></div>
-                </div>
-            </div>
-
-
-            <div class="col mt-3">
-                <div class="card rounded-shadow img-zoom-container">
-                    <img src="{{ asset('assets_cvsm/images/temporary/bones.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 1">
-                    <div class="card-overlay"></div>
-                    
-                    <div class="card-body">
-                        <h5 class="card-title">Cattle Dispersal</h5>
-                    </div>
-                    <div class="card-body2">
-                        <h5 class="card-title">Cattle Dispersal</h5>
-                        <p class="card-caption">this picture is </p>
-                    </div>
-                    <div class="container-fluid page-content-footer"></div>
-                </div>
-            </div>
-
-
-            <div class="col mt-3">
-                <div class="card rounded-shadow img-zoom-container">
-                    <img src="{{ asset('assets_cvsm/images/temporary/bones.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 1">
-                    <div class="card-overlay"></div>
-                    
-                    <div class="card-body">
-                        <h5 class="card-title">Cattle Dispersal</h5>
-                    </div>
-                    <div class="card-body2">
-                        <h5 class="card-title">Cattle Dispersal</h5>
-                        <p class="card-caption">this picture is </p>
-                    </div>
-                    <div class="container-fluid page-content-footer"></div>
-                </div>
-            </div>
-            
-
-            <div class="col mt-3">
-                <div class="card rounded-shadow img-zoom-container">
-                    <img src="{{ asset('assets_cvsm/images/temporary/bones.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 1">
-                    <div class="card-overlay"></div>
-                    
-                    <div class="card-body">
-                        <h5 class="card-title">Cattle Dispersal</h5>
-                    </div>
-                    <div class="card-body2">
-                        <h5 class="card-title">Cattle Dispersal</h5>
-                        <p class="card-caption">this picture is </p>
-                    </div>
-                    <div class="container-fluid page-content-footer"></div>
-                </div>
-            </div>
-
-
-            <div class="col mt-3">
-                <div class="card rounded-shadow img-zoom-container">
-                    <img src="{{ asset('assets_cvsm/images/temporary/bones.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 1">
-                    <div class="card-overlay"></div>
-                    
-                    <div class="card-body">
-                        <h5 class="card-title">Cattle Dispersal</h5>
-                    </div>
-                    <div class="card-body2">
-                        <h5 class="card-title">Cattle Dispersal</h5>
-                        <p class="card-caption">this picture is </p>
                     </div>
                     <div class="container-fluid page-content-footer"></div>
                 </div>

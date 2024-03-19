@@ -433,7 +433,7 @@
             <a href="#" class="pop">
             <div class="col mt-3">
                 <div class="card rounded-shadow img-zoom-container">
-                    <img src="{{ asset('assets_cvsm/images/temporary/phonto.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 3">
+                    <img src="{{ asset('assets_cvsm/images/temporary/cover-centrad.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 3">
                     <div class="card-overlay"></div>
                     
                     <div class="card-logo-container d-flex">
@@ -474,7 +474,7 @@
         <div class="col mt-4">
         <a href="{{ route('departments') }}#tab-morpho" class="pop">
             <div class="card rounded-shadow img-zoom-container">
-                <img src="{{ asset('assets_cvsm/images/temporary/bones.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 1">
+                <img src="{{ asset('assets_cvsm/images/temporary/cover-morpho.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 1">
                 <div class="card-overlay"></div>
                 
                 <div class="card-logo-container d-flex">

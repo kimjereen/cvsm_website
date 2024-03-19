@@ -645,8 +645,34 @@ a .btn-icon {
 
 
 
-/* Facilities and extension */
+/* Facilities and extension IMAGE GALLERY STUFF */
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
 
+.modal-body img {
+    width: 100100%;
+    height: auto;
+}
+body.modal-open {
+    padding-right: 0 !important;
+}
+.custom-close-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--gray-opacity); /* Dark background color */
+    color: white; /* White text color */
+    border: none;
+    outline: none;
+}
+
+/* Style for when button is hovered */
+.custom-close-btn:hover {
+    background-color: var(--primary2); /* Darker background color on hover */
+}
 
 /* 00. CONTACT */
 .custom-input {

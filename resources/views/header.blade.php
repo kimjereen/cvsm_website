@@ -101,8 +101,9 @@
         <!-- Offcanvas Sidebar -->
         <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel" data-bs-backdrop="false">
             <div class="offcanvas-header">
+                
                 <button id="offcanvas-close" type="button" class="custom-close" data-bs-dismiss="offcanvas" aria-label="Close">
-                    <span class="custom-close-icon"><i class="bi bi-x fs-1"></i></span>
+                ✖
                 </button>
                 <img src="{{ asset('assets_cvsm/images/clsu-logo.png') }}" alt="CVSM Logo" style="max-height: 100px; margin: 20px 100px;">
             </div>
@@ -363,5 +364,54 @@
 
 
     </script>
+
+
+    <!-- Image Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <button type="button" class="custom-close-btn position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close">✖</button>
+
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content border-0 bg-transparent">
+                <div class="modal-body p-0">
+                    <div class="text-center">
+                        <img src="" alt="" id="modalImage" class="img-fluid">
+                    </div>
+                    <div class="p-3 text-white" id="modalBodyContent"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script>
+    var modalImage = document.getElementById('modalImage');
+    var modalBodyContent = document.getElementById('modalBodyContent');
+    var modal = new bootstrap.Modal(document.getElementById('imageModal'));
+
+    // Function to set modal image source and body content
+    function setModalContent(imageSrc, bodyContent) {
+        console.log("Image Source:", imageSrc);
+        console.log("Body Content:", bodyContent);
+        modalImage.src = imageSrc;
+        modalBodyContent.innerHTML = bodyContent;
+    }
+
+    // Add event listeners to gallery items
+    document.addEventListener('DOMContentLoaded', function() {
+        var galleryItems = document.querySelectorAll('.gallery-item');
+        galleryItems.forEach(function(item) {
+            item.addEventListener('click', function() {
+                var imageSrc = this.querySelector('img').getAttribute('src');
+                var bodyContent = this.querySelector('.card-body1').innerHTML;
+                setModalContent(imageSrc, bodyContent);
+                modal.show();
+            });
+        });
+    });
+    </script>
+
+
 
 @yield('content')

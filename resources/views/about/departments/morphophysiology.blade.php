@@ -22,7 +22,7 @@
 
             <div class="col-lg m-2 rounded g-0">
                 <div class="card img-zoom-container">
-                    <img src="{{ asset('assets_cvsm/images/temporary/bones.jpg') }}" class="img-fluid" alt="Academic Program 1">
+                    <img src="{{ asset('assets_cvsm/images/temporary/cover-morpho.jpg') }}" class="img-fluid" alt="Academic Program 1">
                 </div>
             </div>
         </div>

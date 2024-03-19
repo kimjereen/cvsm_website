@@ -8,6 +8,8 @@
         <h3 class="section-subtitle font-blue">CLSU MISSION AND VISION</h3>
         </div>
 
+        <!--
+
         <div class="row justify-content-center">
             <div class="col-lg m-2 page-content-card rounded">
                 
@@ -33,7 +35,7 @@
                 <div class="container-fluid page-content-footer"></div>
             </div>
         </div>
-
+-->
 
 
 

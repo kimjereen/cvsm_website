@@ -321,14 +321,17 @@ span {
   z-index: 9999;
 }
 .custom-close {
-  color: var(--white);
-  background-color: var(--yellow-green);
-  border: none;
-  transition: transform 1s ease-in-out;
-  padding-top: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
+  background-color: var(--yellow-green); /* Dark background color */
+  color: white; /* White text color */
+  border: none;
+  outline: none;
+  transition: transform 1s ease-in-out;
+  padding-top: 4px;
+  padding-left: 5px;
+  padding-right: 4px;
 }
 
 /* Dropdown */
@@ -510,7 +513,7 @@ span {
 }
 .card:hover .card-overlay {
   background: var(--tall-opacity);
-  height: 200%;
+  height: 100%;
 }
 
 /* card-overlay2 to side*/
@@ -527,7 +530,7 @@ span {
 
 .card:hover .card-overlay2 {
   background: var(--tall-opacity);
-  width: 100%; /* Fill the width on hover */
+  width: 100%; 
 }
 
 

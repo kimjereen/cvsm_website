@@ -127,6 +127,9 @@
             <div class="container-fluid page-content-footer"></div>
         </div>
 
+
+
+        <!--
         <div class="m-2">
             <div class="row row-cols-1 row-cols-md-4 my-3">
 
@@ -250,7 +253,7 @@
                 </div>
 
             </div>
-        </div>
+        </div>-->
 
     </div>
 

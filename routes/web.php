@@ -28,5 +28,6 @@ Route::get('/academic-programs', [NavigationController::class, 'academic'])->nam
 Route::get('/research-and-publications', [NavigationController::class, 'research'])->name('research');
 Route::get('/news-and-events', [NavigationController::class, 'news'])->name('news');
 Route::get('/resource-and-facilities', [NavigationController::class, 'facilities'])->name('facilities');
+Route::get('/resource-and-facilities/online-resources/e-histology', [NavigationController::class, 'histology'])->name('histology');
 Route::get('/extension', [NavigationController::class, 'extension'])->name('extension');
 Route::get('/contact-us', [NavigationController::class, 'contact'])->name('contact');

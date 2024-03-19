@@ -46,6 +46,11 @@ class NavigationController extends Controller
         return view('facilities');
     }
 
+    public function histology()
+    {
+        return view('facilities.online.ehistology');
+    }
+
     public function extension()
     {
         return view('extension');
