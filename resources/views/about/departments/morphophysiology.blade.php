@@ -14,7 +14,7 @@
             <div class="col-lg m-2 white-texture page-content-card rounded d-flex justify-content-center align-items-center">
                 <div class="container page-content-body text-center">
                     <p class="about-content-text">
-                        Explore anatomy, physiology, and pharmacology in animals, unraveling the intricacies of living organisms.
+                    The department offers basic veterinary subjects like anatomy, physiology and pharmacology.  DVM students are introduced to the different animal body parts (gross and microscopic) and their respective functions. It is also where they learn the mechanisms of action of every veterinary drug and how it interacts within the animal body.
                     </p>
                 </div>
             <div class="container-fluid page-content-footer"></div>

@@ -46,7 +46,7 @@
                         </div>
 
                         <p class="page-content-text p-2">
-                            Department of Morphophysiology and Parmacology 
+                            Department of Morphophysiology and Pharmacology 
                         </p>
                     </div>
 

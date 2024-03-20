@@ -1,18 +1,4 @@
-<!-- Include header.php -->
-@extends('header')
-
-@section('content')
-
 <section class="page-wrapper">
-
-    <!-- PAGE COVER STARTS HERE -->
-    <div class="page-cover">
-        <img src="{{ asset('assets_cvsm/images/about-cover.jpg') }}" alt="About Cover">
-        <div class="cover-overlay"></div>
-        <div class="cover-title">E-HISTOLOGY</div>
-    </div>
-    <!-- PAGE COVER ENDS HERE -->
-
 
     <div class="container">
         <!-- Section Title -->
@@ -24,7 +10,7 @@
 
         <div class="row row-cols-1 row-cols-md-3">
             
-        <a href="#" class="pop">
+        <a href="{{ route('goat') }}" class="pop">
             <div class="col mt-3 ">
                 <div class="card rounded-shadow img-zoom-container" >
                     <img src="{{ asset('assets_cvsm/images/temporary/bones.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom modalImage" alt="Facility 1">
@@ -38,7 +24,7 @@
             </div>
         </a>
             
-        <a href="#" class="pop">
+        <a href="{{ route('dog') }}" class="pop">
             <div class="col mt-3 ">
                 <div class="card rounded-shadow img-zoom-container" >
                     <img src="{{ asset('assets_cvsm/images/temporary/bones.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom modalImage" alt="Facility 1">
@@ -52,7 +38,7 @@
             </div>
         </a>
             
-        <a href="#" class="pop">
+        <a href="{{ route('cat') }}" class="pop">
             <div class="col mt-3 ">
                 <div class="card rounded-shadow img-zoom-container" >
                     <img src="{{ asset('assets_cvsm/images/temporary/bones.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom modalImage" alt="Facility 1">
@@ -66,7 +52,7 @@
             </div>
         </a>
             
-        <a href="#" class="pop">
+        <a href="{{ route('cattle') }}" class="pop">
             <div class="col mt-3 ">
                 <div class="card rounded-shadow img-zoom-container" >
                     <img src="{{ asset('assets_cvsm/images/temporary/bones.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom modalImage" alt="Facility 1">
@@ -80,7 +66,7 @@
             </div>
         </a>
             
-        <a href="#" class="pop">
+        <a href="{{ route('horse') }}" class="pop">
             <div class="col mt-3 ">
                 <div class="card rounded-shadow img-zoom-container" >
                     <img src="{{ asset('assets_cvsm/images/temporary/bones.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom modalImage" alt="Facility 1">
@@ -92,7 +78,9 @@
                     <div class="container-fluid page-content-footer"></div>
                 </div>
             </div>
+        </a>
             
+        <a href="{{ route('pig') }}" class="pop">
             <div class="col mt-3 ">
                 <div class="card rounded-shadow img-zoom-container" >
                     <img src="{{ asset('assets_cvsm/images/temporary/bones.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom modalImage" alt="Facility 1">
@@ -104,7 +92,9 @@
                     <div class="container-fluid page-content-footer"></div>
                 </div>
             </div>
+        </a>
             
+        <a href="{{ route('othermammals') }}" class="pop">
             <div class="col mt-3 ">
                 <div class="card rounded-shadow img-zoom-container" >
                     <img src="{{ asset('assets_cvsm/images/temporary/bones.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom modalImage" alt="Facility 1">
@@ -116,14 +106,9 @@
                     <div class="container-fluid page-content-footer"></div>
                 </div>
             </div>
+        </a>
 
         </div> 
     </div>
 
 </section>
-
-
-<!-- Include footer.php -->
-@include('footer')
-
-@endsection

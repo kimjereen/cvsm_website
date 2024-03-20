@@ -184,7 +184,13 @@
                         <li><a class="dropdown-item" href="{{ route('facilities') }}#tab-lecture-halls">Lecture Halls</a></li>
                         <li><a class="dropdown-item" href="{{ route('facilities') }}#tab-laboratories">Laboratories</a></li>
                         <li><a class="dropdown-item" href="{{ route('facilities') }}#tab-centrad">CenTrAD</a></li>
-                        <li><a class="dropdown-item" href="{{ route('facilities') }}#tab-online-resources">Online Resources</a></li>
+                        <li class="dropdown">
+                        <a class="dropdown-item dropdown-toggle" href="{{ route('facilities') }}#tab-online-resources">Online Resources</a>
+                        <ul class="dropdown-menu dropdown-submenu">
+                            <li><a class="dropdown-item" href="{{ route('histology') }}#tab-mammals">Mammals</a></li>
+                            <li><a class="dropdown-item" href="{{ route('histology') }}#tab-avians">Avians</a></li>
+                        </ul>
+                        </li>
                     </ul>
                 </li>
 

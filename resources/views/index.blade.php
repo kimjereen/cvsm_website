@@ -484,12 +484,12 @@
                 </div>
           
                 <div class="card-body">
-                    <h5 class="card-title">Department of Morphophysiology</h5>
+                    <h5 class="card-title">Department of Morphophysiology and Pharmacology</h5>
                 </div>
 
                 <div class="card-body2">
-                  <h5 class="card-title">Department of Morphophysiology</h5>
-                  <p class="ov-description">Explore anatomy, physiology, and pharmacology in animals, unraveling the intricacies of living organisms.</p>
+                  <h5 class="card-title">Department of Morphophysiology and Pharmacology</h5>
+                  <p class="ov-description">The department offers basic veterinary subjects like anatomy, physiology and pharmacology.</p>
                 </div>
             </div>
         </a>

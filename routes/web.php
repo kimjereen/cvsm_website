@@ -31,3 +31,19 @@ Route::get('/resource-and-facilities', [NavigationController::class, 'facilities
 Route::get('/resource-and-facilities/online-resources/e-histology', [NavigationController::class, 'histology'])->name('histology');
 Route::get('/extension', [NavigationController::class, 'extension'])->name('extension');
 Route::get('/contact-us', [NavigationController::class, 'contact'])->name('contact');
+
+
+
+Route::get('/resource-and-facilities/online-resources/e-histology/mammals', [NavigationController::class, 'mammals'])->name('mammals');
+    Route::get('/resource-and-facilities/online-resources/e-histology/mammals/goat', [NavigationController::class, 'goat'])->name('goat');
+    Route::get('/resource-and-facilities/online-resources/e-histology/mammals/dog', [NavigationController::class, 'dog'])->name('dog');
+    Route::get('/resource-and-facilities/online-resources/e-histology/mammals/cat', [NavigationController::class, 'cat'])->name('cat');
+    Route::get('/resource-and-facilities/online-resources/e-histology/mammals/cattle', [NavigationController::class, 'cattle'])->name('cattle');
+    Route::get('/resource-and-facilities/online-resources/e-histology/mammals/horse', [NavigationController::class, 'horse'])->name('horse');
+    Route::get('/resource-and-facilities/online-resources/e-histology/mammals/pig', [NavigationController::class, 'pig'])->name('pig');
+    Route::get('/resource-and-facilities/online-resources/e-histology/mammals/other-mammals', [NavigationController::class, 'otherMammals'])->name('othermammals');
+
+Route::get('/resource-and-facilities/online-resources/e-histology/avian', [NavigationController::class, 'avian'])->name('avian');
+Route::get('/resource-and-facilities/online-resources/e-histology/avian/chicken', [NavigationController::class, 'horse'])->name('horse');
+Route::get('/resource-and-facilities/online-resources/e-histology/avian/duck', [NavigationController::class, 'pig'])->name('pig');
+Route::get('/resource-and-facilities/online-resources/e-histology/avian/other-avians', [NavigationController::class, 'otherMammals'])->name('othermammals');

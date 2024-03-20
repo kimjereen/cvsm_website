@@ -48,7 +48,7 @@ class NavigationController extends Controller
 
     public function histology()
     {
-        return view('facilities.online.ehistology');
+        return view('facilities.onlineresources.ehistology');
     }
 
     public function extension()
@@ -61,4 +61,65 @@ class NavigationController extends Controller
         return view('contact');
     }
 
+
+
+
+
+
+
+
+
+
+    //MAMALS routing STARTS HERE
+    public function goat()
+    {
+        return view('facilities.onlineresources.ehistology-categories.mammals.goat');
+    }
+
+    public function dog()
+    {
+        return view('facilities.onlineresources.ehistology-categories.mammals.dog');
+    }
+
+    public function cat()
+    {
+        return view('facilities.onlineresources.ehistology-categories.mammals.cat');
+    }
+
+    public function cattle()
+    {
+        return view('facilities.onlineresources.ehistology-categories.mammals.cattle');
+    }
+
+    public function horse()
+    {
+        return view('facilities.onlineresources.ehistology-categories.mammals.horse');
+    }
+
+    public function pig()
+    {
+        return view('facilities.onlineresources.ehistology-categories.mammals.pig');
+    }
+
+    public function otherMammals()
+    {
+        return view('facilities.onlineresources.ehistology-categories.mammals.othermammals');
+    }
+    //MAMALS routing ENDS HERE
+
+
+    //AVIAN routing STARTS HERE
+    public function chicken()
+    {
+        return view('facilities.onlineresources.ehistology-categories.mammals.chiken');
+    }
+    public function duck()
+    {
+        return view('facilities.onlineresources.ehistology-categories.mammals.duck');
+    }
+    public function otherAvians()
+    {
+        return view('facilities.onlineresources.ehistology-categories.avian.otheravians');
+    }
+    //AVIAN routing ENDS HERE
 }
