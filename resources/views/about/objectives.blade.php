@@ -21,7 +21,7 @@
 
             <div class="col-lg m-2 rounded g-0">
                 <div class="card img-zoom-container">
-                    <img src="{{ asset('assets_cvsm/images/seiver.webp') }}" class="img-fluid" alt="Academic Program 1">
+                    <img src="{{ asset('assets_cvsm/images/temporary/about-objectives.jpg') }}" class="img-fluid" alt="About Objectives">
                 </div>
             </div>
         </div>

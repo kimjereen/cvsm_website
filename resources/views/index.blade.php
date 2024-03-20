@@ -164,46 +164,47 @@
         </div>
 
         <!-- The Events -->
-        <div class="container-fluid" style="height: 340px;">
+        <div class="container-fluid">
           
         <a href="#" class="pop">
-          <div class="calendar row mb-2 rounded" style="height: 85px;">
+          <div class="calendar row mb-2 rounded">
               
-                  <div class="col-4 event-date d-flex align-items-center justify-content-center">
-                    <div class="text-center py-4">
-                        <h2 class="event-num text-white">27</h2>
-                        <span class="event-month">FEBRUARY</span>
-                    </div>
+                <div class="col-lg-4 event-date d-flex align-items-center justify-content-center">
+                  <div class="text-center py-4">
+                      <h2 class="event-num text-white">27</h2>
+                      <span class="event-month">FEBRUARY</span>
                   </div>
+                </div>
 
-              <div class="col-8 event-description d-flex flex-column justify-content-center">
-                  <h5 class="mt-3">Lecture on Innovations in Diagnostics and Infectious Diseases Modeling</h5>
+              <div class="col-lg-8 event-description d-flex flex-column justify-content-center">
+                  <h5 class="mt-3 event-title">Lecture on Innovations in Diagnostics and Infectious Diseases Modeling</h5>
                   <p><i class="bi bi-geo-alt-fill event-loc"></i>Center for Transboundary Animal Diseases (CenTrAD) Mini Theater</p>
               </div>
           </div>
         </a>
 
+
         <a href="#" class="pop">
-          <div class="calendar row mb-2 rounded" style="height: 85px;">
+          <div class="calendar row mb-2 rounded">
               
-                  <div class="col-4 event-date d-flex align-items-center justify-content-center">
+                  <div class="col-lg-4 event-date d-flex align-items-center justify-content-center">
                     <div class="text-center py-4">
                         <h2 class="event-num text-white">23</h2>
                         <span class="event-month">FEBRUARY</span>
                     </div>
                   </div>
 
-              <div class="col-8 event-description d-flex flex-column justify-content-center">
-                  <h5 class="mt-3">Pass with Flying Colors: Seminar on Healthy Academic Habits</h5>
+              <div class="col-lg-8 event-description d-flex flex-column justify-content-center">
+                  <h5 class="mt-3 event-title">Pass with Flying Colors: Seminar on Healthy Academic Habits</h5>
                   <p><i class="bi bi-geo-alt-fill event-loc"></i>CEd Amphitheater</p>
               </div>
           </div>
         </a>
 
         <a href="#" class="pop">
-          <div class="calendar row mb-2 rounded" style="height: 85px;">
+          <div class="calendar row mb-2 rounded">
               
-                  <div class="col-4 event-date d-flex align-items-center justify-content-center">
+                  <div class="col-lg-4 event-date d-flex align-items-center justify-content-center">
                     <div class="text-center py-4">
                         <h2 class="event-num text-white">23</h2>
                         <span class="event-month">FEBRUARY</span>
@@ -219,25 +220,25 @@
                   </div>
               </div>-->
 
-              <div class="col-8 event-description d-flex flex-column justify-content-center">
-                  <h5 class="mt-3">WEBINAR ALERT! Online Seminar on Freshwater Eel Management</h5>
+              <div class="col-lg-8 event-description d-flex flex-column justify-content-center">
+                  <h5 class="mt-3 event-title">WEBINAR ALERT! Online Seminar on Freshwater Eel Management</h5>
                   <p><i class="bi bi-geo-alt-fill event-loc"></i>Online Seminar</p>
               </div>
           </div>
         </a>
 
         <a href="#" class="pop">
-          <div class="calendar row mb-2 rounded" style="height: 85px;">
+          <div class="calendar row mb-2 rounded">
              
-                  <div class="col-4 event-date d-flex align-items-center justify-content-center">
+                  <div class="col-lg-4 event-date d-flex align-items-center justify-content-center">
                     <div class="text-center py-4">
                         <h2 class="event-num text-white">16</h2>
                         <span class="event-month">FEBRUARY</span>
                     </div>
                   </div>
 
-              <div class="col-8 event-description d-flex flex-column justify-content-center">
-                  <h5 class="mt-3">WCLSU-VTH Awareness Campaign</h5>
+              <div class="col-lg-8 event-description d-flex flex-column justify-content-center">
+                  <h5 class="mt-3 event-title">WCLSU-VTH Awareness Campaign</h5>
                   <p><i class="bi bi-geo-alt-fill event-loc"></i>CLSU Community</p>
               </div>
           </div>
@@ -250,7 +251,6 @@
   </div>
   <!-- NEWS & ANNOUNCEMENTS ENDS HERE -->
 
-
   <!-- ACADEMIC PROGRAMS STARTS HERE -->
   <div class="container my-5 add-spacing">
 
@@ -259,6 +259,7 @@
       <div class="shorter-line"></div>
       <h3 class="section-title mb-4">ACADEMIC PROGRAMS</h3>
     </div>
+
 
     <!-- Academic Programs Container -->
     <div class="row g-0 my-1">
@@ -673,7 +674,7 @@
               At CLSU College of Veterinary Science and Medicine, education goes beyond textbooks and lectures; it's about empowering students to become leaders in their fields and communities. Here, we foster a community where students not only excel in their academic pursuits but also engage in hands-on experiences and research that shape the future of veterinary medicine. From clinical rotations to community outreach programs, our students are equipped with the skills, knowledge, and compassion to make a real difference in the lives of animals and society. 
               </p>
               <p class="text-white">Check out the different CVSM Student Organizations</p>
-              <a href="#" class="btn btn-success">Learn More</a>
+              <a href="{{ route('extension') }}#tab-student-organizations" class="btn btn-success">Learn More</a>
             </div>
         </div>
 

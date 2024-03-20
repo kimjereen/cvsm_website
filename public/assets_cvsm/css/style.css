@@ -448,6 +448,7 @@ span {
 .calendar {
   background: var(--white);
   border-radius: 3px;
+  height: 85px;
 }
 .event-date {
   background: var(--primary);
@@ -472,8 +473,15 @@ span {
   text-overflow: ellipsis;
   width: 60%;
   display: -webkit-box;
+  margin: 0;
   /*-webkit-line-clamp: 2; // Number of lines to show before truncating 
   -webkit-box-orient: vertical;*/
+} 
+.event-description h5 {
+  font-size: clamp(5px, 3vw, 20px) !important;
+}
+.event-description p {
+  font-size: clamp(5px, 2.5vw, 16px) !important;
 }
 
 /* Academic Programs OVERVIEW */
@@ -508,9 +516,10 @@ span {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 40%;
+  height: 50%;
   transition: height 0.5s ease;
 }
+
 .card:hover .card-overlay {
   background: var(--tall-opacity);
   height: 100%;
@@ -519,18 +528,17 @@ span {
 /* card-overlay2 to side*/
 .card-overlay2 {
   padding: 0;
-  background: var(--tall-opacity); 
+  background: var(--gray-gradient); 
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 0; /* Initial width set to 0 */
-  height: 100%;
-  transition: width 0.5s ease; /* Transition width instead of height */
+  width: 100%; 
+  height: 200%;
+  transition: opacity 0.5s ease; 
 }
 
 .card:hover .card-overlay2 {
   background: var(--tall-opacity);
-  width: 100%; 
 }
 
 
@@ -594,13 +602,14 @@ span {
 
 /* Commercial */
 .showcase-text {
-  padding: 30px 70px;
+  padding: 20px;
 }
 .showcase-title {
   color: var(--tertiary);
 }
 .showcase-caption {
   color: var(--white);
+  text-align: justify;
 }
 .iframe-container {
   height: 400px;
@@ -686,23 +695,21 @@ span {
 }
 .ov-content {
   position: absolute;
-  top: 50%;
-  left: 30%;
-  transform: translate(-40%, -50%);
-  z-index: 2; 
+  width: 100%;
+  top: 0;
+  z-index: 1; 
   color: var(--white); 
-  padding: 20px; 
   text-align: left;
-  z-index: 3; 
+  padding: 60px;
+  margin-top: 10px;
 }
 .ov-title {
   color: var(--tertiary);
   font-size: 24px;
-  margin-bottom: 10px;
 }
 .ov-description {
   font-size: 16px;
-  margin-bottom: 20px;
+  text-align: justify;
 }
 
 
@@ -808,6 +815,20 @@ col-xxl-* - 1400px */
   .navbar .nav-link.active:hover {
     background-color: var(--primary2);
   }
+
+  .calendar {
+    height: auto;
+  }
+  .event-description {
+    white-space: wrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    width: 100%;
+    padding: 0 20px;
+    /*-webkit-line-clamp: 2; // Number of lines to show before truncating 
+    -webkit-box-orient: vertical;*/
+  } 
 }
 
 @media screen and (max-width: 850px) {
