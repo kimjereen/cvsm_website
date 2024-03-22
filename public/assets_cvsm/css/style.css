@@ -162,6 +162,8 @@ h1 {
 .btn-success:hover, .btn-success:active {
   background-color: var(--yellow-green);
   border: none;
+  transform: scaleX(1.03);
+  transition: transform 0.3s ease-in-out;
 }
 
 .card-btn{
@@ -271,6 +273,9 @@ li::marker {
   background-clip: text;
   color: transparent; /* Hide the original text color */
 }
+.nav-header-address h6 {
+  font-size: clamp(10px, 2.6vw, 17px);
+}
 .nav-header-address {
   background-image: var(--primary-gradient);
   -webkit-background-clip: text; /* For Safari */
@@ -333,7 +338,7 @@ li::marker {
   top: 0;
   right: 0;
   bottom: 0;
-  z-index: 9999;
+  z-index: 800;
 }
 .custom-close {
   width: 40px;

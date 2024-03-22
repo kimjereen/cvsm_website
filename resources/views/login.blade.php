@@ -12,6 +12,12 @@
             width: 800px; /* Set maximum width */
         }
     </style>
+    
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets_cvsm/images/cvsm-logo.png') }}">
+    <!-- Custom CSS -->
+    <link href="{{ asset('/assets_cvsm/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('/assets_cvsm/css/pages.css') }}" rel="stylesheet">
 </head>
 <body>
 
@@ -20,7 +26,7 @@
 
         <div class="row rounded-3 bg-white shadow box-area">
 
-            <div class="col-sm rounded-2 d-flex justify-content-center align-items-center flex-column" style="background-image: url('{{ asset('assets_cvsm/images/login-image.png') }}'); background-size: cover; background-position: center;">
+            <div class="col-sm rounded-2 d-flex justify-content-center align-items-center flex-column white-texture">
                 <div class="featured-image m-3">
                     <img src="{{ asset('assets_cvsm/images/cvsm-logo.png') }}" alt="Logo 1"style="width: 200px;">
                 </div>
@@ -29,18 +35,18 @@
                 
             <div class="col-sm" style="padding: 40px 30px 40px 30px">
                 <div class="row align-items-center">
-                        <div class="header-text mb-4">
+                        <div class=" mb-4">
                             <h2>Hello, Admin</h2>
-                            <p>We are happy to have you back. please login to continue</p>
+                            <p class="text-muted">We are happy to have you back. please login to continue</p>
                         </div>
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control form-control-lg bg-light fs-6" placeholder="Email address">
+                            <input type="text" class="form-control custom-input" placeholder="Email address">
                         </div>
                         <div class="input-group mb-1">
-                            <input type="password" class="form-control form-control-lg bg-light fs-6" placeholder="Password">
+                            <input type="password" class="form-control custom-input" placeholder="Password">
                         </div>
                         <div class="input-group mb-3 mt-3">
-                            <button class="btn btn-lg btn-primary w-100 fs-6 ">Login</button>
+                            <button class="btn btn-success w-100">Login</button>
                         </div>
                 </div>
             </div> 

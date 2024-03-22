@@ -705,6 +705,10 @@ body.modal-open {
     border-color: var(--primary); /* Change to desired focus color */
     box-shadow: 0 0 0px var(--primary2); /* Optional: Adding a box shadow for focus effect */
 }
+.form-label {
+    color: var(--dark-gray);
+    margin-bottom: 0;
+}
 
 .contact-info {
     color: #333;

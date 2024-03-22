@@ -19,8 +19,10 @@
       <h3 class="section-title mb-4">GET IN TOUCH</h3>
 
     <div class="contact-info">
-        <p><small class="text-muted"><i class="bi bi-telephone-fill"></i><strong>Phone:</strong> 044-511-2197</small></p>
-        <p><small class="text-muted"><a href="mailto:cvsm@clsu.edu.ph" target="_blank"><i class="bi bi-envelope-fill"></i><strong>Email:</strong> cvsm@clsu.edu.ph</a></small></p>
+        <p>
+            <small class="text-muted"><i class="bi bi-telephone-fill"></i><strong>Phone:</strong> 044-511-2197</small> 
+            <small class="text-muted"><a href="mailto:cvsm@clsu.edu.ph" target="_blank"><i class="bi bi-envelope-fill"></i><strong>Email:</strong> cvsm@clsu.edu.ph</a></small>
+        </p>
         <p><small class="text-muted"><a href="https://maps.app.goo.gl/ZnxtnoSBimWtak4Y6" target="_blank"><i class="bi bi-geo-alt-fill"></i><strong>Where to find us?</strong> Central Luzon State University, Science City of Muñoz, Nueva Ecija, 3120</a></small></p>
     </div>
 
@@ -39,7 +41,7 @@
 
                <!-- Contact Form -->
                 <div class="col-md p-4">
-                    <h2 class="py-4 section-subtitle font-blue">Leave a message</h2>
+                    <h2 class="py-4 section-subtitle font-blue">Leave us a message</h2>
                     <form id="contactForm">
                         <div class="row g-4">
                             <div class="col-6 mb-3">
@@ -66,7 +68,7 @@
                             <label for="message" class="form-label">Message</label>
                             <textarea class="form-control custom-input" id="message" name="message" rows="3" placeholder="Write a message" required></textarea>
                         </div>
-                        <input type="submit" id="sendEmail" value="Send Message" class="btn btn-success mb-4">
+                        <input type="submit" id="sendEmail" value="Send Message" class="btn btn-success w-100 mb-4">
                     </form>
                 </div>
 
