@@ -14,7 +14,7 @@
             <div class="col-lg m-2 white-texture page-content-card rounded">
                 <div class="container page-content-body">
                     <p class="about-content-text">
-                        <strong>MASTER OF VETERINARY SCIECNCE (MVSt) </strong>
+                        <strong>MASTER OF VETERINARY STUDIES (MVSt) </strong>
                         is a 2-year post-graduate degree for veterinarians designed to specialize in either Veterinary Public Health or Veterinary Preventive Medicine.
                     </p>
                 </div>

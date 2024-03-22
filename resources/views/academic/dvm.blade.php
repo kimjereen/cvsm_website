@@ -19,7 +19,7 @@
             <div class="col-lg m-2 white-texture page-content-card rounded">
                 <div class="container page-content-body">
                     <p class="about-content-text">
-                        <strong>DOCTOR OF VETERINARY SCIENCE (DVM) </strong>
+                        <strong>DOCTOR OF VETERINARY MEDICINE (DVM) </strong>
                         is a 6-year curricular program designed to  produce well-balanced veterinarians, knowledgeable in animal production, welfare and One Health.
                     </p>
                 </div>

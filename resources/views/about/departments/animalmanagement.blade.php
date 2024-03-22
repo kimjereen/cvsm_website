@@ -11,20 +11,21 @@
 
         <div class="row">
             <div class="col-lg m-2 white-texture page-content-card rounded d-flex justify-content-center align-items-center">
-                <div class="container page-content-body text-center">
+                <div class="container page-content-body">
                     <p class="about-content-text">
-                        Delve into animal care, behavior, and welfare, equipping students to manage diverse animal populations with compassion and skill.   
+                    The department offers all Zootechnics subjects, including Animal Nutrition, Breeding and Genetics. DVM students learn basic animal husbandry practices, animal welfare and herd/flock health management. 
                     </p>
                 </div>
             <div class="container-fluid page-content-footer"></div>
             </div>
 
-            <div class="col-lg m-2 rounded g-0">
-                <div class="card img-zoom-container">
+            <div class="col-lg m-2 rounded card g-0">
+                <div class="img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/temporary/Student - milking.jpeg') }}" class="img-fluid" alt="Academic Program 1">
                 </div>
             </div>
         </div>
+
     </div>
 
     

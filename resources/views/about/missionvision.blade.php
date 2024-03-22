@@ -42,28 +42,28 @@
         <!-- Academic Programs Container -->
         <div class="row">
             <!-- Academic Program 1 -->
-            <div class="col-md-6 mt-3">
+            <div class="col-lg-6 mt-3">
                 <div class="card rounded-shadow">
                     <img src="{{ asset('assets_cvsm/images/temporary/Mission.png') }}" class="img-fluid img-zoom" alt="MISSION">
                     <div class="card-overlay2"></div>
                     <div class="card-body1  text-center" style="margin-bottom: 30px;">
                         <h4 class="text-white mt-2">MISSION</h4>
                         <p class="page-content-text">
-                            <i>CLSU shall develop globally competitive, work-ready, socially-responsible and empowered human resources who value life-long learning; and to generate, disseminate, and apply knowledge and technologies for poverty alleviation, environmental protection, and sustainable development</i>
+                            <i>CLSU shall develop globally competitive, work-ready, socially-responsible and empowered human resources who value life-long learning; and to generate, disseminate, and apply knowledge and technologies for poverty alleviation, environmental protection, and sustainable development.</i>
                         </p>
                     </div>
                 </div>
             </div>
 
             <!-- Academic Program 2 -->
-            <div class="col-md-6 mt-3">
+            <div class="col-lg-6 mt-3">
                 <div class="card rounded-shadow">
                     <img src="{{ asset('assets_cvsm/images/temporary/Vision.png') }}" class="img-fluid img-zoom" alt="VISION">
                     <div class="card-overlay2"></div>
                     <div class="card-body1 text-center" style="margin-bottom: 90px;">
                         <h4 class="text-white mt-2">VISION</h4>
                         <p class="page-content-text">
-                            <i>Central Luzon State University (CLSU) as a world-class National University for science and technology in agriculture and allied fields</i>
+                            <i>Central Luzon State University (CLSU) as a world-class National University for science and technology in agriculture and allied fields.</i>
                         </p>
                     </div>
                 </div>

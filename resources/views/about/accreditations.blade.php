@@ -20,28 +20,13 @@
 
                         <div class="page-content-card">
                             <div class="accreditation-text text-center p-2">
-                                <h5 class="accreditation-title"></h5>
+                                <h5 class="accreditation-title">Center of Excellence</h5>
                                 <p class="accreditation-subtitle"></p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col mt-3">
-                    <div class="">
-                        <div class="accreditation-logo-container">
-                            <img src="{{ asset('assets_cvsm/images/accreditations/AACCUP.png') }}" alt="Accreditation Logo" class="accreditation-logo">
-                        </div>
-
-
-                        <div class="page-content-card">
-                            <div class="accreditation-text text-center p-2">
-                                <h5 class="accreditation-title"></h5>
-                                <p class="accreditation-subtitle"></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
                 <div class="col mt-3">
                     <div class="">
@@ -59,6 +44,25 @@
                     </div>
 
                 </div>
+
+
+                <div class="col mt-3">
+                    <div class="">
+                        <div class="accreditation-logo-container">
+                            <img src="{{ asset('assets_cvsm/images/accreditations/AACCUP.png') }}" alt="Accreditation Logo" class="accreditation-logo">
+                        </div>
+
+
+                        <div class="page-content-card">
+                            <div class="accreditation-text text-center p-2">
+                                <h5 class="accreditation-title"></h5>
+                                <p class="accreditation-subtitle"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
 
             </div>
 

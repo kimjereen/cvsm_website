@@ -12,16 +12,16 @@
 
         <div class="row">
             <div class="col-lg m-2 white-texture page-content-card rounded d-flex justify-content-center align-items-center">
-                <div class="container page-content-body text-center">
+                <div class="container page-content-body">
                     <p class="about-content-text">
-                        Investigate disease processes in animals, preparing students to diagnose, treat, and prevent diseases for enhanced animal health.
+                    The department offers Pathology, Parasitology, Microbiology and Public Health. DVM students learn basic disease processes, perform actual necropsy techniques and animal parasite identification. Students also learn bacterial culture and identification as well as food safety practices. The department also teaches students the principles of disease monitoring, surveillance, and outbreak investigation. The Master of Veterinary Studies (MVSt) program, a postgraduate degree specializing in Veterinary Preventive Medicine or Veterinary Public Health, is also offered by the department.
                     </p>
                 </div>
             <div class="container-fluid page-content-footer"></div>
             </div>
 
-            <div class="col-lg m-2 rounded g-0">
-                <div class="card img-zoom-container">
+            <div class="col-lg m-2 card rounded g-0">
+                <div class="img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/temporary/Student - fish.jpeg') }}" class="img-fluid" alt="Academic Program 1">
                 </div>
             </div>
@@ -150,7 +150,7 @@
 
                     <div class="text-center p-2">
                         <h6 class="faculty-name">DR. RODERICK T. SALVADOR</h6>
-                        <p class="faculty-position">Professor V</p>
+                        <p class="faculty-position">Associate Professor V</p>
                         <p class="faculty-title"></p>
                     </div>
                 </div>
@@ -174,7 +174,7 @@
 
                     <div class="text-center p-2">
                         <h6 class="faculty-name">DR. ALVIN P. SORIANO</h6>
-                        <p class="faculty-position">Professor III</p>
+                        <p class="faculty-position">Associate Professor III</p>
                         <p class="faculty-title"></p>
                     </div>
                 </div>

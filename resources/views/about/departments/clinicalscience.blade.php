@@ -12,16 +12,16 @@
 
         <div class="row">
             <div class="col-lg m-2 white-texture page-content-card rounded d-flex justify-content-center align-items-center">
-                <div class="container page-content-body text-center">
+                <div class="container page-content-body">
                     <p class="about-content-text">
-                        Gain hands-on experience in veterinary care, where students learn to diagnose and treat a variety of medical and surgical conditions in animals.
+                    The department offers Medicine, Clinics and Surgery subjects. It houses the CLSU Veterinary Teaching Hospital which serves as the training ground for the DVM students in practicing their theoretical learnings from other departments. Students learn how to diagnose and investigate a clinical disease and prepare a proper and rational treatment approach for the patient. The department is also responsible for the clinical internship course where senior DVM students are exposed to actual field work as part of their final veterinary clinical training. 
                     </p>
                 </div>
             <div class="container-fluid page-content-footer"></div>
             </div>
 
-            <div class="col-lg m-2 rounded g-0">
-                <div class="card img-zoom-container">
+            <div class="col-lg m-2 rounded card g-0">
+                <div class="img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/temporary/Student- centrifuge.jpeg') }}" class="img-fluid" alt="Academic Program 1">
                 </div>
             </div>
@@ -143,7 +143,7 @@
 
                     <div class="text-center p-2">
                         <h6 class="faculty-name">DR. PHEBE M. VALDEZ</h6>
-                        <p class="faculty-position">Instructor I</p>
+                        <p class="faculty-position">Instructor III</p>
                         <p class="faculty-title"></p>
                     </div>
                 </div>

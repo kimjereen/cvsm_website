@@ -104,7 +104,7 @@
       <div class="col-lg-8 p-3">
         <div class="d-flex justify-content-between align-items-center mb-3">
           <h5 class="section-subtitle">Latest News</h5>
-          <span><a class="navbar-brand text-muted fs-6" href="#">See all</a></span>
+          <span><a class="navbar-brand text-muted fs-6" href="{{ route('news') }}#tab-news">See all</a></span>
         </div>
 
         <!-- News Carousel -->
@@ -160,7 +160,7 @@
       <div class="col-lg-4 p-3">
         <div class="d-flex justify-content-between align-items-center mb-3">
           <h5 class="section-subtitle">Events</h5>
-          <span><a class="navbar-brand text-muted fs-6" href="#">See all</a></span>
+          <span><a class="navbar-brand text-muted fs-6" href="{{ route('about') }}#tab-events">See all</a></span>
         </div>
 
         <!-- The Events -->
@@ -339,7 +339,7 @@
       <!-- Research & Publications Learn More -->
       <div class="col-lg-6 position-relative">
         <div class="ov-image-container">
-          <img src="{{ asset('assets_cvsm/images/temporary/STudent - chicken sorting.jpg') }}" class="img-fluid" alt="Research & Publication BG">
+          <img src="{{ asset('assets_cvsm/images/temporary/Student - Anatomy.jpg') }}" class="img-fluid" alt="Research & Publication BG">
           <div class="ov-overlay"></div>
           <div class="ov-content">
             <h3 class="ov-title">Research & Publications</h3>
@@ -383,7 +383,7 @@
       <!-- Facilities Subtitle -->
       <div class="d-flex justify-content-between align-items-center">
           <div></div>
-          <span><a class="navbar-brand text-muted fs-6" href="#">See all</a></span>
+          <span><a class="navbar-brand text-muted fs-6" href="{{ route('facilities') }}">See all</a></span>
       </div>
 
 
@@ -467,7 +467,7 @@
     </div>
     <div class="container d-flex justify-content-between align-items-center">
       <h3 class="section-title"></h3>
-      <span><a class="navbar-brand text-muted fs-6" href="#">See all</a></span>
+      <span><a class="navbar-brand text-muted fs-6" href="{{ route('about') }}#tab-departments">See all</a></span>
     </div>
     
       <div class="container-fluid">
@@ -512,7 +512,7 @@
                 </div>
                 <div class="card-body2">
                     <h5 class="card-title">Department of Animal Management</h5>
-                    <p class="ov-description">Delve into animal care, behavior, and welfare, equipping students to manage diverse animal populations with compassion and skill.</p>
+                    <p class="ov-description">The department offers all Zootechnics subjects, including Animal Nutrition, Breeding and Genetics.</p>
                 </div>
             </div>
         </a>
@@ -535,7 +535,7 @@
                 </div>
                 <div class="card-body2">
                     <h5 class="card-title">Department of Pathobiology</h5>
-                    <p class="ov-description">Investigate disease processes in animals, preparing students to diagnose, treat, and prevent diseases for enhanced animal health.</p>
+                    <p class="ov-description">The department offers Pathology, Parasitology, Microbiology and Public Health.</p>
                 </div>
             </div>
         </a>
@@ -558,7 +558,7 @@
                 </div>
                 <div class="card-body2">
                     <h5 class="card-title">Department of Clinical Sciences</h5>
-                    <p class="ov-description">Gain hands-on experience in veterinary care, where students learn to diagnose and treat a variety of medical and surgical conditions in animals.</p>
+                    <p class="ov-description">The department offers Medicine, Clinics and Surgery subjects.</p>
                 </div>
             </div>
         </a>
@@ -708,7 +708,7 @@
     </div>
     <div class="container d-flex justify-content-between align-items-center">
       <h3 class="section-title"></h3>
-      <span><a class="navbar-brand text-muted fs-6" href="#">See all</a></span>
+      <span><a class="navbar-brand text-muted fs-6" href="{{ route('about') }}">See all</a></span>
     </div>
 
     <div class="container-fluid">

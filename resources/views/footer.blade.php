@@ -82,7 +82,7 @@
                         </div>
                         <div class="col-md-6">
                             <ul class="list-inline text-md-end">
-                                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                                <li class="list-inline-item"><a href="{{ route('privacypolicy') }}" class="a-link">Privacy Policy</a></li>
                                 <li class="list-inline-item"><a href="#">Terms of Service</a></li>
                             </ul>
                         </div>

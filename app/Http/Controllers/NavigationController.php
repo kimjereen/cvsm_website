@@ -41,6 +41,16 @@ class NavigationController extends Controller
         return view('updates');
     }
 
+    public function readNews()
+    {
+        return view('updates.readnews');
+    }
+
+    public function readEvent()
+    {
+        return view('updates.readevent');
+    }
+
     public function facilities()
     {
         return view('facilities');
@@ -60,6 +70,13 @@ class NavigationController extends Controller
     {
         return view('contact');
     }
+
+    public function privacyPolicy()
+    {
+        return view('privacypolicy');
+    }
+
+
 
 
 
@@ -111,11 +128,11 @@ class NavigationController extends Controller
     //AVIAN routing STARTS HERE
     public function chicken()
     {
-        return view('facilities.onlineresources.ehistology-categories.mammals.chiken');
+        return view('facilities.onlineresources.ehistology-categories.avian.chicken');
     }
     public function duck()
     {
-        return view('facilities.onlineresources.ehistology-categories.mammals.duck');
+        return view('facilities.onlineresources.ehistology-categories.avian.duck');
     }
     public function otherAvians()
     {

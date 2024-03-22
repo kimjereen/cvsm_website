@@ -13,11 +13,50 @@
                 
             <div class="col mt-3 gallery-item">
                 <div class="card rounded-shadow img-zoom-container" data-bs-toggle="modal" data-bs-target="#imageModal">
-                    <img src="{{ asset('assets_cvsm/images/temporary/bones.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom modalImage" alt="Facility 1">
+                    <img src="{{ asset('assets_cvsm/images/resources and facilities/room707.JPG') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom modalImage" alt="Facility 1">
                     <div class=""></div>
                     
                     <div class="card-body1">
-                        <h5 class="card-title">Lecture</h5>
+                        <h5 class="card-title">Room 707</h5>
+                    </div>
+                    <div class="container-fluid page-content-footer"></div>
+                </div>
+            </div>
+
+
+            <div class="col mt-3 gallery-item">
+                <div class="card rounded-shadow img-zoom-container" data-bs-toggle="modal" data-bs-target="#imageModal">
+                    <img src="{{ asset('assets_cvsm/images/resources and facilities/room717.JPG') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom modalImage" alt="Facility 1">
+                    <div class=""></div>
+                    
+                    <div class="card-body1">
+                        <h5 class="card-title">Room 717</h5>
+                    </div>
+                    <div class="container-fluid page-content-footer"></div>
+                </div>
+            </div>
+
+
+            <div class="col mt-3 gallery-item">
+                <div class="card rounded-shadow img-zoom-container" data-bs-toggle="modal" data-bs-target="#imageModal">
+                    <img src="{{ asset('assets_cvsm/images/resources and facilities/room721.png') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom modalImage" alt="Facility 1">
+                    <div class=""></div>
+                    
+                    <div class="card-body1">
+                        <h5 class="card-title">Room 721</h5>
+                    </div>
+                    <div class="container-fluid page-content-footer"></div>
+                </div>
+            </div>
+
+
+            <div class="col mt-3 gallery-item">
+                <div class="card rounded-shadow img-zoom-container" data-bs-toggle="modal" data-bs-target="#imageModal">
+                    <img src="{{ asset('assets_cvsm/images/resources and facilities/vth lec room.JPG') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom modalImage" alt="Facility 1">
+                    <div class=""></div>
+                    
+                    <div class="card-body1">
+                        <h5 class="card-title">VTH Lecture Room</h5>
                     </div>
                     <div class="container-fluid page-content-footer"></div>
                 </div>

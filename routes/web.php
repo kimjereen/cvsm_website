@@ -23,14 +23,17 @@ Route::get('/', function () {
 Route::get('/', [NavigationController::class, 'index'])->name('home');
 Route::get('/about-us', [NavigationController::class, 'about'])->name('about');
 Route::get('/about-us/departments', [NavigationController::class, 'departments'])->name('departments');
-Route::get('/about-us/departments/faculty', [NavigationController::class, 'faculty'])->name('faculty');
+    Route::get('/about-us/departments/faculty', [NavigationController::class, 'faculty'])->name('faculty');
 Route::get('/academic-programs', [NavigationController::class, 'academic'])->name('academic');
 Route::get('/research-and-publications', [NavigationController::class, 'research'])->name('research');
 Route::get('/news-and-events', [NavigationController::class, 'news'])->name('news');
+    Route::get('/news-and-events/read-news', [NavigationController::class, 'readNews'])->name('readnews');
+    Route::get('/news-and-events/read-event', [NavigationController::class, 'readEvent'])->name('readevent');
 Route::get('/resource-and-facilities', [NavigationController::class, 'facilities'])->name('facilities');
-Route::get('/resource-and-facilities/online-resources/e-histology', [NavigationController::class, 'histology'])->name('histology');
+    Route::get('/resource-and-facilities/online-resources/e-histology', [NavigationController::class, 'histology'])->name('histology');
 Route::get('/extension', [NavigationController::class, 'extension'])->name('extension');
 Route::get('/contact-us', [NavigationController::class, 'contact'])->name('contact');
+Route::get('/privacy-policy', [NavigationController::class, 'privacyPolicy'])->name('privacypolicy');
 
 
 
@@ -44,6 +47,6 @@ Route::get('/resource-and-facilities/online-resources/e-histology/mammals', [Nav
     Route::get('/resource-and-facilities/online-resources/e-histology/mammals/other-mammals', [NavigationController::class, 'otherMammals'])->name('othermammals');
 
 Route::get('/resource-and-facilities/online-resources/e-histology/avian', [NavigationController::class, 'avian'])->name('avian');
-Route::get('/resource-and-facilities/online-resources/e-histology/avian/chicken', [NavigationController::class, 'horse'])->name('horse');
-Route::get('/resource-and-facilities/online-resources/e-histology/avian/duck', [NavigationController::class, 'pig'])->name('pig');
-Route::get('/resource-and-facilities/online-resources/e-histology/avian/other-avians', [NavigationController::class, 'otherMammals'])->name('othermammals');
+    Route::get('/resource-and-facilities/online-resources/e-histology/avian/chicken', [NavigationController::class, 'chicken'])->name('chicken');
+    Route::get('/resource-and-facilities/online-resources/e-histology/avian/duck', [NavigationController::class, 'duck'])->name('duck');
+    Route::get('/resource-and-facilities/online-resources/e-histology/avian/other-avians', [NavigationController::class, 'otherAvians'])->name('otheravians');

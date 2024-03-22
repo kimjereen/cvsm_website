@@ -187,8 +187,26 @@
                         <li class="dropdown">
                         <a class="dropdown-item dropdown-toggle" href="{{ route('facilities') }}#tab-online-resources">Online Resources</a>
                         <ul class="dropdown-menu dropdown-submenu">
-                            <li><a class="dropdown-item" href="{{ route('histology') }}#tab-mammals">Mammals</a></li>
-                            <li><a class="dropdown-item" href="{{ route('histology') }}#tab-avians">Avians</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="{{ route('histology') }}#tab-mammals">Mammals</a>
+                                <ul class="dropdown-menu dropdown-submenu">
+                                    <li><a class="dropdown-item" href="{{ route('goat') }}">Goat</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('dog') }}">Dog</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('cat') }}">Cat</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('cattle') }}">Cattle</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('horse') }}">Horse</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('pig') }}">Pig</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('othermammals') }}">Others</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="{{ route('histology') }}#tab-avians">Avians</a>
+                                <ul class="dropdown-menu dropdown-submenu">
+                                    <li><a class="dropdown-item" href="{{ route('chicken') }}">Chicken</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('duck') }}">Duck</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('otheravians') }}">Others</a></li>
+                                </ul>
+                            </li>
                         </ul>
                         </li>
                     </ul>
@@ -416,6 +434,8 @@
             });
         });
     });
+
+
     </script>
 
 

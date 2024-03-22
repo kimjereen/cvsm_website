@@ -29,7 +29,7 @@
                             </p>
                         </div>
                         <div class="news-content-footer px-1">
-                            <a href="#" class="btn btn-primary cont-reading">Continue Reading <i class="bi bi-arrow-right btn-icon"></i></a>
+                            <a href="{{ route('readnews') }}" class="btn btn-primary cont-reading">Continue Reading <i class="bi bi-arrow-right btn-icon"></i></a>
                         </div>
                     </div>
                 </div>

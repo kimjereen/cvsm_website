@@ -48,7 +48,7 @@
                     </div>
                     <div class="card-body2">
                         <h5 class="card-title">Department of Animal Management</h5>
-                        <p class="ov-description">Delve into animal care, behavior, and welfare, equipping students to manage diverse animal populations with compassion and skill.</p>
+                        <p class="ov-description">The department offers all Zootechnics subjects, including Animal Nutrition, Breeding and Genetics.</p>
                     </div>
                 </div>
             </a>
@@ -70,7 +70,7 @@
                     </div>
                     <div class="card-body2">
                         <h5 class="card-title">Department of Pathobiology</h5>
-                        <p class="ov-description">Investigate disease processes in animals, preparing students to diagnose, treat, and prevent diseases for enhanced animal health.</p>
+                        <p class="ov-description">The department offers Pathology, Parasitology, Microbiology and Public Health.</p>
                     </div>
                 </div>
             </a>
@@ -92,7 +92,7 @@
                     </div>
                     <div class="card-body2">
                         <h5 class="card-title">Department of Clinical Sciences</h5>
-                        <p class="ov-description">Gain hands-on experience in veterinary care, where students learn to diagnose and treat a variety of medical and surgical conditions in animals.</p>
+                        <p class="ov-description">The department offers Medicine, Clinics and Surgery subjects.</p>
                     </div>
                 </div>
             </a>

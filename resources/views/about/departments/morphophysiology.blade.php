@@ -12,7 +12,7 @@
 
         <div class="row">
             <div class="col-lg m-2 white-texture page-content-card rounded d-flex justify-content-center align-items-center">
-                <div class="container page-content-body text-center">
+                <div class="container page-content-body">
                     <p class="about-content-text">
                     The department offers basic veterinary subjects like anatomy, physiology and pharmacology.  DVM students are introduced to the different animal body parts (gross and microscopic) and their respective functions. It is also where they learn the mechanisms of action of every veterinary drug and how it interacts within the animal body.
                     </p>
@@ -20,8 +20,8 @@
             <div class="container-fluid page-content-footer"></div>
             </div>
 
-            <div class="col-lg m-2 rounded g-0">
-                <div class="card img-zoom-container">
+            <div class="col-lg m-2 rounded card g-0">
+                <div class="img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/temporary/cover-morpho.jpg') }}" class="img-fluid" alt="Academic Program 1">
                 </div>
             </div>

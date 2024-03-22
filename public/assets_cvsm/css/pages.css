@@ -288,7 +288,8 @@ a .btn-icon {
 }
 .timeline-container {
     float: left;
-    width: 40%;
+    /*width: 40%; */
+    width: 50%;
     margin-right: 20px; 
 }
 .text-around {

@@ -215,6 +215,21 @@ span {
   text-decoration: none;
 }
 
+li::marker {
+  color: var(--tertiary); /* Change bullet color */
+}
+.a-link:hover, span .a-link:hover  a{
+  color: var(--tertiary);
+}
+
+
+
+
+
+
+
+
+
 /* 02. HEADER (navigation bar) */
 
 /* Navbar Header */
