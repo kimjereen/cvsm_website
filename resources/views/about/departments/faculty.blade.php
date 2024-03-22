@@ -5,17 +5,17 @@
 
 <section class="page-wrapper">
 
-    <!-- PAGE COVER STARTS HERE -->
+    <!-- PAGE COVER STARTS HERE
     <div class="page-cover">
         <img src="{{ asset('assets_cvsm/images/about-cover.jpg') }}" alt="About Cover">
         <div class="cover-overlay"></div>
         <div class="cover-title">FACULTY INFORMATION</div>
     </div>
-    <!-- PAGE COVER ENDS HERE -->
+    PAGE COVER ENDS HERE -->
 
     
     <!-- FACULTY INFORMATION STARTS HERE -->
-    <div class="container my-4">
+    <div class="container my-5">
         <div class="row justify-content-center">
 
             <!-- Faculty Member -->

@@ -12,12 +12,12 @@
         <div class="container my-4">
 
                 <div class="row page-content-card rounded">
-                    <div class="col-sm g-0">
+                    <div class="col-lg g-0">
                         <div class="news-image-container g-0">
                             <img src="{{ asset('assets_cvsm/images/temporary/news-1.png') }}" class="img-fluid" alt="Headline Image">
                         </div>
                     </div>  
-                    <div class="col-sm p-4 d-flex flex-column justify-content-between ">
+                    <div class="col-lg p-4 d-flex flex-column justify-content-between ">
                         <div class="news-content-body ">
                             <h3 class="news-headline">US assoc prof delivers diagnostics, infectious disease modeling lecture</h3>
                             <div class="d-flex flex-row my-2">
@@ -99,7 +99,7 @@
 
 
                 <div class="col mt-2">
-                    <div class="page-content-card rounded">
+                    <div class="page-content-card rounded" style="height:100%;">
                         <div class="col-lg g-0">
                             <div class="all-news-image-container g-0">
                                 <img src="{{ asset('assets_cvsm/images/temporary/news-2.png') }}" class="img-fluid" alt="Headline Image">
@@ -124,7 +124,7 @@
                 </div>
 
                 <div class="col mt-2">
-                    <div class="page-content-card rounded">
+                    <div class="page-content-card rounded" style="height:100%;">
                         <div class="col-lg g-0">
                             <div class="all-news-image-container g-0">
                                 <img src="{{ asset('assets_cvsm/images/temporary/news-3.png') }}" class="img-fluid" alt="Headline Image">
@@ -149,7 +149,7 @@
                 </div>
 
                 <div class="col mt-2">
-                    <div class="page-content-card rounded">
+                    <div class="page-content-card rounded" style="height:100%;">
                         <div class="col-lg g-0">
                             <div class="all-news-image-container g-0">
                                 <img src="{{ asset('assets_cvsm/images/temporary/news-4.png') }}" class="img-fluid" alt="Headline Image">
@@ -192,13 +192,13 @@
             <div class="row row-cols-1 row-cols-md-2">
 
                 <div class="col mt-3">
-                    <div class="page-content-card rounded">
+                    <div class="page-content-card rounded" style="height:100%;">
                         <div class="p-4 d-flex flex-column justify-content-between ">
                             <div class="news-content-body">
                                 <h3 class="news-headlines">CLSU Vets Attended the 91st PVMA in Bacolod</h3>
                                 
                             </div>
-                            <div class="row news-content-footer mx-1 justify-content-around">
+                            <div class="row news-content-footer mx-1 justify-content-between">
                                 <div class="col-md-8 d-flex flex-row">
                                     <p class="card-text "><small class="text-muted"><i class="bi bi-person-fill btn-icon"></i> Admin</small></p>
                                     <p class="card-text mx-3"><small class="text-muted"><i class="bi bi-pencil-fill btn-icon"></i> February 22, 2024</small></p>
@@ -211,13 +211,13 @@
 
 
                 <div class="col mt-3">
-                    <div class="page-content-card rounded">
+                    <div class="page-content-card rounded" style="height:100%;">
                         <div class="p-4 d-flex flex-column justify-content-between ">
                             <div class="news-content-body">
                                 <h3 class="news-headlines">CLSU-VTH holds awareness campaign on stray...</h3>
                                 
                             </div>
-                            <div class="row news-content-footer mx-1 justify-content-around">
+                            <div class="row news-content-footer mx-1 justify-content-between">
                                 <div class="col-md-8 d-flex flex-row">
                                     <p class="card-text "><small class="text-muted"><i class="bi bi-person-fill btn-icon"></i> Admin</small></p>
                                     <p class="card-text mx-3"><small class="text-muted"><i class="bi bi-pencil-fill btn-icon"></i> February 20, 2024</small></p>

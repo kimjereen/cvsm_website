@@ -1,11 +1,30 @@
 <section>
 <!-- PAGE CONTENT STARTS HERE -->
 
-    <!-- Departments -->
+    <!-- Lec Text -->
     <div class="container my-4 g-0">
         <!-- Section Title -->
         <div class="container-fluid mt-5">
         <h3 class="section-subtitle font-blue">LECTURE HALLS</h3>
+        </div>
+
+        <div class="container mt-4">
+            <div class="white-texture page-content-card rounded d-flex justify-content-center align-items-center">
+                <div class="page-content-body ">
+                    <p class="about-content-text">
+                    </p>
+                </div> 
+            </div>
+        </div>
+        
+    </div>
+
+
+    <!-- Lec room -->
+    <div class="container my-4 g-0">
+        <!-- Section Title -->
+        <div class="container-fluid mt-5">
+        <h3 class="section-subtitle font-blue">LECTURE ROOMS</h3>
         </div>
 
         <div class="container">
@@ -26,7 +45,7 @@
 
             <div class="col mt-3 gallery-item">
                 <div class="card rounded-shadow img-zoom-container" data-bs-toggle="modal" data-bs-target="#imageModal">
-                    <img src="{{ asset('assets_cvsm/images/resources and facilities/room717.JPG') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom modalImage" alt="Facility 1">
+                    <img src="{{ asset('assets_cvsm/images/resources and facilities/room717.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom modalImage" alt="Facility 1">
                     <div class=""></div>
                     
                     <div class="card-body1">

@@ -76,6 +76,11 @@ class NavigationController extends Controller
         return view('privacypolicy');
     }
 
+    public function login()
+    {
+        return view('login');
+    }
+
 
 
 

@@ -4,10 +4,10 @@
     <!-- Published -->
     <div class="container my-4 ">
 
-        <div class="project-list mt-5 page-content-card rounded">
+        <div class="project-list publication-list mt-5 page-content-card rounded">
             <div class="row research-title-bar">
-                <h4 class="col-1 mt-2">#</h4>
-                <h4 class="col-11 mt-2">PUBLICATION</h4>
+                <h4 class="col-1 mt-2"></h4>
+                <h4 class="col-11 mt-2">PUBLICATIONS</h4>
             </div>
             <div class="project m-4 px-5">
                 <div class="row">
@@ -250,7 +250,7 @@
                         <h4 class="project-title">ESR1 Candidate Marker Gene Associated with Litter Size in the Philippine Native Pigs (Sus philippensis)</h4>
                         <p class="project-info"><strong>Year:</strong> 2022</p>
                         <p class="project-info"><strong>Faculty:</strong>Noraine Medina
-</p>
+                        </p>
                         <div class="row">
                             <div class="col"><p class="project-info">
                                 <strong>Journal:</strong>Adv. Anim. Vet. Sci. 10(8):1747-1751.</p>
@@ -433,6 +433,11 @@
             
 
             <div class="container-fluid page-content-footer"></div>
+        </div>
+
+        <!-- Load more button -->
+        <div class="text-end mt-3">
+                <button id="loadMorePublication" class="btn btn-success">Load More</button>
         </div>
 
     </div>

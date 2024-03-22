@@ -34,6 +34,7 @@ Route::get('/resource-and-facilities', [NavigationController::class, 'facilities
 Route::get('/extension', [NavigationController::class, 'extension'])->name('extension');
 Route::get('/contact-us', [NavigationController::class, 'contact'])->name('contact');
 Route::get('/privacy-policy', [NavigationController::class, 'privacyPolicy'])->name('privacypolicy');
+Route::get('/admin-login', [NavigationController::class, 'login'])->name('login');
 
 
 

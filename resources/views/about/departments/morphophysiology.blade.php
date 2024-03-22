@@ -9,6 +9,7 @@
             <h3 class="section-subtitle font-blue">ABOUT</h3>
         </div>
 
+        <!-- Regarding About similar design. having different length of text and picture can affect the layout and wont have equal sizes so we just customized the height of each -->
 
         <div class="row">
             <div class="col-lg m-2 white-texture page-content-card rounded d-flex justify-content-center align-items-center">
@@ -20,8 +21,8 @@
             <div class="container-fluid page-content-footer"></div>
             </div>
 
-            <div class="col-lg m-2 rounded card g-0">
-                <div class="img-zoom-container">
+            <div class="col-lg-4 m-2 rounded g-0">
+                <div class="about-image-container img-zoom-container" style="height:270px;">
                     <img src="{{ asset('assets_cvsm/images/temporary/cover-morpho.jpg') }}" class="img-fluid" alt="Academic Program 1">
                 </div>
             </div>

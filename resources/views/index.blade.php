@@ -25,7 +25,7 @@
           
             <h1 class="hero-college">COLLEGE OF VETERINARY SCIENCE AND MEDICINE</h1>
           <br>
-            <p class="hero-quote fs-5"><i>Veterinarians for the Countryside</i></p>
+            <p class="hero-quote fs-5"><i>Dedicated to Service and Excellence</i></p>
           <br>
           <p><a class="btn btn-success" href="{{ route('about') }}">Learn More</a></p>
         </div>
@@ -34,7 +34,7 @@
       <!-- The slideshow/carousel -->
       <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="{{ asset('assets_cvsm/images/home-carousel1.jpeg') }}" alt="carousel 1" class="d-block w-100 vh-100 object-fit-cover">
+            <img src="{{ asset('assets_cvsm/images/new-carousel-1.jpg') }}" alt="carousel 1" class="d-block w-100 vh-100 object-fit-cover">
         </div>
         <div class="carousel-item">
             <img src="{{ asset('assets_cvsm/images/home-carousel2.jpeg') }}" alt="carousel 2" class="d-block w-100 vh-100 object-fit-cover">
@@ -326,7 +326,7 @@
           <div class="ov-overlay"></div>
           <div class="ov-content">
             <h3 class="ov-title">About Us</h3>
-            <p class="ov-description">The College envisions to become a multi veterinary institution dedicated to countryside development by providing excellent veterinary education to produce graduates equipped with technical, entrepreneurial, managerial, and leadership skills necessary for optimum animal production. </p>
+            <p class="ov-description">The College envisions to become a premiere eterinary institution dedicated to service and excellence by providing excellent veterinary education to produce graduates equipped with technical, entrepreneurial, managerial, and leadership skills necessary for optimum animal production. </p>
             <a href="{{ route('about') }}" class="btn btn-success">Learn More</a>
           </div>
         </div>
@@ -343,7 +343,7 @@
           <div class="ov-overlay"></div>
           <div class="ov-content">
             <h3 class="ov-title">Research & Publications</h3>
-            <p class="ov-description">Our researches focus on transboundary and zoonotic animal disease, disease profiling, antimicrobial resistance and test kit development to address industry-need solutions.</p>
+            <p class="ov-description">Our researches focus on transboundary and zoonotic animal disease, disease profiling, antimicrobial resistance and test kit development to address industry needs.</p>
             <a href="{{ route('research') }}" class="btn btn-success">Learn More</a>
           </div>
         </div>
@@ -364,7 +364,7 @@
     <!-- Section Title -->
     <div class="container-fluid text-center">
       <div class="shorter-line"></div>
-      <h3 class="section-title mb-4">RESOURCE AND FACILITIES</h3>
+      <h3 class="section-title mb-4">FACILITIES AND RESOURCES</h3>
     </div>
 
     <!-- Resources -->
@@ -472,28 +472,6 @@
     
       <div class="container-fluid">
       <div class="row row-cols-1 row-cols-md-2">
-        <div class="col mt-4">
-        <a href="{{ route('departments') }}#tab-morpho" class="pop">
-            <div class="card rounded-shadow img-zoom-container">
-                <img src="{{ asset('assets_cvsm/images/temporary/cover-morpho.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 1">
-                <div class="card-overlay"></div>
-                
-                <div class="card-logo-container d-flex">
-                    <img src="{{ asset('assets_cvsm/images/cvsm-logo.png') }}" alt="Logo 1" class="card-logo">
-                    <img src="{{ asset('assets_cvsm/images/clsu-logo.png') }}" alt="Logo 2" class="card-logo">
-                </div>
-          
-                <div class="card-body">
-                    <h5 class="card-title">Department of Morphophysiology and Pharmacology</h5>
-                </div>
-
-                <div class="card-body2">
-                  <h5 class="card-title">Department of Morphophysiology and Pharmacology</h5>
-                  <p class="ov-description">The department offers basic veterinary subjects like anatomy, physiology and pharmacology.</p>
-                </div>
-            </div>
-        </a>
-        </div>
 
         
         <div class="col mt-4">
@@ -513,6 +491,30 @@
                 <div class="card-body2">
                     <h5 class="card-title">Department of Animal Management</h5>
                     <p class="ov-description">The department offers all Zootechnics subjects, including Animal Nutrition, Breeding and Genetics.</p>
+                </div>
+            </div>
+        </a>
+        </div>
+
+
+        <div class="col mt-4">
+        <a href="{{ route('departments') }}#tab-morpho" class="pop">
+            <div class="card rounded-shadow img-zoom-container">
+                <img src="{{ asset('assets_cvsm/images/temporary/cover-morpho.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 1">
+                <div class="card-overlay"></div>
+                
+                <div class="card-logo-container d-flex">
+                    <img src="{{ asset('assets_cvsm/images/cvsm-logo.png') }}" alt="Logo 1" class="card-logo">
+                    <img src="{{ asset('assets_cvsm/images/clsu-logo.png') }}" alt="Logo 2" class="card-logo">
+                </div>
+          
+                <div class="card-body">
+                    <h5 class="card-title">Department of Morphophysiology and Pharmacology</h5>
+                </div>
+
+                <div class="card-body2">
+                  <h5 class="card-title">Department of Morphophysiology and Pharmacology</h5>
+                  <p class="ov-description">The department offers basic veterinary subjects like anatomy, physiology and pharmacology.</p>
                 </div>
             </div>
         </a>
@@ -554,10 +556,10 @@
                 </div>
 
                 <div class="card-body">
-                    <h5 class="card-title">Department of Clinical Sciences</h5>
+                    <h5 class="card-title">Department of Veterinary Clinical Sciences</h5>
                 </div>
                 <div class="card-body2">
-                    <h5 class="card-title">Department of Clinical Sciences</h5>
+                    <h5 class="card-title">Department of Veterinary Clinical Sciences</h5>
                     <p class="ov-description">The department offers Medicine, Clinics and Surgery subjects.</p>
                 </div>
             </div>
@@ -674,7 +676,7 @@
               At CLSU College of Veterinary Science and Medicine, education goes beyond textbooks and lectures; it's about empowering students to become leaders in their fields and communities. Here, we foster a community where students not only excel in their academic pursuits but also engage in hands-on experiences and research that shape the future of veterinary medicine. From clinical rotations to community outreach programs, our students are equipped with the skills, knowledge, and compassion to make a real difference in the lives of animals and society. 
               </p>
               <p class="text-white">Check out the different CVSM Student Organizations</p>
-              <a href="{{ route('extension') }}#tab-student-organizations" class="btn btn-success">Learn More</a>
+              <a href="{{ route('about') }}#tab-student-organizations" class="btn btn-success">Learn More</a>
             </div>
         </div>
 
@@ -778,6 +780,7 @@
     </div>
   </div>
   <!-- EXTENSION ENDS HERE -->
+
 
 <!-- Include footer.php -->
 @include('footer')

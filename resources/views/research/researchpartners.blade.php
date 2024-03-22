@@ -9,7 +9,7 @@
         </div>
 
         <div class="page-content-card rounded m-2">
-            <div class="row row-cols-1 row-cols-md-4 my-3">
+            <div class="row row-cols-1 row-cols-md-4 my-3 align-items-center justify-content-center">
 
                 <div class="col mt-3">
                     <div class="">
@@ -20,7 +20,7 @@
 
                         <div class="page-content-card">
                             <div class="accreditation-text text-center p-2">
-                                <h5 class="accreditation-title">Department of Science and Technology - Philippine Council for Agriculture, Aquatic and Natural Resources Research and Development (DOST-PCAARRD)</h5>
+                                <h5 class="accreditation-title"></h5>
                                 <p class="accreditation-subtitle"></p>
                             </div>
                         </div>
@@ -36,7 +36,7 @@
 
                         <div class="page-content-card">
                             <div class="accreditation-text text-center p-2">
-                                <h5 class="accreditation-title">United States Department of Agriculture (USDA)</h5>
+                                <h5 class="accreditation-title"></h5>
                                 <p class="accreditation-subtitle"></p>
                             </div>
                         </div>
@@ -52,7 +52,7 @@
 
                         <div class="page-content-card">
                             <div class="accreditation-text text-center p-2">
-                                <h5 class="accreditation-title">LifeStock International</h5>
+                                <h5 class="accreditation-title"></h5>
                                 <p class="accreditation-subtitle"></p>
                             </div>
                         </div>
@@ -68,7 +68,7 @@
 
                         <div class="page-content-card">
                             <div class="accreditation-text text-center p-2">
-                                <h5 class="accreditation-title">Michigan State University  (MSU)</h5>
+                                <h5 class="accreditation-title"></h5>
                                 <p class="accreditation-subtitle"></p>
                             </div>
                         </div>
@@ -84,7 +84,7 @@
 
                         <div class="page-content-card">
                             <div class="accreditation-text text-center p-2">
-                                <h5 class="accreditation-title">Hokkaido University </h5>
+                                <h5 class="accreditation-title"></h5>
                                 <p class="accreditation-subtitle"></p>
                             </div>
                         </div>
@@ -100,7 +100,7 @@
 
                         <div class="page-content-card">
                             <div class="accreditation-text text-center p-2">
-                                <h5 class="accreditation-title">Department of Agriculture - Bureau of Animal Industry </h5>
+                                <h5 class="accreditation-title"></h5>
                                 <p class="accreditation-subtitle"></p>
                             </div>
                         </div>
@@ -116,7 +116,7 @@
 
                         <div class="page-content-card">
                             <div class="accreditation-text text-center p-2">
-                                <h5 class="accreditation-title">Livestock Biotechnology Center </h5>
+                                <h5 class="accreditation-title"></h5>
                                 <p class="accreditation-subtitle"></p>
                             </div>
                         </div>

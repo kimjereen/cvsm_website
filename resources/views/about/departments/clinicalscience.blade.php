@@ -20,8 +20,8 @@
             <div class="container-fluid page-content-footer"></div>
             </div>
 
-            <div class="col-lg m-2 rounded card g-0">
-                <div class="img-zoom-container">
+            <div class="col-lg-4 m-2 rounded g-0">
+                <div class="about-image-container img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/temporary/Student- centrifuge.jpeg') }}" class="img-fluid" alt="Academic Program 1">
                 </div>
             </div>

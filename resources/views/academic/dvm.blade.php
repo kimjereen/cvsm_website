@@ -33,7 +33,7 @@
         
         <!-- Section Title -->
         <div class="container-fluid mt-5">
-            <h3 class="section-subtitle font-blue space-down2">PROGRAM EDUCATIONAL OBJECTIVE (PEO)</h3>
+            <h3 class="section-subtitle font-blue space-down2">PROGRAM EDUCATIONAL OBJECTIVES (PEO)</h3>
         </div>
 
         
@@ -205,6 +205,36 @@
                                 <div id="dvm-collapseFour" class="accordion-collapse collapse" aria-labelledby="dvm-headingFour" data-bs-parent="#accordionFlushDVM">
                                     <div class="accordion-body">
                                         @include('academic.courses.dvm-child4')
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="dvm-headingFive">
+                                <button class="accordion-button collapsed parent-accord" type="button" data-bs-toggle="collapse" data-bs-target="#dvm-collapseFive" aria-expanded="false" aria-controls="dvm-collapseFive">
+                                    FIFTH YEAR
+                                </button>
+                                </h2>
+                                <div id="dvm-collapseFive" class="accordion-collapse collapse" aria-labelledby="dvm-headingFive" data-bs-parent="#accordionFlushDVM">
+                                    <div class="accordion-body">
+                                        @include('academic.courses.dvm-child5')
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="dvm-headingSix">
+                                <button class="accordion-button collapsed parent-accord" type="button" data-bs-toggle="collapse" data-bs-target="#dvm-collapseSix" aria-expanded="false" aria-controls="dvm-collapseSix">
+                                    SIXTH YEAR
+                                </button>
+                                </h2>
+                                <div id="dvm-collapseSix" class="accordion-collapse collapse" aria-labelledby="dvm-headingSix" data-bs-parent="#accordionFlushDVM">
+                                    <div class="accordion-body">
+                                        @include('academic.courses.dvm-child6')
                                     </div>
                                 </div>
                             </div>

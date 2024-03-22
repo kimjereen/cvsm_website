@@ -9,7 +9,7 @@
     <div class="page-cover">
         <img src="{{ asset('assets_cvsm/images/about-cover.jpg') }}" alt="About Cover">
         <div class="cover-overlay"></div>
-        <div class="cover-title">RESOURCE & FACILITIES</div>
+        <div class="cover-title">FACILITIES AND RESOURCES</div>
     </div>
     <!-- PAGE COVER ENDS HERE -->
 

@@ -1,11 +1,30 @@
 <section>
 <!-- PAGE CONTENT STARTS HERE -->
 
-    <!-- Departments -->
+    <!-- vet mission Text -->
     <div class="container my-4 g-0">
         <!-- Section Title -->
         <div class="container-fluid mt-5">
         <h3 class="section-subtitle font-blue">VET MISSION</h3>
+        </div>
+
+        <div class="container mt-4">
+            <div class="white-texture page-content-card rounded d-flex justify-content-center align-items-center">
+                <div class="page-content-body ">
+                    <p class="about-content-text">
+                    </p>
+                </div> 
+            </div>
+        </div>
+        
+    </div>
+
+
+    <!-- vet mission images -->
+    <div class="container my-4 g-0">
+        <!-- Section Title -->
+        <div class="container-fluid mt-5">
+        <h3 class="section-subtitle font-blue">IMAGES</h3>
         </div>
 
         <div class="container">

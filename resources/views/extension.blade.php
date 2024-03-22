@@ -24,9 +24,6 @@
         <li class="nav-item col-md container-fluid p-2">
             <a class="nav-link" data-bs-toggle="tab" href="#tab-veterinary-teaching-hospital" onclick="updateURL('#tab-veterinary-teaching-hospital')">Veterinary Teaching Hospital</a>
         </li>
-        <li class="nav-item col-md container-fluid p-2">
-            <a class="nav-link" data-bs-toggle="tab" href="#tab-student-organizations" onclick="updateURL('#tab-student-organizations')">Student Organizations</a>
-        </li>
     </ul>
 
     <!-- Tab panes -->
@@ -39,9 +36,6 @@
         </div>
         <div id="tab-veterinary-teaching-hospital" class="container tab-pane fade">
             @include('extension.teachinghospital')
-        </div>
-        <div id="tab-student-organizations" class="container tab-pane fade">
-            @include('extension.studentorganization')
         </div>
     </div>
 

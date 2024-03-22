@@ -9,7 +9,7 @@
         </div>
 
         <div class="page-content-card rounded m-2">
-            <div class="row row-cols-1 row-cols-md-3 my-3">
+            <div class="row row-cols-1 row-cols-md-3 my-3 align-items-center">
 
                 <div class="col mt-3">
                     <div class="">
@@ -65,8 +65,6 @@
                 
 
             </div>
-
-
             <div class="container-fluid page-content-footer"></div>
         </div>
 
@@ -82,7 +80,7 @@
 
 
         <div class="page-content-card rounded m-2">
-            <div class="row row-cols-1 row-cols-md-3 my-3">
+            <div class="row row-cols-1 row-cols-md-3 my-3 align-items-center">
 
                 <div class="col mt-3">
                     <div class="">

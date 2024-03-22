@@ -16,26 +16,26 @@
 
     <ul class="nav nav-tabs page-bar text-center justify-content-center" role="tablist">
         <li class="nav-item col-md container-fluid p-2">
-            <a class="nav-link active" data-bs-toggle="tab" href="#tab-morphophysiology" onclick="updateURL('#tab-mosphophysiology')">Morphophysiology</a>
-        </li>
-        <li class="nav-item col-md container-fluid p-2">
             <a class="nav-link" data-bs-toggle="tab" href="#tab-animal-management" onclick="updateURL('#tab-animal-management')">Animal Management</a>
         </li>
         <li class="nav-item col-md container-fluid p-2">
-            <a class="nav-link" data-bs-toggle="tab" href="#tab-pathobiology" onclick="updateURL('#tab-pathobilogy')">Pathobiology</a>
+            <a class="nav-link active" data-bs-toggle="tab" href="#tab-morphophysiology" onclick="updateURL('#tab-morphophysiology')">Morphophysiology</a>
         </li>
         <li class="nav-item col-md container-fluid p-2">
-            <a class="nav-link" data-bs-toggle="tab" href="#tab-clinical-sciences" onclick="updateURL('#tab-clinical-sciences')">Clinical Sciences</a>
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-pathobiology" onclick="updateURL('#tab-pathobiology')">Pathobiology</a>
+        </li>
+        <li class="nav-item col-md container-fluid p-2">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-clinical-sciences" onclick="updateURL('#tab-clinical-sciences')">Veterinary Clinical Sciences</a>
         </li>
     </ul>
 
     <!-- Tab panes -->
     <div class="tab-content">
-        <div id="tab-morphophysiology" class="container tab-pane active">
-            @include('about.departments.morphophysiology')
-        </div>
         <div id="tab-animal-management" class="container tab-pane fade">
             @include('about.departments.animalmanagement')
+        </div>
+        <div id="tab-morphophysiology" class="container tab-pane active">
+            @include('about.departments.morphophysiology')
         </div>
         <div id="tab-pathobiology" class="container tab-pane fade">
             @include('about.departments.pathobiology')

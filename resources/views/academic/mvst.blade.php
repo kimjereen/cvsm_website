@@ -34,7 +34,7 @@
         
         <!-- Section Title -->
         <div class="container-fluid mt-5">
-            <h3 class="section-subtitle font-blue space-down2">PROGRAM EDUCATIONAL OBJECTIVE (PEO)</h3>
+            <h3 class="section-subtitle font-blue space-down2">PROGRAM EDUCATIONAL OBJECTIVES (PEO)</h3>
         </div>
 
         <div class="justify-content-center">
@@ -97,11 +97,11 @@
                     <h6 class="col m-3 fs-5">
                         Aspiring MVSt students must meet the following requirements:
                     </h6> 
-                        <ul class="bullet p-2">
-                            <li>Must be a DVM graduate</li>
-                            <li>Must have a GPA of at least 2.50 or better</li>
-                        </ul>
-                    <p class="page-content-text res-text-1 p-2"> 
+                    <ul class="mx-4">
+                        <li>Must be a DVM graduate</li>
+                        <li>Must have a GPA of at least 2.50 or better</li>
+                    </ul>
+                    <p class="mx-3"> 
                         For further information, please contact the College Graduate Program Coordinator at <a href="mailto:cvsm@clsu.edu.ph" class="font-blue" height="20px" target="_blank">cvsm@clsu.edu.ph</a>  or the Office of Admissions at <a href="mailto:admissions@clsu.edu.ph" class="font-blue" height="20px" target="_blank">admissions@clsu.edu.ph</a>
                     </p>
                 </div>
@@ -128,7 +128,7 @@
                             <i class="bi bi-file-earmark-pdf"></i>MVSt Prospectus.pdf
                         </div>
                         <div>
-                            <a href="#" class="btn btn-primary" height="20px" target="_blank">Download <i class="bi bi-download btn-icon"></i></a>
+                            <a href="https://drive.google.com/file/d/1BQCbbXr1hBTkvUE9ZmtcagJXgu7VJLyV/view?usp=drive_link" class="btn btn-primary" height="20px" target="_blank">Download <i class="bi bi-download btn-icon"></i></a>
                         </div>
                         
                     </div>
@@ -160,7 +160,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="mvst-headingOne">
                                 <button class="accordion-button collapsed parent-accord" type="button" data-bs-toggle="collapse" data-bs-target="#mvst-collapseOne" aria-expanded="false" aria-controls="mvst-collapseOne">
-                                    CORE SUBJECT
+                                    CORE SUBJECTS
                                 </button>
                                 </h2>
                                 <div id="mvst-collapseOne" class="accordion-collapse collapse" aria-labelledby="mvst-headingOne" data-bs-parent="#accordionFlushMVSt">
@@ -174,7 +174,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="mvst-headingTwo">
                                 <button class="accordion-button collapsed parent-accord" type="button" data-bs-toggle="collapse" data-bs-target="#mvst-collapseTwo" aria-expanded="false" aria-controls="mvst-collapseTwo">
-                                    MAJOR - PREVENTIVE VETERINARY MEDICINE
+                                    MAJOR - VETERINARY PREVENTIVE MEDICINE
                                 </button>
                                 </h2>
                                 <div id="mvst-collapseTwo" class="accordion-collapse collapse" aria-labelledby="mvst-headingTwo" data-bs-parent="#accordionFlushMVSt">
@@ -189,7 +189,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="mvst-headingThree">
                                 <button class="accordion-button collapsed parent-accord" type="button" data-bs-toggle="collapse" data-bs-target="#mvst-collapseThree" aria-expanded="false" aria-controls="mvst-collapseThree">
-                                    MAJOR - PUBLIC HEALTH
+                                    MAJOR - VETERINARY PUBLIC HEALTH
                                 </button>
                                 </h2>
                                 <div id="mvst-collapseThree" class="accordion-collapse collapse" aria-labelledby="mvst-headingThree" data-bs-parent="#accordionFlushMVSt">

@@ -19,11 +19,12 @@
             <div class="container-fluid page-content-footer"></div>
             </div>
 
-            <div class="col-lg m-2 rounded card g-0">
-                <div class="img-zoom-container">
+            <div class="col-lg-4 m-2 rounded g-0">
+                <div class="about-image-container img-zoom-container" style="height:200px;">
                     <img src="{{ asset('assets_cvsm/images/temporary/Student - milking.jpeg') }}" class="img-fluid" alt="Academic Program 1">
                 </div>
             </div>
+
         </div>
 
     </div>
@@ -109,12 +110,12 @@
 
                 <div class="m-3 faculty-container rounded-shadow" style="width:230px">
                     <div class="faculty-image-container">
-                        <img src="{{ asset('assets_cvsm/images/faculty/Dr. Medrano.jpg') }}" alt="Faculty Member" class="img-fluid">
+                        <img src="{{ asset('assets_cvsm/images/faculty/Dr. Medrano.png') }}" alt="Faculty Member" class="img-fluid">
                     </div>
 
                     <div class="text-center p-2">
                         <h6 class="faculty-name">DR. RODOLFO F. MEDRANO JR</h6>
-                        <p class="faculty-position">Associate Prof II</p>
+                        <p class="faculty-position">Associate Prof V</p>
                         <p class="faculty-title"></p>
                     </div>
                 </div>

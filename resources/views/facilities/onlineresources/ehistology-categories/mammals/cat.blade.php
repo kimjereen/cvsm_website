@@ -5,14 +5,6 @@
 
 <section class="page-wrapper">
 
-    <!-- PAGE COVER STARTS HERE -->
-    <div class="page-cover">
-        <img src="{{ asset('assets_cvsm/images/about-cover.jpg') }}" alt="About Cover">
-        <div class="cover-overlay"></div>
-        <div class="cover-title">E-HISTOLOGY - MAMMALS</div>
-    </div>
-    <!-- PAGE COVER ENDS HERE -->
-
 
     <!-- E-HISTOLOGY -->
     <div class="container my-4 g-0">

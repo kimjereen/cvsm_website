@@ -33,6 +33,9 @@
         <li class="nav-item col-md container-fluid p-2">
             <a class="nav-link" data-bs-toggle="tab" href="#tab-accreditations" onclick="updateURL('#tab-accreditations')">Accreditations</a>
         </li>
+        <li class="nav-item col-md container-fluid p-2">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-student-organizations" onclick="updateURL('#tab-student-organizations')">Student Org</a>
+        </li>
     </ul>
 
     <!-- Tab panes -->
@@ -54,6 +57,9 @@
         </div>
         <div id="tab-accreditations" class="container tab-pane fade">
             @include('about.accreditations')
+        </div>
+        <div id="tab-student-organizations" class="container tab-pane fade">
+            @include('about.studentorganization')
         </div>
     </div>
     

@@ -5,17 +5,9 @@
 
 <section class="page-wrapper">
 
-    <!-- PAGE COVER STARTS HERE -->
-    <div class="page-cover">
-        <img src="{{ asset('assets_cvsm/images/temporary/news-1.png') }}" alt="About Cover">
-        <div class="cover-overlay"></div>
-        <div class="cover-title">US assoc prof delivers diagnostics, infectious disease modeling lecture</div>
-    </div>
-    <!-- PAGE COVER ENDS HERE -->
 
-
-    <!-- Top News -->
-    <div class="container my-4 g-0">
+    <!-- read news -->
+    <div class="container my-4">
         <!-- Section Header -->
         <div class="container-fluid mt-5">
             <div class="d-flex flex-row my-2">
@@ -24,69 +16,64 @@
             </div>    
         </div>
 
-        
-        <div class="container my-4">
+        <div class="container">
 
-                <div class="row">
-                    <div class="col-md">
-                        <p>
-                        US assoc prof delivers diagnostics, infectious disease modeling lecture
-                        <br><br>
-                        Iowa State University's (ISU) Dr. Luis Gimenez-Lirola, associate professor from the College of Veterinary Medicine, presented a lecture entitled “Innovations in Diagnostics and Infectious Diseases Modeling: Unveiling Novel Platforms for Emerging Animal Pathogens” at the Center for Transboundary Animal Diseases (CenTrAD) Mini Theater last February 27, 2024.
-                        <br><br>
-                        Dr. Lirola introduced the already-available next generation of diagnostic laboratory platforms and highlighted the importance of selecting appropriate specimens and sampling strategies in disease diagnosis.
-                        <br><br>
-                        Together with Dr. Lirola are Dr. Ronaldo Magtoto, also from ISU, and Dr. Precy Dizon Magtoto, a faculty member of the Pampanga State Agricultural University - College of Veterinary Medicine.
-                        <br><br>
-                        Their visit paved the way for the renewal and realization of the Memorandum of Understanding (MOU) between ISU and Central Luzon State University (CLSU), which will allow faculty exchange and research collaborations between the two universities.
-                        <br><br>
-                        The event was attended by CLSU faculty members and students from the College of Science, College of Fisheries, College of Agriculture and College of Veterinary Science and Medicine.
-                        </p>
-                    </div>  
-                    <div class="col-md-4">
-                        <div class="container">
-                            <div class="row row-cols-1 row-cols-md-1">
-
-                                <div class="col mt-3">
-                                    <div class="page-content-card rounded">
-                                        <div class="p-4 d-flex flex-column justify-content-between ">
-                                            <div class="news-content-body">
-                                                <h3 class="news-headlines">CLSU Vets Attended the 91st PVMA in Bacolod</h3>
-                                                
-                                            </div>
-                                            <div class="row news-content-footer mx-1 justify-content-around">
-                                                <a href="#" class="btn btn-primary cont-reading">Read More <i class="bi bi-arrow-right btn-icon"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="col mt-3">
-                                    <div class="page-content-card rounded">
-                                        <div class="p-4 d-flex flex-column justify-content-between ">
-                                            <div class="news-content-body">
-                                                <h3 class="news-headlines">CLSU-VTH holds awareness campaign on stray...</h3>
-                                                
-                                            </div>
-                                            <div class="row news-content-footer mx-1 justify-content-around">
-                                                <a href="#" class="btn btn-primary cont-reading mx-1">Read More <i class="bi bi-arrow-right btn-icon"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        
-                    </div>
+            <div class="image-with-text">
+                <div class="text-around-container">
+                    <img src="{{ asset('assets_cvsm/images/temporary/news-1.png') }}" alt="Timeline Image" class="img-fluid timeline-image">
                 </div>
+                <div class="text-container">
+                    <h3 class="headline-title">US assoc prof delivers diagnostics, infectious disease modeling lecture</h3>
+                    <p class="text-around">
+                    
+                    Iowa State University's (ISU) Dr. Luis Gimenez-Lirola, associate professor from the College of Veterinary Medicine, presented a lecture entitled “Innovations in Diagnostics and Infectious Diseases Modeling: Unveiling Novel Platforms for Emerging Animal Pathogens” at the Center for Transboundary Animal Diseases (CenTrAD) Mini Theater last February 27, 2024.
+                    <br><br>
+                    Dr. Lirola introduced the already-available next generation of diagnostic laboratory platforms and highlighted the importance of selecting appropriate specimens and sampling strategies in disease diagnosis.
+                    <br><br>
+                    Together with Dr. Lirola are Dr. Ronaldo Magtoto, also from ISU, and Dr. Precy Dizon Magtoto, a faculty member of the Pampanga State Agricultural University - College of Veterinary Medicine.
+                    <br><br>
+                    Their visit paved the way for the renewal and realization of the Memorandum of Understanding (MOU) between ISU and Central Luzon State University (CLSU), which will allow faculty exchange and research collaborations between the two universities.
+                    <br><br>
+                    The event was attended by CLSU faculty members and students from the College of Science, College of Fisheries, College of Agriculture and College of Veterinary Science and Medicine.
+                    </p>
+                </div>
+                
+            </div>
 
         </div>
+
+
+
+        <!--
+        <div class="container my-4">
+
+
+                    <div class="row">
+                        <div class="col-md p-3">
+                            <p>
+                            US assoc prof delivers diagnostics, infectious disease modeling lecture
+                            <br><br>
+                            Iowa State University's (ISU) Dr. Luis Gimenez-Lirola, associate professor from the College of Veterinary Medicine, presented a lecture entitled “Innovations in Diagnostics and Infectious Diseases Modeling: Unveiling Novel Platforms for Emerging Animal Pathogens” at the Center for Transboundary Animal Diseases (CenTrAD) Mini Theater last February 27, 2024.
+                            <br><br>
+                            Dr. Lirola introduced the already-available next generation of diagnostic laboratory platforms and highlighted the importance of selecting appropriate specimens and sampling strategies in disease diagnosis.
+                            <br><br>
+                            Together with Dr. Lirola are Dr. Ronaldo Magtoto, also from ISU, and Dr. Precy Dizon Magtoto, a faculty member of the Pampanga State Agricultural University - College of Veterinary Medicine.
+                            <br><br>
+                            Their visit paved the way for the renewal and realization of the Memorandum of Understanding (MOU) between ISU and Central Luzon State University (CLSU), which will allow faculty exchange and research collaborations between the two universities.
+                            <br><br>
+                            The event was attended by CLSU faculty members and students from the College of Science, College of Fisheries, College of Agriculture and College of Veterinary Science and Medicine.
+                            </p>
+                        </div>  
+                        <div class="col-md-4">
+                        
+                        </div>
+                    </div>
+
+        </div>-->
     </div>
 
     <!-- Latest Headlines -->
-    <div class="container my-4 g-0">
+    <div class="container my-4">
         <!-- Section Title -->
         <div class="container-fluid mt-5">
             <h3 class="section-subtitle font-blue">RECENT NEWS</h3>

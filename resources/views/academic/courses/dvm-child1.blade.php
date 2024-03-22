@@ -33,7 +33,7 @@
     <div class="accordion-item">
         <h2 class="accordion-header" id="child-heading3">
         <button class="accordion-button collapsed child-accord" type="button" data-bs-toggle="collapse" data-bs-target="#child-collapse3" aria-expanded="false" aria-controls="child-collapse3">
-        Summer
+        MIdterm
         </button>
         </h2>
         <div id="child-collapse3" class="accordion-collapse collapse" aria-labelledby="child-heading3" data-bs-parent="#accordionChild1">

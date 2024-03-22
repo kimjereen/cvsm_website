@@ -52,7 +52,7 @@
         <div class="row row-cols-1 row-cols-md-2 m-1">
 
             <div class="col mt-3">
-                <div class="row page-content-card rounded">
+                <div class="row page-content-card rounded" style="height:100%;">
 
                     <div class="col-lg-4 g-0">
                     <div class="event-date-container d-flex align-items-center">
@@ -82,7 +82,7 @@
             </div>
 
             <div class="col mt-3">
-                <div class="row page-content-card rounded">
+                <div class="row page-content-card rounded" style="height:100%;">
 
                     <div class="col-lg-4 g-0">
                     <div class="event-date-container d-flex align-items-center">
@@ -113,7 +113,7 @@
 
 
             <div class="col mt-3">
-                <div class="row page-content-card rounded">
+                <div class="row page-content-card rounded" style="height:100%;">
 
                     <div class="col-lg-4 g-0">
                     <div class="event-date-container d-flex align-items-center">

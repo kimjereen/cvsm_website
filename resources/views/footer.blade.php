@@ -18,7 +18,7 @@
                     <!-- Horizontal line -->
                     <hr class="bg-white">
                     <!-- Short intro -->
-                    <p class="footer-offwhite"><i>Veterinarians for the Countryside</i></p>
+                    <p class="footer-offwhite"><i>Dedicated to Service and Excellence</i></p>
                     <!-- Social media links -->
                     <div class="social-media mb-5">
                         <a href="https://www.facebook.com/profile.php?id=100057517867278" class="me-3 text-white"><i class="bi bi-facebook" target="_blank"></i></a>
@@ -36,13 +36,13 @@
                 <div class="col">
                     <h6 class="text-white">Pages</h6>
                     <ul class="nav flex-column footer-offwhite">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">About</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Academic Programs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Research</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Updates</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Resource & Facilities</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Extension</a></li>
+                        <li class="nav-item mb-2"><a href="{{ route('home') }}" class="nav-link p-0 ">Home</a></li>
+                        <li class="nav-item mb-2"><a href="{{ route('about') }}" class="nav-link p-0 ">About</a></li>
+                        <li class="nav-item mb-2"><a href="{{ route('academic') }}" class="nav-link p-0 ">Academic Programs</a></li>
+                        <li class="nav-item mb-2"><a href="{{ route('research') }}" class="nav-link p-0 ">Research</a></li>
+                        <li class="nav-item mb-2"><a href="{{ route('news') }}" class="nav-link p-0 ">News</a></li>
+                        <li class="nav-item mb-2"><a href="{{ route('facilities') }}" class="nav-link p-0 ">Facilities and Resources</a></li>
+                        <li class="nav-item mb-2"><a href="{{ route('extension') }}" class="nav-link p-0 ">Extension</a></li>
                     </ul>
                 </div>
 
@@ -56,7 +56,7 @@
                         <li class="nav-item mb-2"><a href="https://oad.clsu2.edu.ph/star/index.php/user-login/1?fbclid=IwAR0q90-f8SVYf7Bju0dtR_t6d-hbFZd1qIphM_1kC7KCJ2q3eee6uFnOU84" class="nav-link p-0" target="_blank">Faculty Portal</a></li>
                         
                         
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Login</a></li>
+                        <li class="nav-item mb-2"><a href="{{ route('login') }}" class="nav-link p-0 ">Login</a></li>
                     </ul>
                 </div>
 

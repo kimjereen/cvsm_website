@@ -125,13 +125,14 @@
                         <li class="dropdown">
                         <a class="dropdown-item dropdown-toggle" href="{{ route('about') }}#tab-departments">Departments</a>
                         <ul class="dropdown-menu dropdown-submenu">
-                            <li><a class="dropdown-item" href="{{ route('departments') }}#tab-morphophysiology">Morphophysiology</a></li>
                             <li><a class="dropdown-item" href="{{ route('departments') }}#tab-animal-management">Animal Management</a></li>
+                            <li><a class="dropdown-item" href="{{ route('departments') }}#tab-morphophysiology">Morphophysiology</a></li>
                             <li><a class="dropdown-item" href="{{ route('departments') }}#tab-pathobiology">Pathobiology</a></li>
-                            <li><a class="dropdown-item" href="{{ route('departments') }}#tab-clinical-sciences">Clinical Sciences</a></li>
+                            <li><a class="dropdown-item" href="{{ route('departments') }}#tab-clinical-sciences">Veterinary Clinical Sciences</a></li>
                         </ul>
                         </li>
                         <li><a class="dropdown-item" href="{{ route('about') }}#tab-accreditations">Accreditations</a></li>
+                        <li><a class="dropdown-item" href="{{ route('about') }}#tab-student-organizations">Student Organizations</a></li>
                     </ul>
                 </li>
 
@@ -164,8 +165,8 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle navigate" href="{{ route('research') }}" role="button" data-bs-toggle="dropdown">Research</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="{{ route('research') }}#tab-ongoing-projects">On-going Project</a></li>
-                        <li><a class="dropdown-item" href="{{ route('research') }}#tab-publications">Publication</a></li>
+                        <li><a class="dropdown-item" href="{{ route('research') }}#tab-ongoing-projects">On-going Projects</a></li>
+                        <li><a class="dropdown-item" href="{{ route('research') }}#tab-publications">Publications</a></li>
                         <li><a class="dropdown-item" href="{{ route('research') }}#tab-research-partners">Research Partners</a></li>
                     </ul>
                 </li>
@@ -174,12 +175,12 @@
                     <a class="nav-link dropdown-toggle" href="{{ route('news') }}" role="button" data-bs-toggle="dropdown">News</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="{{ route('news') }}#tab-news">News</a></li>
-                        <li><a class="dropdown-item" href="{{ route('news') }}#tab-events">Events & Announcements</a></li>
+                        <li><a class="dropdown-item" href="{{ route('news') }}#tab-events">Events and Announcements</a></li>
                     </ul>
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle navigate" href="{{ route('facilities') }}" role="button" data-bs-toggle="dropdown">Resource & Facilities</a>
+                    <a class="nav-link dropdown-toggle navigate" href="{{ route('facilities') }}" role="button" data-bs-toggle="dropdown">Facilities and Resources</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="{{ route('facilities') }}#tab-lecture-halls">Lecture Halls</a></li>
                         <li><a class="dropdown-item" href="{{ route('facilities') }}#tab-laboratories">Laboratories</a></li>
@@ -187,26 +188,7 @@
                         <li class="dropdown">
                         <a class="dropdown-item dropdown-toggle" href="{{ route('facilities') }}#tab-online-resources">Online Resources</a>
                         <ul class="dropdown-menu dropdown-submenu">
-                            <li class="dropdown">
-                                <a class="dropdown-item dropdown-toggle" href="{{ route('histology') }}#tab-mammals">Mammals</a>
-                                <ul class="dropdown-menu dropdown-submenu">
-                                    <li><a class="dropdown-item" href="{{ route('goat') }}">Goat</a></li>
-                                    <li><a class="dropdown-item" href="{{ route('dog') }}">Dog</a></li>
-                                    <li><a class="dropdown-item" href="{{ route('cat') }}">Cat</a></li>
-                                    <li><a class="dropdown-item" href="{{ route('cattle') }}">Cattle</a></li>
-                                    <li><a class="dropdown-item" href="{{ route('horse') }}">Horse</a></li>
-                                    <li><a class="dropdown-item" href="{{ route('pig') }}">Pig</a></li>
-                                    <li><a class="dropdown-item" href="{{ route('othermammals') }}">Others</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a class="dropdown-item dropdown-toggle" href="{{ route('histology') }}#tab-avians">Avians</a>
-                                <ul class="dropdown-menu dropdown-submenu">
-                                    <li><a class="dropdown-item" href="{{ route('chicken') }}">Chicken</a></li>
-                                    <li><a class="dropdown-item" href="{{ route('duck') }}">Duck</a></li>
-                                    <li><a class="dropdown-item" href="{{ route('otheravians') }}">Others</a></li>
-                                </ul>
-                            </li>
+                            <li><a class="dropdown-item" href="{{ route('histology') }}">e-Histology</a></li>
                         </ul>
                         </li>
                     </ul>
@@ -218,7 +200,6 @@
                         <li><a class="dropdown-item" href="{{ route('extension') }}#tab-vet-mission">Vet Mission</a></li>
                         <li><a class="dropdown-item" href="{{ route('extension') }}#tab-cattle-dispersal">Cattle Dispersal</a></li>
                         <li><a class="dropdown-item" href="{{ route('extension') }}#tab-veterinary-teaching-hospital">Veterinary Teaching Hospital</a></li>
-                        <li><a class="dropdown-item" href="{{ route('extension') }}#tab-student-organizations">Student Organizations</a></li>
                     </ul>
                 </li>
 
@@ -235,7 +216,8 @@
     </div>
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
-    <script src="{{ asset('assets_cvsm/bootstrap-5.3.3-dist/js/bootstrap.bundle.js') }}"></script>
+    <script src="{{ asset('assets_cvsm/bootstrap-5.3.3-dist/js/bootstrap.bundle.js') }}">
+    </script><script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 
     <!-- Custom JavaScript -->
     <script src="{{ asset('assets_cvsm/js/scripts.js') }}"></script>
@@ -310,6 +292,8 @@
         $(document).ready(function () {
             activateTab();
             activateTabFromHash();
+            loadProjects(10, '.publication-list', '#loadMorePublication');
+            loadProjects(10, '.ongoing-list', '#loadMoreOngoing');
 
             // Update the tab when the hash changes (e.g., clicking on a dropdown link)
             $(window).on('hashchange', function () {
@@ -382,14 +366,10 @@
             activateTabFromHash();
         });
 
-
-
-        
-
-
     </script>
 
 
+    <!-- FOR GALLERY ITEMS -->
     <!-- Image Modal -->
     <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
     <button type="button" class="custom-close-btn position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close">✖</button>
@@ -405,9 +385,6 @@
             </div>
         </div>
     </div>
-
-
-
 
     <script>
     var modalImage = document.getElementById('modalImage');
@@ -434,10 +411,67 @@
             });
         });
     });
+    </script>
+    <!-- FOR GALLERY ITEMS -->
 
+
+
+    <!-- FOR LOAD MORE RESEARCH -->
+    <script>
+        function loadProjects(numToShow, containerSelector, loadMoreBtnSelector) {
+            // Initially hide all projects beyond the specified number to show
+            $(containerSelector + ' .project:gt(' + (numToShow - 1) + ')').hide();
+
+            // If the number of shown projects is less than the total projects, show the load more button
+            if ($(containerSelector + ' .project').length <= numToShow) {
+                $(loadMoreBtnSelector).hide();
+            } else {
+                $(loadMoreBtnSelector).show();
+            }
+            
+            // Function to handle load more button click
+            $(loadMoreBtnSelector).click(function(){
+                // Show next set of projects
+                $(containerSelector + ' .project:lt(' + ($(containerSelector + ' .project:visible').length + numToShow) + '):hidden').show();
+                
+                // If no more hidden projects, hide the load more button
+                if($(containerSelector + ' .project:hidden').length === 0){
+                    $(loadMoreBtnSelector).hide();
+                }
+            });
+        }
+    </script>
+    <!-- FOR LOAD MORE RESEARCH -->
+
+
+    
+    <!-- GO TO TO STARTS -->
+    <script>
+        // Function to scroll to the top of the page
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth" // Optional - adds smooth scrolling
+            });
+        }
+
+        // Show the scroll-to-top button when scrolling down
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            var scrollToTopButton = document.querySelector('.scroll-to-top');
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollToTopButton.style.display = "block";
+            } else {
+                scrollToTopButton.style.display = "none";
+            }
+        }
 
     </script>
 
-
+    <!-- Scroll to top button -->
+    <button class="scroll-to-top" onclick="scrollToTop()">
+        <i class="bi bi-chevron-up"></i>
+    </button>
 
 @yield('content')

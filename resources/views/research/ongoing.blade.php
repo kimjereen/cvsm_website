@@ -8,9 +8,9 @@
             <h3 class="section-subtitle font-blue">Ongoing Projects</h3>
         </div>-->
 
-        <div class="project-list mt-5 page-content-card rounded">
+        <div class="project-list ongoing-list mt-5 page-content-card rounded">
             <div class="row research-title-bar">
-                <h4 class="col-1 mt-2 ">#</h4>
+                <h4 class="col-1 mt-2 "></h4>
                 <h4 class="col-11 mt-2 ">ONGOING PROJECTS</h4>
             </div>
             <div class="project m-4 px-5">
@@ -34,7 +34,7 @@
                     </div>
                     <div class="col-11">
                         <h4 class="project-title">Validation of ASF Biosensor in archived blood samples collected from domesticated pig</h4>
-                        <p class="project-info"><strong>Researchers:</strong> Dr. Errol Jay Y. Balagan, Dr. Virginia M. Venturina, Dr. Noraine P. Valdez</p>
+                        <p class="project-info"><strong>Researchers:</strong> Dr. Errol Jay Y. Balagan, Dr. Virginia M. Venturina, Dr. Noraine P. Medina</p>
                         <p class="project-info"><strong>Funding Agency:</strong> Michigan State University</p>
                         <p class="project-info"><strong>Duration:</strong> November 2023 - October 2024</p>
                     </div>
@@ -58,6 +58,11 @@
 
 
             <div class="container-fluid page-content-footer"></div>
+        </div>
+
+        <!-- Load more button -->
+        <div class="text-end mt-3">
+                <button id="loadMoreOngoing" class="btn btn-success">Load More</button>
         </div>
 
 
