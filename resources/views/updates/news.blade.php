@@ -98,7 +98,7 @@
             <div class="row row-cols-1 row-cols-md-3">
 
 
-                <div class="col mt-2">
+                <div class="col-lg mt-2">
                     <div class="page-content-card rounded" style="height:100%;">
                         <div class="col-lg g-0">
                             <div class="all-news-image-container g-0">
@@ -123,7 +123,7 @@
                     </div>
                 </div>
 
-                <div class="col mt-2">
+                <div class="col-lg mt-2">
                     <div class="page-content-card rounded" style="height:100%;">
                         <div class="col-lg g-0">
                             <div class="all-news-image-container g-0">
@@ -148,7 +148,7 @@
                     </div>
                 </div>
 
-                <div class="col mt-2">
+                <div class="col-lg mt-2">
                     <div class="page-content-card rounded" style="height:100%;">
                         <div class="col-lg g-0">
                             <div class="all-news-image-container g-0">

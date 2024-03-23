@@ -19,8 +19,8 @@
             <div class="container-fluid page-content-footer"></div>
             </div>
 
-            <div class="col-lg-4 m-2 rounded g-0">
-                <div class="about-image-container img-zoom-container" style="height:200px;">
+            <div class="col-lg-5 m-2 rounded g-0">
+                <div class="about-image-container img-zoom-container" style="height:260px;">
                     <img src="{{ asset('assets_cvsm/images/temporary/Student - milking.jpeg') }}" class="img-fluid" alt="Academic Program 1">
                 </div>
             </div>

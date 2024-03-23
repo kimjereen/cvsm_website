@@ -5,6 +5,13 @@
 
 <section class="page-wrapper">
 
+    <div class="container-fluid back-link-container">
+        <div class="d-flex flex-row text-white align-items-center container">
+            <a href="{{ route('news') }}#tab-news" class="back-link px-2"><i class="bi bi-house-fill btn-icon"></i> News</a> /
+            <a href="#" class="back-link2 px-2"> US assoc prof delivers diagnostics, infectious disease modeling lecture</a>
+        </div>  
+    </div>
+
 
     <!-- read news -->
     <div class="container my-4">
@@ -24,17 +31,15 @@
                 </div>
                 <div class="text-container">
                     <h3 class="headline-title">US assoc prof delivers diagnostics, infectious disease modeling lecture</h3>
-                    <p class="text-around">
+                    <p class="text-around" style="white-space: pre-wrap;">          Iowa State University's (ISU) Dr. Luis Gimenez-Lirola, associate professor from the College of Veterinary Medicine, presented a lecture entitled “Innovations in Diagnostics and Infectious Diseases Modeling: Unveiling Novel Platforms for Emerging Animal Pathogens” at the Center for Transboundary Animal Diseases (CenTrAD) Mini Theater last February 27, 2024.
+
+            Dr. Lirola introduced the already-available next generation of diagnostic laboratory platforms and highlighted the importance of selecting appropriate specimens and sampling strategies in disease diagnosis.
                     
-                    Iowa State University's (ISU) Dr. Luis Gimenez-Lirola, associate professor from the College of Veterinary Medicine, presented a lecture entitled “Innovations in Diagnostics and Infectious Diseases Modeling: Unveiling Novel Platforms for Emerging Animal Pathogens” at the Center for Transboundary Animal Diseases (CenTrAD) Mini Theater last February 27, 2024.
-                    <br><br>
-                    Dr. Lirola introduced the already-available next generation of diagnostic laboratory platforms and highlighted the importance of selecting appropriate specimens and sampling strategies in disease diagnosis.
-                    <br><br>
-                    Together with Dr. Lirola are Dr. Ronaldo Magtoto, also from ISU, and Dr. Precy Dizon Magtoto, a faculty member of the Pampanga State Agricultural University - College of Veterinary Medicine.
-                    <br><br>
-                    Their visit paved the way for the renewal and realization of the Memorandum of Understanding (MOU) between ISU and Central Luzon State University (CLSU), which will allow faculty exchange and research collaborations between the two universities.
-                    <br><br>
-                    The event was attended by CLSU faculty members and students from the College of Science, College of Fisheries, College of Agriculture and College of Veterinary Science and Medicine.
+            Together with Dr. Lirola are Dr. Ronaldo Magtoto, also from ISU, and Dr. Precy Dizon Magtoto, a faculty member of the Pampanga State Agricultural University - College of Veterinary Medicine.
+                    
+            Their visit paved the way for the renewal and realization of the Memorandum of Understanding (MOU) between ISU and Central Luzon State University (CLSU), which will allow faculty exchange and research collaborations between the two universities.
+                    
+            The event was attended by CLSU faculty members and students from the College of Science, College of Fisheries, College of Agriculture and College of Veterinary Science and Medicine.
                     </p>
                 </div>
                 
@@ -83,7 +88,7 @@
             <div class="row row-cols-1 row-cols-md-3">
 
 
-                <div class="col mt-2">
+                <div class="col-lg mt-2">
                     <div class="page-content-card rounded">
                         <div class="col-lg g-0">
                             <div class="all-news-image-container g-0">
@@ -108,7 +113,7 @@
                     </div>
                 </div>
 
-                <div class="col mt-2">
+                <div class="col-lg mt-2">
                     <div class="page-content-card rounded">
                         <div class="col-lg g-0">
                             <div class="all-news-image-container g-0">
@@ -133,7 +138,7 @@
                     </div>
                 </div>
 
-                <div class="col mt-2">
+                <div class="col-lg mt-2">
                     <div class="page-content-card rounded">
                         <div class="col-lg g-0">
                             <div class="all-news-image-container g-0">

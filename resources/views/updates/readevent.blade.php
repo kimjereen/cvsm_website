@@ -6,6 +6,13 @@
 <section class="page-wrapper">
 
 
+    <div class="container-fluid back-link-container">
+        <div class="d-flex flex-row text-white align-items-center">
+            <a href="{{ route('news') }}#tab-news" class="back-link px-2"><i class="bi bi-house-fill btn-icon"></i> Events</a> /
+            <a href="#" class="back-link2 px-2"> Lecture on Innovations in Diagnostics and Infectious Diseases Modeling</a>
+        </div>  
+    </div>
+
     <!-- read announcement -->
     <div class="container my-4">
         <!-- Section Header -->
@@ -23,7 +30,7 @@
             <div class="">
                 <div class="">
                     <h3 class="headline-title">Lecture on Innovations in Diagnostics and Infectious Diseases Modeling</h3>
-                    <p class="text-around">
+                    <p class="text-around" style="white-space: pre-wrap;">
                     Iowa State University's (ISU) Dr. Luis Gimenez-Lirola, associate professor from the College of Veterinary Medicine, will present a lecture entitled “Innovations in Diagnostics and Infectious Diseases Modeling: Unveiling Novel Platforms for Emerging Animal Pathogens” at the Center for Transboundary Animal Diseases (CenTrAD) Mini Theater on February 27, 2024.
                     </p>
                 </div>
@@ -43,10 +50,10 @@
         
         <div class="row row-cols-1 row-cols-md-3 m-1">
 
-            <div class="col mt-3">
+            <div class="col-lg mt-3">
                 <div class="page-content-card rounded" style="height:100%;">
 
-                    <div class="g-0">
+                    <div class="g-0" style="height: 120px;">
                     <div class="event-date-container d-flex align-items-center">
                         <div class="w-100 text-center py-4">
                             <h2 class="text-white">23</h2>
@@ -73,10 +80,10 @@
                 </div>
             </div>
 
-            <div class="col mt-3">
+            <div class="col-lg mt-3" >
                 <div class="row page-content-card rounded" style="height:100%;">
 
-                    <div class="g-0">
+                    <div class="g-0" style="height: 120px;">
                     <div class="event-date-container d-flex align-items-center">
                         <div class="w-100 text-center py-4">
                             <h2 class="text-white">23</h2>
@@ -104,10 +111,10 @@
             </div>
 
 
-            <div class="col mt-3">
+            <div class="col-lg mt-3">
                 <div class="row page-content-card rounded" style="height:100%;">
 
-                    <div class="g-0">
+                    <div class="g-0" style="height: 120px;">
                     <div class="event-date-container d-flex align-items-center">
                         <div class="w-100 text-center py-4">
                             <h2 class="text-white">16</h2>

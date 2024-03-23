@@ -19,24 +19,23 @@
                 <div class="container page-content-body white-texture">
 
                     <div class="page-content-text">
-                        <p class="text-around">
-                            The CLSU College of Veterinary Science and Medicine (CLSU-CVSM) was founded in 1978 through the Republic Act No. 4067 which was enacted to law by Congress in 1964 and established through Board of Regent Resolution No. 17-78 s.1978.  It was the first ladder-type veterinary curriculum in the country.  During the years of implementation,  students receive the Certificate in Animal Production after two years, the Bachelor of Science in Animal Husbandry after four years, and finally, the Doctor of Veterinary Science and Medicine degree after six years.  The curricular program was designed by the late Dr. Teodulo M. Topacio for CLSU-CVSM under the leadership of the first Dean, Dr. Oscar D. Quines.  In 2017, Dr. Topacio has conferred the honorific award of being the “Father of the CLSU College of Veterinary Science and Medicine”.  
-                            <br><br>
-                            The college operates with four departments, the Department of Animal Management, the Department of Morphophysiology and Pharmacology, the Department of Pathobiology, and the Department of Veterinary Clinical Sciences. In compliance with the minimum requirements set by the Commission on Higher Education, there is a Veterinary Teaching Hospital where junior and senior clinicians render their clinical duties.
-                            <br><br>
-                            The DVM program first applied for accreditation to the Accrediting Agency of Chartered Colleges and Universities in the Philippines, Inc. (AACCUP) in 1997 for candidate status and since then has been elevated to higher levels in subsequent visits.  Currently, the DVM program has Level IV Phase 2 re-accredited status, the highest level for such accreditation. 
-                            <br><br>
-                            In 1999, CLSU-CVSM offered the first Master of Veterinary Studies (MVSt) program (BOR Res No. 09-99) a post-graduate degree specializing in Veterinary Preventive Medicine and Veterinary Public Health. At present, the MVSt program has AACCUP Level II Re-accredited status.
-                            <br><br>
-                            On February 27, 2009, the Commission on Higher Education recognized the CLSU-CVSM as a Center of Excellence (COE) for the Doctor of Veterinary Medicine program.  The COE status has since been renewed every three years and maintained to this date.
-                            <br><br>
-                            In 2018, CLSU-CVSM revised the curriculum to offer a straight DVM program. This is part of the harmonization of the DVM program in the country based on outcomes-based education.
-                            <br><br>
-                            Recently, the DVM program was selected by CLSU as its program strength and was awarded three stars by the QS World Ranking. 
-                            <br><br>
-                            Through its commitment to provide quality service to the nation and abroad, CLSU-CVSM is an active member of the Asian Association of Veterinary Schools (AAVS) and Southeast Asian One Health University Network (SEAOHUN).
-                            <br><br>
-                            CVSM continues to uphold its core values of excellence and dedication towards its mission to produce veterinarians that are globally competent and service-oriented to contribute to animal health and food security through countryside development.
+                        <p class="text-around" style="white-space: pre-wrap;">The CLSU College of Veterinary Science and Medicine (CLSU-CVSM) was founded in 1978 through the Republic Act No. 4067 which was enacted to law by Congress in 1964 and established through Board of Regent Resolution No. 17-78 s.1978.  It was the first ladder-type veterinary curriculum in the country.  During the years of implementation,  students receive the Certificate in Animal Production after two years, the Bachelor of Science in Animal Husbandry after four years, and finally, the Doctor of Veterinary Science and Medicine degree after six years.  The curricular program was designed by the late Dr. Teodulo M. Topacio for CLSU-CVSM under the leadership of the first Dean, Dr. Oscar D. Quines.  In 2017, Dr. Topacio has conferred the honorific award of being the “Father of the CLSU College of Veterinary Science and Medicine”.  
+                            
+The college operates with four departments, the Department of Animal Management, the Department of Morphophysiology and Pharmacology, the Department of Pathobiology, and the Department of Veterinary Clinical Sciences. In compliance with the minimum requirements set by the Commission on Higher Education, there is a Veterinary Teaching Hospital where junior and senior clinicians render their clinical duties.
+                    
+The DVM program first applied for accreditation to the Accrediting Agency of Chartered Colleges and Universities in the Philippines, Inc. (AACCUP) in 1997 for candidate status and since then has been elevated to higher levels in subsequent visits.  Currently, the DVM program has Level IV Phase 2 re-accredited status, the highest level for such accreditation. 
+
+In 1999, CLSU-CVSM offered the first Master of Veterinary Studies (MVSt) program (BOR Res No. 09-99) a post-graduate degree specializing in Veterinary Preventive Medicine and Veterinary Public Health. At present, the MVSt program has AACCUP Level II Re-accredited status.
+
+On February 27, 2009, the Commission on Higher Education recognized the CLSU-CVSM as a Center of Excellence (COE) for the Doctor of Veterinary Medicine program.  The COE status has since been renewed every three years and maintained to this date.
+
+In 2018, CLSU-CVSM revised the curriculum to offer a straight DVM program. This is part of the harmonization of the DVM program in the country based on outcomes-based education.
+
+Recently, the DVM program was selected by CLSU as its program strength and was awarded three stars by the QS World Ranking. 
+
+Through its commitment to provide quality service to the nation and abroad, CLSU-CVSM is an active member of the Asian Association of Veterinary Schools (AAVS) and Southeast Asian One Health University Network (SEAOHUN).
+
+CVSM continues to uphold its core values of excellence and dedication towards its mission to produce veterinarians that are globally competent and service-oriented to contribute to animal health and food security through countryside development.
                         </p>
                     </div>
                     

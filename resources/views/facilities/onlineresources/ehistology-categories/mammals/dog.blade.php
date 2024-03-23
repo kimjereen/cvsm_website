@@ -5,6 +5,12 @@
 
 <section class="page-wrapper">
 
+    <div class="container-fluid back-link-container">
+        <div class="d-flex flex-row text-white align-items-center">
+            <a href="{{ route('histology') }}#tab-mammals" class="back-link px-2"><i class="bi bi-house-fill btn-icon"></i> Mammals</a> /
+            <a href="{{ route('dog') }}" class="back-link2 px-2"> Dog</a>
+        </div>  
+    </div>
 
     <!-- E-HISTOLOGY -->
     <div class="container my-4 g-0">

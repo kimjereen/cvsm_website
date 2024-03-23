@@ -511,8 +511,21 @@ a .btn-icon {
   object-fit: cover;
   z-index: 1;
 }
-
-
+.back-link-container {
+    background-color: var(--secondary);
+    padding: 5px;
+    margin: 0;
+    font-weight: 350;
+}
+.back-link-container .back-link {
+    color: var(--white);
+}
+.back-link-container .back-link2 {
+    color: var(--light-gray);
+}
+.back-link-container .back-link:hover, .back-link-container .back-link2:hover {
+    color: var(--yellow-green);
+}
 
 
 

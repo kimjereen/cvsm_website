@@ -12,7 +12,7 @@
     
 
         <div class="col p-2">
-            <a href="{{ route('departments') }}#tab-animal" class="pop">
+            <a href="{{ route('departments') }}#tab-animal-management" class="pop">
                 <div class="card rounded-shadow img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/temporary/Student - milking.jpeg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 2">
                     <div class="card-overlay"></div>
@@ -34,7 +34,7 @@
         </div>
 
         <div class="col p-2">
-            <a href="{{ route('departments') }}#tab-morpho" class="pop">
+            <a href="{{ route('departments') }}#tab-morphophysiology" class="pop">
                 <div class="card rounded-shadow img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/temporary/cover-morpho.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 1">
                     <div class="card-overlay"></div>
@@ -57,7 +57,7 @@
         </div>
 
         <div class="col p-2">
-            <a href="{{ route('departments') }}#tab-patho" class="pop">
+            <a href="{{ route('departments') }}#tab-pathobiology" class="pop">
                 <div class="card rounded-shadow img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/temporary/Student - fish.jpeg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 3">
                     <div class="card-overlay"></div>
@@ -79,7 +79,7 @@
         </div>
 
         <div class="col p-2">
-            <a href="{{ route('departments') }}#tab-clinical" class="pop">
+            <a href="{{ route('departments') }}#tab-veterinary-clinical-sciences" class="pop">
                 <div class="card rounded-shadow img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/temporary/Student- centrifuge.jpeg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 3">
                     <div class="card-overlay"></div>

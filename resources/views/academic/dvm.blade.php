@@ -251,7 +251,7 @@
     </div>
 
     <!-- Prerequisite Map -->
-    <div class="container my-4 g-0"  id="dvm-prerequisite">
+    <div class="container my-4 g-0"  id="dvm-prerequisite-map">
         <!-- Section Title -->
         <div class="container-fluid mt-5">
         <h3 class="section-subtitle font-blue space-down2">Prerequisite Map</h3>

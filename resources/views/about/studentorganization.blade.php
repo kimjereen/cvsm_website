@@ -36,7 +36,7 @@
                             <div class="news-content-footer px-1">
                                 <div class="d-flex justify-content-between">
                                     <div class="">
-                                        <a href="mailto:clsurodeoclub@gmail.com" class="card-text"><small class="text-muted"><i class="bi bi-envelope-fill mx-3"></i>clsurodeoclub@gmail.com</a></small>
+                                        <a href="mailto:clsurodeoclub@gmail.com" class="card-text text-muted"><i class="bi bi-envelope-fill mx-3"></i>clsurodeoclub@gmail.com</a>
                                     </div>
 
                                     <div class="">
@@ -72,7 +72,7 @@
                             <div class="news-content-footer px-1">
                                 <div class="d-flex justify-content-between">
                                     <div class="">
-                                        <a href="mailto:clsusaver@gmail.com" class="card-text"><small class="text-muted"><i class="bi bi-envelope-fill mx-3"></i>clsusaver@gmail.com</a></small>
+                                        <a href="mailto:clsusaver@gmail.com" class="card-text text-muted"><i class="bi bi-envelope-fill mx-3"></i>clsusaver@gmail.com</a>
                                     </div>
 
                                     <div class="">
@@ -108,7 +108,7 @@
                             <div class="news-content-footer px-1">
                                 <div class="d-flex justify-content-between">
                                     <div class="">
-                                        <a href="mailto:veterinarycirclefor10@gmail.com" class="card-text"><small class="text-muted"><i class="bi bi-envelope-fill mx-3"></i>veterinarycirclefor10@gmail.com</a></small>
+                                        <a href="mailto:veterinarycirclefor10@gmail.com" class="card-text text-muted"><i class="bi bi-envelope-fill mx-3"></i>veterinarycirclefor10@gmail.com</a>
                                     </div>
 
                                     <div class="">
@@ -144,7 +144,7 @@
                             <div class="news-content-footer px-1">
                                 <div class="d-flex justify-content-between">
                                     <div class="">
-                                        <a href="mailto:clsuvkv.vlv@gmail.com" class="card-text"><small class="text-muted"><i class="bi bi-envelope-fill mx-3"></i>clsuvkv.vlv@gmail.com</a></small>
+                                        <a href="mailto:clsuvkv.vlv@gmail.com" class="card-text text-muted"><i class="bi bi-envelope-fill mx-3"></i>clsuvkv.vlv@gmail.com</a>
                                     </div>
 
                                     <div class="">
@@ -180,7 +180,7 @@
                             <div class="news-content-footer px-1">
                                 <div class="d-flex justify-content-between">
                                     <div class="">
-                                        <a href="mailto:vsas.clsu@gmail.com" class="card-text"><small class="text-muted"><i class="bi bi-envelope-fill mx-3"></i>vsas.clsu@gmail.com</a></small>
+                                        <a href="mailto:vsas.clsu@gmail.com" class="card-text text-muted"><i class="bi bi-envelope-fill mx-3"></i>vsas.clsu@gmail.com</a>
                                     </div>
 
                                     <div class="">
@@ -216,7 +216,7 @@
                             <div class="news-content-footer px-1">
                                 <div class="d-flex justify-content-between">
                                     <div class="">
-                                        <a href="mailto:vsgofficial.governor@gmail.com" class="card-text"><small class="text-muted"><i class="bi bi-envelope-fill mx-3"></i>vsgofficial.governor@gmail.com</a></small>
+                                        <a href="mailto:vsgofficial.governor@gmail.com" class="card-text text-muted"><i class="bi bi-envelope-fill mx-3"></i>vsgofficial.governor@gmail.com</a>
                                     </div>
 
                                     <div class="">
@@ -252,7 +252,7 @@
                             <div class="news-content-footer px-1">
                                 <div class="d-flex justify-content-between">
                                     <div class="">
-                                        <a href="mailto:ivsaphilippines.clsu@ivsamo.org" class="card-text"><small class="text-muted"><i class="bi bi-envelope-fill mx-3"></i>ivsaphilippines.clsu@ivsamo.org</a></small>
+                                        <a href="mailto:ivsaphilippines.clsu@ivsamo.org" class="card-text text-muted"><i class="bi bi-envelope-fill mx-3"></i>ivsaphilippines.clsu@ivsamo.org</a>
                                     </div>
 
                                     <div class="">
@@ -288,7 +288,7 @@
                             <div class="news-content-footer px-1">
                                 <div class="d-flex justify-content-between">
                                     <div class="">
-                                        <a href="mailto:" class="card-text "><small class="text-muted"><i class="bi bi-envelope-fill mx-3"></i></a></small>
+                                        <a href="mailto:" class="card-text text-muted"><i class="bi bi-envelope-fill mx-3"></i></a>
                                     </div>
 
                                     <div class="">

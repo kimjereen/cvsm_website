@@ -100,14 +100,19 @@
         
             <!-- Offcanvas Sidebar -->
             <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel" data-bs-backdrop="false">
-                <div class="offcanvas-header">
-                    
-                    <button id="offcanvas-close" type="button" class="custom-close" data-bs-dismiss="offcanvas" aria-label="Close">
-                        ✖
-                    </button>
-
-                    <img src="{{ asset('assets_cvsm/images/clsu-logo.png') }}" alt="CVSM Logo" style="height: 100px;">
+                
+            <div class="offcanvas-header">
+                <div class="row  w-100">
+                    <div class="col-auto">
+                        <button id="offcanvas-close" type="button" class="custom-close" data-bs-dismiss="offcanvas" aria-label="Close" style="margin: 20px;">✖</button>
+                    </div>
+                    <div class="col justify-self-center" style="margin-left:20px;">
+                        <img src="{{ asset('assets_cvsm/images/clsu-logo.png') }}" alt="CVSM Logo" style="height: 120px;">
+                    </div>
+                    <div class="col"></div>
                 </div>
+            </div>
+
 
                 <div class="offcanvas-body">
                 <ul class="navbar-nav m-auto">
@@ -173,7 +178,7 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="{{ route('news') }}" role="button" data-bs-toggle="dropdown">News</a>
+                        <a class="nav-link dropdown-toggle navigate" href="{{ route('news') }}" role="button" data-bs-toggle="dropdown">News</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="{{ route('news') }}#tab-news">News</a></li>
                             <li><a class="dropdown-item" href="{{ route('news') }}#tab-events">Events and Announcements</a></li>
@@ -346,7 +351,7 @@
             });
 
             // Get the current pathname
-             var currentPath = window.location.pathname;
+            var currentPath = window.location.pathname;
 
             // Loop through each nav link
             $('.navbar-nav .nav-link.navigate').each(function() {
@@ -358,7 +363,13 @@
                 console.log('Current path:', currentPath);
 
                 // Extract the last segment of the href (assuming it's the page name)
-                var pageName = href.split('/').pop();
+                var pageName;
+                if (currentPath == "/") {
+                    currentPath = "/home"
+                    pageName = "/home";
+                } else {
+                    pageName = href.split('/').pop();
+                }
                  
                 console.log('pageName:', pageName);
 
@@ -370,6 +381,9 @@
                     // Log a message indicating that the class has been added
                     console.log('-------------Added active class to:',$(this));
                     console.log('cur path and pagename', pageName)
+                } else {
+                    // Remove the 'active' class from the navigation link
+                    $(this).removeClass('active');
                 }
 
             });

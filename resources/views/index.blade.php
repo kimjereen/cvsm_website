@@ -393,7 +393,7 @@
             <!-- Replace the content of the div with your dynamic content -->
             <!-- This is just a placeholder example -->
             <!-- Begin loop -->
-            <a href="#" class="pop">
+            <a href="{{ route('facilities') }}#tab-lecture-halls" class="pop">
             <div class="col mt-3">
                 <div class="card rounded-shadow img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/temporary/lecture.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 1">
@@ -412,7 +412,7 @@
             </div>
             </a>
 
-            <a href="#" class="pop">
+            <a href="{{ route('facilities') }}#tab-laboratories" class="pop">
             <div class="col mt-3">
                 <div class="card rounded-shadow img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/temporary/CVSM_1.jpeg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 2">
@@ -431,7 +431,7 @@
             </div>
             </a>
 
-            <a href="#" class="pop">
+            <a href="{{ route('facilities') }}#tab-centrad" class="pop">
             <div class="col mt-3">
                 <div class="card rounded-shadow img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/temporary/cover-centrad.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 3">
@@ -475,7 +475,7 @@
 
         
         <div class="col mt-4">
-        <a href="{{ route('departments') }}#tab-animal" class="pop">
+        <a href="{{ route('departments') }}#tab-animal-management" class="pop">
             <div class="card rounded-shadow img-zoom-container">
                 <img src="{{ asset('assets_cvsm/images/temporary/Student - milking.jpeg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 2">
                 <div class="card-overlay"></div>
@@ -498,7 +498,7 @@
 
 
         <div class="col mt-4">
-        <a href="{{ route('departments') }}#tab-morpho" class="pop">
+        <a href="{{ route('departments') }}#tab-morphophysiology" class="pop">
             <div class="card rounded-shadow img-zoom-container">
                 <img src="{{ asset('assets_cvsm/images/temporary/cover-morpho.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 1">
                 <div class="card-overlay"></div>
@@ -522,7 +522,7 @@
 
 
         <div class="col mt-4">
-        <a href="{{ route('departments') }}#tab-patho" class="pop">
+        <a href="{{ route('departments') }}#tab-pathobiology" class="pop">
             <div class="card rounded-shadow img-zoom-container">
                 <img src="{{ asset('assets_cvsm/images/temporary/Student - fish.jpeg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 3">
                 <div class="card-overlay"></div>
@@ -545,7 +545,7 @@
 
 
         <div class="col mt-4">
-        <a href="{{ route('departments') }}#tab-clinical" class="pop">
+        <a href="{{ route('departments') }}#tab-veterinary-clinical-sciences" class="pop">
             <div class="card rounded-shadow img-zoom-container">
                 <img src="{{ asset('assets_cvsm/images/temporary/Student- centrifuge.jpeg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Facility 3">
                 <div class="card-overlay"></div>
@@ -717,7 +717,7 @@
         <div class="row row-cols-1 row-cols-md-3">
 
             <div class="col mt-3">
-            <a href="#" class="pop">
+            <a href="{{ route('extension') }}#tab-vet-mission" class="pop">
                 <div class="card rounded-shadow img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/temporary/vetmission.png') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Extension 1">
                     <div class="card-overlay"></div>
@@ -737,7 +737,7 @@
 
 
             <div class="col mt-3">
-            <a href="#" class="pop">
+            <a href="{{ route('extension') }}#tab-cattle-dispersal" class="pop">
                 <div class="card rounded-shadow img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/temporary/Student - Cattle Dispersal.jpg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Extension 2">
                     <div class="card-overlay"></div>
@@ -757,7 +757,7 @@
 
 
             <div class="col mt-3">
-            <a href="#" class="pop">
+            <a href="{{ route('extension') }}#tab-veterinary-teaching-hospital" class="pop">
                 <div class="card rounded-shadow img-zoom-container">
                     <img src="{{ asset('assets_cvsm/images/temporary/CVSM_2.jpeg') }}" class="img-fluid d-block w-100 h-100 object-fit-cover img-zoom" alt="Extension 3">
                     <div class="card-overlay"></div>

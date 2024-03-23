@@ -63,7 +63,7 @@
                 <div class="col">
                 <h6 class="text-white">Contact</h6>
                 <ul class="nav flex-column footer-offwhite">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Contact Us</a></li>
+                    <li class="nav-item mb-2"><a href="{{ route('contact') }}" class="nav-link p-0">Contact Us</a></li>
                     <li class="nav-item mb-2"><a href="#" class="me-3 text-white"><i class="bi bi-telephone-fill"></i></a>044-511-2197</li>
                     <li class="nav-item mb-2"><a href="mailto:cvsm@clsu.edu.ph" class="me-3 text-white"><i class="bi bi-envelope-fill"></i></a>cvsm@clsu.edu.ph</li>
                     <li class="nav-item mb-2"><a href="https://maps.app.goo.gl/ZnxtnoSBimWtak4Y6" target="_blank" class="me-3 text-white"><i class="bi bi-geo-alt-fill"></i></a>Central Luzon State University, Science City of Muñoz, Nueva Ecija, 3120</li>
@@ -83,7 +83,6 @@
                         <div class="col-md-6">
                             <ul class="list-inline text-md-end">
                                 <li class="list-inline-item"><a href="{{ route('privacypolicy') }}" class="a-link">Privacy Policy</a></li>
-                                <li class="list-inline-item"><a href="#">Terms of Service</a></li>
                             </ul>
                         </div>
                     </div>
