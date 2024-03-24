@@ -28,7 +28,7 @@
         </div>
 
         <div class="container">
-            <div class="row row-cols-1 row-cols-md-3">
+            <div class="row row-cols-1 row-cols-md-3 gallery-container">
                 
             <div class="col mt-3 gallery-item">
                 <div class="card rounded-shadow img-zoom-container" data-bs-toggle="modal" data-bs-target="#imageModal">

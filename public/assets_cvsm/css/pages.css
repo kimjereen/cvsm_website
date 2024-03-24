@@ -516,6 +516,7 @@ a .btn-icon {
     padding: 5px;
     margin: 0;
     font-weight: 350;
+    font-size: clamp(10px, 2vw, 14px);
 }
 .back-link-container .back-link {
     color: var(--white);

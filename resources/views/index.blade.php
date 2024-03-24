@@ -273,10 +273,10 @@
               <div class="card-body  text-center">
                 <h5 class="card-title">Doctor of Veterinary Medicine</h5>
               </div>
-              <div class="card-body2  text-center">
+              <div class="card-body2  text-center mb-5">
                 <h5 class="card-title">Doctor of Veterinary Medicine</h5>
                 <p class="card-text">DVM is a 6-year curricular program designed to  produce well-balanced veterinarians, knowledgeable in animal production, welfare and One Health.</p>
-                <p><a class="btn card-btn" href="{{ route('academic') }}#tab-dvm">Learn More</a></p>
+                <p><a class="btn card-btn mt-2" href="{{ route('academic') }}#tab-dvm">Learn More</a></p>
               </div>
           </div>
           </div>
@@ -293,10 +293,10 @@
               <div class="card-body  text-center">
                 <h5 class="card-title">Master of Veterinary Studies</h5>
               </div>
-              <div class="card-body2  text-center">
+              <div class="card-body2 text-center mb-5">
                 <h5 class="card-title">Master of Veterinary Studies</h5>
                 <p class="card-text">MVSt is a 2-year post-graduate degree for veterinarians designed to specialize in either Veterinary Public Health or Veterinary Preventive Medicine.</p>
-                <p><a class="btn card-btn" href="{{ route('academic') }}#tab-mvst">Learn More</a></p>
+                <p><a class="btn card-btn mt-2" href="{{ route('academic') }}#tab-mvst">Learn More</a></p>
               </div>
           </div>
           </div>

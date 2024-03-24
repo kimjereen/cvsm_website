@@ -230,7 +230,7 @@
 
 
     <!-- FOR GALLERY ITEMS -->
-    <!-- Image Modal -->
+    <!-- Image Modal --><!--
     <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
     <button type="button" class="custom-close-btn position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close">✖</button>
 
@@ -244,7 +244,38 @@
                 </div>
             </div>
         </div>
+    </div>-->
+
+    <!-- Image Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <button type="button" class="custom-close-btn position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close">✖</button>
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content border-0 bg-transparent">
+                <div class="modal-body p-0">
+                    <div class="text-center">
+                        <img src="" alt="" id="modalImage" class="img-fluid">
+                    </div>
+                    <div class="p-3 text-white" id="modalBodyContent"></div>
+
+                    <!-- Previous Button -->
+                    <button type="button" class="scroll-to-top position-absolute top-50 start-0 translate-middle-y modal-prev" aria-label="Previous" style="margin-left:-60px;">
+                        <span aria-hidden="true">
+                            <i class="bi bi-chevron-left"></i>
+                        </span>
+                        
+                    </button>
+                    <!-- Next Button -->
+                    <button type="button" class="scroll-to-top position-absolute top-50 end-0 translate-middle-y modal-next" aria-label="Next" style="margin-right:-60px;">
+                        <span aria-hidden="true">
+                            <i class="bi bi-chevron-right"></i>
+                        </span>
+                    </button>
+
+                </div>
+            </div>
+        </div>
     </div>
+
 
 
 
@@ -464,15 +495,68 @@
         // Add event listeners to gallery items
         document.addEventListener('DOMContentLoaded', function() {
             var galleryItems = document.querySelectorAll('.gallery-item');
+            var currentIndex = 0;
+
             galleryItems.forEach(function(item) {
                 item.addEventListener('click', function() {
                     var imageSrc = this.querySelector('img').getAttribute('src');
-                    var bodyContent = this.querySelector('.card-body1').innerHTML;
+                    var cardBodyElement = this.querySelector('.card-body1');
+
+                    //if there is text or none that is in card-body
+                    var bodyContent = cardBodyElement ? cardBodyElement.innerHTML : '';
+
+                    //because i added to only next prev in same location
+                    currentIndex = Array.from(galleryItems).indexOf(this);
+                    
                     setModalContent(imageSrc, bodyContent);
+
+                    //for next and prev in gallery items hehe
+                    toggleNavigationButtons();
                     modal.show();
                 });
             });
+
+
+            //additional nung nag add ako ng next next ehheh
+            function toggleNavigationButtons() {
+                var prevButton = document.querySelector('.modal-prev');
+                var nextButton = document.querySelector('.modal-next');
+
+                if (galleryItems.length > 1) {
+                    prevButton.style.display = currentIndex === 0 ? 'none' : 'block';
+                    nextButton.style.display = currentIndex === galleryItems.length - 1 ? 'none' : 'block';
+                } else {
+                    prevButton.style.display = 'none';
+                    nextButton.style.display = 'none';
+                }
+            }
+
+            document.querySelector('.modal-prev').addEventListener('click', function() {
+                if (currentIndex > 0) {
+                    currentIndex--;
+                    updateModalContent();
+                }
+            });
+
+            document.querySelector('.modal-next').addEventListener('click', function() {
+                if (currentIndex < galleryItems.length - 1) {
+                    currentIndex++;
+                    updateModalContent();
+                }
+            });
+
+            function updateModalContent() {
+                var currentItem = galleryItems[currentIndex];
+                var imageSrc = currentItem.querySelector('img').getAttribute('src');
+                var cardBodyElement = currentItem.querySelector('.card-body1');
+                var bodyContent = cardBodyElement ? cardBodyElement.innerHTML : '';
+
+                setModalContent(imageSrc, bodyContent);
+                toggleNavigationButtons();
+            }
         });
+
+        
     </script>
     <!-- FOR GALLERY ITEMS -->
 

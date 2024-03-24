@@ -23,11 +23,11 @@
             </div>    
         </div>
 
-        <div class="container">
+        <div class="container gallery-container">
 
-            <div class="image-with-text">
-                <div class="text-around-container">
-                    <img src="{{ asset('assets_cvsm/images/temporary/news-1.png') }}" alt="Timeline Image" class="img-fluid timeline-image">
+            <div class="image-with-text gallery-item">
+                <div class="text-around-container" data-bs-toggle="modal" data-bs-target="#imageModal">
+                    <img src="{{ asset('assets_cvsm/images/temporary/news-1.png') }}" alt="Timeline Image" class="img-fluid timeline-image modalImage">
                 </div>
                 <div class="text-container">
                     <h3 class="headline-title">US assoc prof delivers diagnostics, infectious disease modeling lecture</h3>
