@@ -54,8 +54,7 @@
                         <li class="nav-item mb-2"><a href="https://oad.clsu2.edu.ph/" class="nav-link p-0" target="_blank">OAD</a></li>
                         <li class="nav-item mb-2"><a href="https://oad.clsu2.edu.ph/star/user-login/" class="nav-link p-0" target="_blank">Student Portal</a></li>
                         <li class="nav-item mb-2"><a href="https://oad.clsu2.edu.ph/star/index.php/user-login/1?fbclid=IwAR0q90-f8SVYf7Bju0dtR_t6d-hbFZd1qIphM_1kC7KCJ2q3eee6uFnOU84" class="nav-link p-0" target="_blank">Faculty Portal</a></li>
-                        
-                        
+                        <li class="nav-item mb-2"><a href="https://drive.google.com/drive/folders/1KTrT0o2aoNoUtJc7Rz7-R1ZnWSO8cbKC?usp=sharing" class="nav-link p-0">Downloads</a></li>
                         <li class="nav-item mb-2"><a href="{{ route('login') }}" class="nav-link p-0 ">Login</a></li>
                     </ul>
                 </div>

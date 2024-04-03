@@ -3,10 +3,6 @@
 
     <!-- cattle dispersal Text -->
     <div class="container my-4 g-0">
-        <!-- Section Title -->
-        <div class="container-fluid mt-5">
-        <h3 class="section-subtitle font-blue">CATTLE DISPERSAL</h3>
-        </div>
 
         <div class="container mt-4">
             <div class="white-texture page-content-card rounded d-flex justify-content-center align-items-center">
@@ -23,10 +19,6 @@
 
     <!-- cattle dispersal -->
     <div class="container my-4 g-0">
-        <!-- Section Title -->
-        <div class="container-fluid mt-5">
-        <h3 class="section-subtitle font-blue">IMAGES</h3>
-        </div>
 
         <div class="container">
             <div class="row row-cols-1 row-cols-md-3 gallery-container">

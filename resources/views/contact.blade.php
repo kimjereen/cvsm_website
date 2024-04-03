@@ -7,7 +7,7 @@
 
     <!-- PAGE COVER STARTS HERE -->
     <div class="page-cover">
-        <img src="{{ asset('assets_cvsm/images/about-cover.jpg') }}" alt="About Cover">
+        <img src="{{ asset('assets_cvsm/images/contact-cover.jpg') }}" alt="About Cover">
         <div class="cover-overlay"></div>
         <div class="cover-title">CONTACT US</div>
     </div>
@@ -39,7 +39,7 @@
                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3840.2220350434745!2d120.9312484!3d15.7393891!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3390d65305145975%3A0xdaf16a5df195e2ae!2sCollege%20of%20Veterinary%20Science%20and%20Medicine!5e0!3m2!1sen!2sph!4v1710742606295!5m2!1sen!2sph" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
-               <!-- Contact Form -->
+                <!-- Contact Form -->
                 <div class="col-md p-4">
                     <h2 class="py-4 section-subtitle font-blue">Leave us a message</h2>
                     <form id="contactForm">

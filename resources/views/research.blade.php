@@ -7,7 +7,7 @@
 
     <!-- PAGE COVER STARTS HERE -->
     <div class="page-cover">
-        <img src="{{ asset('assets_cvsm/images/about-cover.jpg') }}" alt="About Cover">
+        <img src="{{ asset('assets_cvsm/images/research-cover.png') }}" alt="About Cover">
         <div class="cover-overlay"></div>
         <div class="cover-title">RESEARCH AND PUBLICATIONS</div>
     </div>

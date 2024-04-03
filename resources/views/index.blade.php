@@ -115,7 +115,7 @@
               <a href="#" class="pop">
                 <div class="carousel-item active h-100">
                     <img src="{{ asset('assets_cvsm/images/temporary/news-1.png') }}" class="img-fluid d-block w-100 h-100 object-fit-cover" alt="Top News">
-                    <div class="carousel-caption text-start">
+                    <div class="carousel-caption text-start news-carousel-cap">
                         <h4>US assoc prof delivers diagnostics, infectious disease modeling lecture</h4>
                     </div>
                 </div>
@@ -124,7 +124,7 @@
               <a href="#" class="pop">
                 <div class="carousel-item h-100">
                     <img src="{{ asset('assets_cvsm/images/temporary/news-2.png') }}" class="img-fluid d-block w-100 h-100 object-fit-cover" alt="Top News">
-                    <div class="carousel-caption text-start">
+                    <div class="carousel-caption text-start news-carousel-cap">
                         <h4>5 CVSM faculty members are new, official PRC Continuing Professional Development monitors</h4>
                     </div>
                 </div>
@@ -133,13 +133,11 @@
               <a href="#" class="pop">
                 <div class="carousel-item h-100">
                     <img src="{{ asset('assets_cvsm/images/temporary/news-3.png') }}" class="img-fluid d-block w-100 h-100 object-fit-cover" alt="Top News">
-                    <div class="carousel-caption text-start">
+                    <div class="carousel-caption text-start news-carousel-cap">
                         <h4>CVSM faculty members elected as PVMA national officers</h4>
                     </div>
                 </div>
               </a>
-
-              
 
             </div>
 
@@ -167,16 +165,16 @@
         <div class="container-fluid">
           
         <a href="#" class="pop">
-          <div class="calendar row mb-2 rounded">
+          <div class="calendar row mb-2 rounded" style="padding-right: 15px;">
               
-                <div class="col-lg-4 event-date d-flex align-items-center justify-content-center">
-                  <div class="text-center py-4">
+                <div class="col-4 event-date d-flex align-items-center justify-content-center" style="background: #038303;">
+                  <div class="text-center">
                       <h2 class="event-num text-white">27</h2>
                       <span class="event-month">FEBRUARY</span>
                   </div>
                 </div>
 
-              <div class="col-lg-8 event-description d-flex flex-column justify-content-center">
+              <div class="col event-description d-flex flex-column justify-content-center" >
                   <h5 class="mt-3 event-title">Lecture on Innovations in Diagnostics and Infectious Diseases Modeling</h5>
                   <p><i class="bi bi-geo-alt-fill event-loc"></i>Center for Transboundary Animal Diseases (CenTrAD) Mini Theater</p>
               </div>
@@ -320,13 +318,13 @@
       </div>
 
       <!-- About Us Learn More -->
-      <div class="col-lg-6 position-relative">
+      <div class="col-lg-6 position-relative align-items-center">
         <div class="ov-image-container">
-          <img src="{{ asset('assets_cvsm/images/temporary/bones.jpg') }}" class="img-fluid" alt="About Us BG">
+          <img src="{{ asset('assets_cvsm/images/temporary/student - surgery.jpg') }}" class="img-fluid" alt="About Us BG">
           <div class="ov-overlay"></div>
-          <div class="ov-content">
+          <div class="ov-content ov-about top-50 start-50 translate-middle">
             <h3 class="ov-title">About Us</h3>
-            <p class="ov-description">The College envisions to become a premiere eterinary institution dedicated to service and excellence by providing excellent veterinary education to produce graduates equipped with technical, entrepreneurial, managerial, and leadership skills necessary for optimum animal production. </p>
+            <p class="ov-description">The College envisions to become a premiere veterinary institution dedicated to service and excellence by providing excellent veterinary education to produce graduates equipped with technical, entrepreneurial, managerial, and leadership skills necessary for optimum animal production. </p>
             <a href="{{ route('about') }}" class="btn btn-success">Learn More</a>
           </div>
         </div>
@@ -339,9 +337,9 @@
       <!-- Research & Publications Learn More -->
       <div class="col-lg-6 position-relative">
         <div class="ov-image-container">
-          <img src="{{ asset('assets_cvsm/images/temporary/Student - Anatomy.jpg') }}" class="img-fluid" alt="Research & Publication BG">
+          <img src="{{ asset('assets_cvsm/images/temporary/Research - biosensor.jpg') }}" class="img-fluid" alt="Research & Publication BG">
           <div class="ov-overlay"></div>
-          <div class="ov-content">
+          <div class="ov-content ov-research top-50 start-50 translate-middle">
             <h3 class="ov-title">Research & Publications</h3>
             <p class="ov-description">Our researches focus on transboundary and zoonotic animal disease, disease profiling, antimicrobial resistance and test kit development to address industry needs.</p>
             <a href="{{ route('research') }}" class="btn btn-success">Learn More</a>

@@ -11,6 +11,31 @@
         .box-area {
             width: 800px; /* Set maximum width */
         }
+        /* Custom CSS for the circular button */
+        .home-btn {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #038303; /* Bootstrap primary color */
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            text-decoration: none;
+            box-shadow: 0 4px 7px rgba(0, 0, 0, 0.214);
+        }
+        .home-btn:hover {
+            background-color: #4eab18; /* Darker shade on hover */
+        }
+
+        .home-btn i {
+            color: white;
+            text-decoration: none;
+        }
     </style>
     
     <!-- favicon -->
@@ -18,20 +43,19 @@
     <!-- Custom CSS -->
     <link href="{{ asset('/assets_cvsm/css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('/assets_cvsm/css/pages.css') }}" rel="stylesheet">
+    <!-- Bootstrap 5 icon -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
 </head>
-<body>
-
-
+<body>    
     <div class="container d-flex justify-content-center align-items-center min-vh-100 p-4">
-
+    
         <div class="row rounded-3 bg-white shadow box-area">
 
             <div class="col-sm rounded-2 d-flex justify-content-center align-items-center flex-column white-texture">
                 <div class="featured-image m-3">
-                    <img src="{{ asset('assets_cvsm/images/cvsm-logo.png') }}" alt="Logo 1"style="width: 200px;">
+                    <img src="{{ asset('assets_cvsm/images/cvsm-logo.png') }}" alt="Logo 1" style="width: 200px;">
                 </div>
             </div> 
-
                 
             <div class="col-sm" style="padding: 40px 30px 40px 30px">
                 <div class="row align-items-center">
@@ -53,6 +77,11 @@
 
         </div>
     </div>
+
+    <!-- Circular Home button -->
+    <a href="{{ route('home') }}" class="home-btn">
+        <i class="bi bi-house-fill"></i>
+    </a>
 
 </body>
 </html>

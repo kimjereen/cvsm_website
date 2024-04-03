@@ -7,7 +7,7 @@
 
     <div class="container-fluid back-link-container">
         <div class="d-flex flex-row text-white align-items-center container">
-            <a href="{{ route('news') }}#tab-news" class="back-link px-2"><i class="bi bi-house-fill btn-icon"></i> News</a> /
+            <a href="{{ route('news') }}#tab-events" class="back-link px-2"><i class="bi bi-house-fill btn-icon"></i> News</a> /
             <a href="#" class="back-link2 px-2"> US assoc prof delivers diagnostics, infectious disease modeling lecture</a>
         </div>  
     </div>

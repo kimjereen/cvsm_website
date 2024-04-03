@@ -95,7 +95,7 @@
         </div>
 
         <div class="container my-2">
-            <div class="row row-cols-1 row-cols-md-3">
+            <div class="row row-cols-1 row-cols-lg-3">
 
 
                 <div class="col-lg mt-2">
@@ -106,11 +106,11 @@
                             </div>
                         </div>  <!-- Will have a limit for title num of characters as well as sa content preview-->
                         <div class="col-lg p-4 d-flex flex-column justify-content-between ">
-                            <div class="news-content-body ">
+                            <div class="news-content-body">
                                 <h3 class="news-headlines">5 CVSM faculty members are new, official PRC Continuing Professional Development monitors</h3>
                                 <div class="d-flex flex-row">
-                                    <p class="card-text"><small class="text-muted"><i class="bi bi-person-fill btn-icon"></i> Admin</small></p>
-                                    <p class="card-text mx-3"><small class="text-muted"><i class="bi bi-pencil-fill btn-icon"></i> March 04, 2024</small></p>
+                                    <p class="card-text" style="padding-right: 15px;"><small class="text-muted"><i class="bi bi-person-fill btn-icon"></i> Kim Jereen Mateo Barroquillo</small></p>
+                                    <p class="card-text"><small class="text-muted"><i class="bi bi-pencil-fill btn-icon"></i> March 04, 2024</small></p>
                                 </div>
                                 <p class="card-text justified-text news-caption">
                                 The presence of CLSU faculty in various conferences and other scientific fora for veterinarians will be inevitable as five...
@@ -193,16 +193,16 @@
 
                 <div class="col mt-3">
                     <div class="page-content-card rounded" style="height:100%;">
-                        <div class="p-4 d-flex flex-column justify-content-between ">
+                        <div class="p-4 d-flex flex-column justify-content-between" >
                             <div class="news-content-body">
                                 <h3 class="news-headlines">CLSU Vets Attended the 91st PVMA in Bacolod</h3>
                                 
-                            </div>
-                            <div class="row news-content-footer mx-1 justify-content-between">
-                                <div class="col-md-8 d-flex flex-row">
-                                    <p class="card-text "><small class="text-muted"><i class="bi bi-person-fill btn-icon"></i> Admin</small></p>
-                                    <p class="card-text mx-3"><small class="text-muted"><i class="bi bi-pencil-fill btn-icon"></i> February 22, 2024</small></p>
+                                <div class="d-flex flex-row">
+                                    <p class="card-text" style="padding-right: 15px; margin-bottom: 0;"><small class="text-muted"><i class="bi bi-person-fill btn-icon"></i> Admin</small></p>
+                                    <p class="card-text"><small class="text-muted"><i class="bi bi-pencil-fill btn-icon"></i> February 22, 2024</small></p>
                                 </div>
+                            </div>
+                            <div class="news-content-footer mx-1">
                                 <a href="#" class="btn btn-primary cont-reading mx-1">Read More <i class="bi bi-arrow-right btn-icon"></i></a>
                             </div>
                         </div>
@@ -214,14 +214,15 @@
                     <div class="page-content-card rounded" style="height:100%;">
                         <div class="p-4 d-flex flex-column justify-content-between ">
                             <div class="news-content-body">
-                                <h3 class="news-headlines">CLSU-VTH holds awareness campaign on stray...</h3>
-                                
-                            </div>
-                            <div class="row news-content-footer mx-1 justify-content-between">
-                                <div class="col-md-8 d-flex flex-row">
-                                    <p class="card-text "><small class="text-muted"><i class="bi bi-person-fill btn-icon"></i> Admin</small></p>
-                                    <p class="card-text mx-3"><small class="text-muted"><i class="bi bi-pencil-fill btn-icon"></i> February 20, 2024</small></p>
+                                <h3 class="news-headlines">CLSU-VTH holds awareness campaign on stray stray stray stray...</h3>
+
+                                <div class="d-flex flex-row">
+                                    <p class="card-text" style="padding-right: 15px; margin-bottom: 0;"><small class="text-muted"><i class="bi bi-person-fill btn-icon"></i> Admin</small></p>
+                                    <p class="card-text"><small class="text-muted"><i class="bi bi-pencil-fill btn-icon"></i> February 20, 2024</small></p>
                                 </div>
+                            </div>
+                            <div class="news-content-footer mx-1 justify-content-between">
+                                
                                 <a href="#" class="btn btn-primary cont-reading mx-1">Read More <i class="bi bi-arrow-right btn-icon"></i></a>
                             </div>
                         </div>

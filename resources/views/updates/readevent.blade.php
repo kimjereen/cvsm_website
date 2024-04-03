@@ -25,10 +25,29 @@
             
         </div>
 
+        <!-- eto pag no picture 
         <div class="container">
 
             <div class="">
                 <div class="">
+                    <h3 class="headline-title">Lecture on Innovations in Diagnostics and Infectious Diseases Modeling</h3>
+                    <p class="text-around" style="white-space: pre-wrap;">
+                    Iowa State University's (ISU) Dr. Luis Gimenez-Lirola, associate professor from the College of Veterinary Medicine, will present a lecture entitled “Innovations in Diagnostics and Infectious Diseases Modeling: Unveiling Novel Platforms for Emerging Animal Pathogens” at the Center for Transboundary Animal Diseases (CenTrAD) Mini Theater on February 27, 2024.
+                    </p>
+                </div>
+                
+            </div>
+
+        </div>-->
+
+        <!-- pag may picture -->
+        <div class="container gallery-container">
+
+            <div class="image-with-text">
+                <div class="text-around-container" data-bs-toggle="modal" data-bs-target="#imageModal" id="imageEventContainer">
+                    <img src="" alt="Event Image" class="img-fluid timeline-image modalImage" id="eventImage">
+                </div>
+                <div class="text-container">
                     <h3 class="headline-title">Lecture on Innovations in Diagnostics and Infectious Diseases Modeling</h3>
                     <p class="text-around" style="white-space: pre-wrap;">
                     Iowa State University's (ISU) Dr. Luis Gimenez-Lirola, associate professor from the College of Veterinary Medicine, will present a lecture entitled “Innovations in Diagnostics and Infectious Diseases Modeling: Unveiling Novel Platforms for Emerging Animal Pathogens” at the Center for Transboundary Animal Diseases (CenTrAD) Mini Theater on February 27, 2024.

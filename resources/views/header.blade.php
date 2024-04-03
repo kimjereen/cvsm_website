@@ -258,14 +258,14 @@
                     <div class="p-3 text-white" id="modalBodyContent"></div>
 
                     <!-- Previous Button -->
-                    <button type="button" class="scroll-to-top position-absolute top-50 start-0 translate-middle-y modal-prev" aria-label="Previous" style="margin-left:-60px;">
+                    <button type="button" class="scroll-to-top position-absolute top-50 start-0 translate-middle-y modal-prev" aria-label="Previous" style="margin-left:-60px; padding-top: 5px;">
                         <span aria-hidden="true">
                             <i class="bi bi-chevron-left"></i>
                         </span>
                         
                     </button>
                     <!-- Next Button -->
-                    <button type="button" class="scroll-to-top position-absolute top-50 end-0 translate-middle-y modal-next" aria-label="Next" style="margin-right:-60px;">
+                    <button type="button" class="scroll-to-top position-absolute top-50 end-0 translate-middle-y modal-next" aria-label="Next" style="margin-right:-60px; padding-top: 5px;">
                         <span aria-hidden="true">
                             <i class="bi bi-chevron-right"></i>
                         </span>
@@ -375,6 +375,7 @@
             loadProjects(10, '.publication-list', '#loadMorePublication');
             loadProjects(10, '.ongoing-list', '#loadMoreOngoing');
 
+            
 
             // Update the tab when the hash changes (e.g., clicking on a dropdown link)
             $(window).on('hashchange', function () {
@@ -419,6 +420,21 @@
 
             });
 
+
+        });
+
+        //event image
+        window.addEventListener('DOMContentLoaded', function() {
+            var image = document.getElementById('eventImage');
+            var container = document.getElementById('imageEventContainer');
+            
+            console.log('Image:', image);
+            console.log('Container:', container);
+
+            // Add event listener to the image to detect loading errors
+            image.addEventListener('error', function() {
+                container.style.display = 'none'; 
+            });
         });
 
 
@@ -559,6 +575,8 @@
         
     </script>
     <!-- FOR GALLERY ITEMS -->
+
+
 
 
 

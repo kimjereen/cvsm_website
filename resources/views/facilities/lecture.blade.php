@@ -3,10 +3,6 @@
 
     <!-- Lec Text -->
     <div class="container my-4 g-0">
-        <!-- Section Title -->
-        <div class="container-fluid mt-5">
-        <h3 class="section-subtitle font-blue">LECTURE HALLS</h3>
-        </div>
 
         <div class="container mt-4">
             <div class="white-texture page-content-card rounded d-flex justify-content-center align-items-center">
@@ -22,10 +18,6 @@
 
     <!-- Lec room -->
     <div class="container my-4 g-0">
-        <!-- Section Title -->
-        <div class="container-fluid mt-5">
-        <h3 class="section-subtitle font-blue">LECTURE ROOMS</h3>
-        </div>
 
         <div class="container">
             <div class="row row-cols-1 row-cols-md-3 gallery-container">

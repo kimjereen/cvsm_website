@@ -392,6 +392,39 @@ li::marker {
 .carousel-control-prev, .carousel-control-next, .carousel-caption {
   z-index: 2;
 }
+.news-carousel-cap {
+  z-index: 3;
+  width: 80%;
+  background-color: var(--primary-opacity);
+  position: absolute;
+  bottom: 10;
+  left: 0;
+  right: 0; 
+  padding: 10px 40px 10px 30px;   
+  color: white; 
+  box-shadow: 0 20px 70px rgba(0, 0, 0, 0.5);
+}
+
+.news-carousel-cap h4 {
+  font-size: clamp(18px, 3vw, 22px) !important;
+} 
+
+.news-carousel-cap::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 30px; 
+  height: 100%;
+  background-color: var(--primary2);
+  transform: skewX(-10deg); 
+  transform-origin: bottom right;
+}
+
+
+
+
 /*Carousel Caption*/
 .hero-univ span {
   font-size: 25px;
@@ -439,6 +472,7 @@ li::marker {
 #news-carousel {
   position: relative;
 }
+/*
 #news-carousel::after {
   content: "";
   position: absolute;
@@ -448,7 +482,7 @@ li::marker {
   height: 150px;
   background: var(--gray-gradient);
   z-index: 1;
-}
+}*/
 .news-img img {
   border-radius: 3px;
   object-fit: cover;
@@ -470,11 +504,11 @@ li::marker {
 }
 .event-date {
   background: var(--primary);
-  height: 100%;
+  max-height: 100%;
 }
 .event-num {
   background: var(--primary);
-  font-size: 27px;
+  font-size: 26px;
   margin-bottom: 0;
 }
 .event-month {
@@ -496,7 +530,7 @@ li::marker {
   -webkit-box-orient: vertical;*/
 } 
 .event-description h5 {
-  font-size: clamp(5px, 3vw, 20px) !important;
+  font-size: clamp(5px, 3.5vw, 20px) !important;
 }
 .event-description p {
   font-size: clamp(5px, 2.5vw, 16px) !important;
@@ -711,6 +745,7 @@ li::marker {
   background: linear-gradient(to bottom, var(--primary-opacity), var(--secondary-opacity)); 
   z-index: 1; 
 }
+
 .ov-content {
   position: absolute;
   width: 100%;
@@ -720,13 +755,32 @@ li::marker {
   text-align: left;
   padding: 60px;
   margin-top: 10px;
+}/*
+.ov-about {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 1; 
+  color: var(--white); 
+  padding: 20px 60px 20px 60px;
+  text-align: left;
 }
+.ov-research {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 1; 
+  color: var(--white); 
+  text-align: left;
+  padding: 20px 60px 20px 60px;
+  margin-top: 10px;
+}*/
 .ov-title {
   color: var(--tertiary);
   font-size: 24px;
 }
 .ov-description {
-  font-size: 16px;
+  font-size: clamp(14px, 1.7vw, 17px);
   text-align: justify;
 }
 

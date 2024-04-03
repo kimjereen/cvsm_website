@@ -40,9 +40,6 @@
         <div class="justify-content-center">
             <div class="m-3 page-content-card rounded">
                 <div class="container page-content-body">
-                    <h6 class="col m-3 fs-5">
-                        The following PEOs are applied to graduates under the MVSt Curriculum based on CHED Memo No. 1 s 2018:
-                    </h6>
                     <div class="d-flex flex-row  objective-list">
                         <span class="number text-center">01</span>
                         <p class="page-content-text ">
@@ -125,7 +122,16 @@
                     </h6>
                     <div class="d-flex d-flex justify-content-between align-items-center objective-list">
                         <div class="align-items-center">
-                            <i class="bi bi-file-earmark-pdf"></i>MVSt Prospectus.pdf
+                            <i class="bi bi-file-earmark-pdf"></i>MVSt Prospectus-Major-Veterinary Preventive Medicine.pdf
+                        </div>
+                        <div>
+                            <a href="https://drive.google.com/file/d/1BQCbbXr1hBTkvUE9ZmtcagJXgu7VJLyV/view?usp=drive_link" class="btn btn-primary" height="20px" target="_blank">Download <i class="bi bi-download btn-icon"></i></a>
+                        </div>
+                        
+                    </div>
+                    <div class="d-flex d-flex justify-content-between align-items-center objective-list">
+                        <div class="align-items-center">
+                            <i class="bi bi-file-earmark-pdf"></i>MVSt Prospectus-Major-Veterinary Public Health.pdf
                         </div>
                         <div>
                             <a href="https://drive.google.com/file/d/1BQCbbXr1hBTkvUE9ZmtcagJXgu7VJLyV/view?usp=drive_link" class="btn btn-primary" height="20px" target="_blank">Download <i class="bi bi-download btn-icon"></i></a>

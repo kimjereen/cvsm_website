@@ -3,10 +3,6 @@
 
     <!-- Teaching Hospital Text -->
     <div class="container my-4 g-0">
-        <!-- Section Title -->
-        <div class="container-fluid mt-5">
-        <h3 class="section-subtitle font-blue">VETERINARY TEACHING HOSPITAL</h3>
-        </div>
 
         <div class="container mt-4">
             <div class="white-texture page-content-card rounded d-flex justify-content-center align-items-center">
@@ -22,10 +18,6 @@
     
     <!-- Teaching Hospital Images -->
     <div class="container my-4 g-0">
-        <!-- Section Title -->
-        <div class="container-fluid mt-5">
-        <h3 class="section-subtitle font-blue">IMAGES</h3>
-        </div>
 
         <div class="container">
             <div class="row row-cols-1 row-cols-md-3 gallery-container">

@@ -6,7 +6,7 @@
 <section class="page-wrapper">
 
     <div class="container-fluid back-link-container">
-        <div class="d-flex flex-row text-white align-items-center">
+        <div class="d-flex flex-row text-white align-items-center container">
             <a href="{{ route('histology') }}#tab-avians" class="back-link px-2"><i class="bi bi-house-fill btn-icon"></i> Avians</a> /
             <a href="{{ route('duck') }}" class="back-link2 px-2"> Duck</a>
         </div>  
@@ -14,10 +14,6 @@
 
     <!-- E-HISTOLOGY -->
     <div class="container my-4 g-0">
-        <!-- Section Title -->
-        <div class="container-fluid mt-5">
-        <h3 class="section-subtitle font-blue">DUCK IMAGES</h3>
-        </div>
 
         <div class="container">
             <div class="row row-cols-1 row-cols-md-3 gallery-container">
